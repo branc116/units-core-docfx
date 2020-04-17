@@ -64,5 +64,8 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
-  }
+  },
+  "title": "Units core",
+  "version": "0.0.1",
+  "description": "Tool for generating files fo helping with units of mesurment"
 }
