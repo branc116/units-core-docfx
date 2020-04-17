@@ -1,6 +1,6 @@
 [submodule "mathew"]
 	path = mathew
 	url = https://github.com/MathewSachin/docfx-tmpl.git
-[submodule ".\\src\\units-core\\"]
-	path = .\\src\\units-core\\
+[submodule "src/units-core"]
+	path = src/units-core
 	url = https://github.com/branc116/units-core.git
