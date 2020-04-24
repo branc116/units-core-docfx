@@ -1,9 +1,11 @@
 git.exe submodule update --recursive --remote
-mkdir .bins
-Set-Location .bins
-Invoke-WebRequest "https://github.com/dotnet/docfx/releases/download/v2.52/docfx.zip" -outFile ./docfx.zip
-expand-archive ./docfx.zip ./docfx
-Set-Location ..
+if ( -not ((test-path .bin) -and (Test-Path .bin/docfx) -and (Test-Path .bin/docfx/docfx.exe))) {
+    mkdir .bins
+    Set-Location .bins
+    Invoke-WebRequest "https://github.com/dotnet/docfx/releases/download/v2.52/docfx.zip" -outFile ./docfx.zip
+    expand-archive ./docfx.zip ./docfx
+    Set-Location ..
+}
 ./.bins/docfx/docfx.exe
 $status = git.exe status;
 $changes = $status | ForEach-Object -Begin {$a = 0} -Process { 
