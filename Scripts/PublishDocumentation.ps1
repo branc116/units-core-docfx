@@ -5,7 +5,6 @@ Invoke-WebRequest "https://github.com/dotnet/docfx/releases/download/v2.52/docfx
 expand-archive ./docfx.zip ./docfx
 Set-Location ..
 ./.bins/docfx/docfx.exe
-Remove-Item .bins -Force -Recurse
 $status = git.exe status;
 $changes = $status | ForEach-Object -Begin {$a = 0} -Process { 
     $a = $a + ($_ -like "*modified:*");
