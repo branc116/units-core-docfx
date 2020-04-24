@@ -1,5 +1,5 @@
 git.exe submodule update --recursive --remote
-if ( -not ((test-path .bin) -and (Test-Path .bin/docfx) -and (Test-Path .bin/docfx/docfx.exe))) {
+if ( -not ((test-path .bins) -and (Test-Path .bins/docfx) -and (Test-Path .bins/docfx/docfx.exe))) {
     mkdir .bins
     Set-Location .bins
     Invoke-WebRequest "https://github.com/dotnet/docfx/releases/download/v2.52/docfx.zip" -outFile ./docfx.zip
