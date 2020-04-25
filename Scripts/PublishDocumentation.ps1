@@ -19,7 +19,8 @@ $changes = $status | ForEach-Object -Begin {$a = 0} -Process {
 if ($changes) {
     git.exe add .
     git.exe commit -m "Updated documentation"
-    git.exe push
+    git.exe remote add s git@github.com:branc116/units-core-docfx.git
+    git.exe push s master
 }else {
     Write-Output "No changes in documentation, will not push";
 }
