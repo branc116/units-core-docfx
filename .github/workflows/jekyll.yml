@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v2
       with: 
         repository:  branc116/units-core-docfx
-        submodules: 1
+        submodules: recursive
     - name: SetKeysPriv
       run: $a = [System.Environment]::SetEnvironmentVariable("Priv", "${{ secrets.SSH_PRIVATE }}", [System.EnvironmentVariableTarget]::User)
       shell: powershell
