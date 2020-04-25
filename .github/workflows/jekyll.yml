@@ -18,12 +18,12 @@ jobs:
     - name: SetKeysPriv
       run: >
         [System.Environment]::SetEnvironmentVariable("Priv", @"
-        ${{ secrets.SSH_PRIVATE }}", [System.EnvironmentVariableTarget]::User)
+        ${{ secrets.SSH_PRIVATE }}"@, [System.EnvironmentVariableTarget]::User)
       shell: powershell
     - name: SetKeysPub
       run: >
         b = [System.Environment]::SetEnvironmentVariable("Pub", @"
-        ${{ secrets.SSH_PUBLIC }}", [System.EnvironmentVariableTarget]::User)
+        ${{ secrets.SSH_PUBLIC }}"@, [System.EnvironmentVariableTarget]::User)
       shell: powershell
     - name: Setup keys
       run: Scripts/SetKeys.ps1
