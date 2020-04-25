@@ -15,6 +15,7 @@ jobs:
         submodules: 1
     - name: Setup keys
       run: Scripts/SetKeys.ps1 "{{ secrets.SSH_PUBLIC }}" "{{ secrets.SSH_PRIVATE }}"
+      shell: powershell
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
@@ -24,4 +25,5 @@ jobs:
       with:
         java-version: 1.8
     - name: Build docs
-      run: Scripts/PublishDocumentation.ps1;
+      run: Scripts/PublishDocumentation.ps1
+      shell: powershell
