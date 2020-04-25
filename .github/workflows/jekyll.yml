@@ -1,11 +1,10 @@
 name: Jekyll site CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: 
+  [repository_dispatch]:
+    [types]: [Cutom]
 
+  
 jobs:
   build:
 
