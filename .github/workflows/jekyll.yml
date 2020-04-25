@@ -31,3 +31,8 @@ jobs:
         java-version: 1.8
     - name: Build docs
       run: powershell .\Scripts\PublishDocumentation.ps1
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        repository: branc116/units-core-docfx
