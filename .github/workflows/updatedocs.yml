@@ -8,8 +8,7 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - name: Clone docs
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
       with: 
         repository:  branc116/units-core
         submodules: 1
