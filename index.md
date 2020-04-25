@@ -1,5 +1,8 @@
 # Welcome to Units core
 
+![Publish Documentation](https://github.com/branc116/units-core/workflows/Publish%20Documentation/badge.svg)
+![Publish Docs](https://github.com/branc116/units-core-docfx/workflows/Publish%20Docs/badge.svg)
+
 Showcase: 
 <iframe width="90%" height="400" src="https://www.youtube.com/embed/ZIIJ2v_PZC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
