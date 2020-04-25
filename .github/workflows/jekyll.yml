@@ -1,8 +1,10 @@
 name: Publish Docs
 
 on:
-  repository_dispatch:
-    types: [gen-docs]
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
