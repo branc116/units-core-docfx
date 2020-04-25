@@ -1,7 +1,6 @@
-param (
-    [String]$Public,
-    [String]$Private
-)
+$Public = $ENV:Pub;
+$Private = $ENV:Priv;
+
 $h = Resolve-Path ~;
 
 if ( -not (Test-Path "$h/.ssh")) {
