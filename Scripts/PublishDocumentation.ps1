@@ -22,5 +22,5 @@ if ($changes) {
     git.exe remote add s git@github.com:branc116/units-core-docfx.git
     git.exe push s master
 }else {
-    Write-Output "No changes in documentation, will not push";
+    Write-Output "No changes in documentation, will not push!";
 }
