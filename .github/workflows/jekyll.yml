@@ -1,17 +1,29 @@
-name: Jekyll site CI
+name: Publish Docs
 
 on:
   repository_dispatch:
-    [types]: [Cutom]
+    types: [gen-docs]
 
-  
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: clone
+      uses: actions/checkout@v2
+      with: 
+        repository:  branc116/units-core
+        submodules: 1
+    - name: Setup keys
+      run: Scripts/SetKeys.ps1 ${{ secrets.SSH_PUBLIC }} ${{ secrets.SSH_PRIVATE }}
+      shell: powershell
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.3.0
+      with:
+        java-version: 1.8
+    - name: Build docs
+      run: Scripts/PublishDocumentation.ps1
+      shell: powershell
