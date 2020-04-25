@@ -74,7 +74,7 @@
   <div class="markdown level0 summary"><p>Parse your lines</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -114,7 +114,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Parser</code></pre>
   </div>
-
+  
   
   
   
@@ -124,33 +124,33 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Parser_Parse_System_String___.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.Parse(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Parser_ParseGrammarString_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.ParseGrammarString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Paser.cs/#L62" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Paser.cs/#L91" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
-  <a id="Units_Core_Parser_Parser_Parse_" data-uid="Units.Core.Parser.Parser.Parse*"></a>
+  <a id="Units_Core_Parser_Parser_ParseGrammarString_" data-uid="Units.Core.Parser.Parser.ParseGrammarString*"></a>
   
-  <h4 id="Units_Core_Parser_Parser_Parse_System_String___" data-uid="Units.Core.Parser.Parser.Parse(System.String[])"><a href="#collapsible-Units_Core_Parser_Parser_Parse_System_String___" class="expander" data-toggle="collapse">Parse(String[])</a></h4>
+  <h4 id="Units_Core_Parser_Parser_ParseGrammarString_System_String_" data-uid="Units.Core.Parser.Parser.ParseGrammarString(System.String)"><a href="#collapsible-Units_Core_Parser_Parser_ParseGrammarString_System_String_" class="expander" data-toggle="collapse">ParseGrammarString(String)</a></h4>
   
-  <div id="collapsible-Units_Core_Parser_Parser_Parse_System_String___" class="collapse in">
+  <div id="collapsible-Units_Core_Parser_Parser_ParseGrammarString_System_String_" class="collapse in">
   <div class="markdown level1 summary"><p>Given the <code data-dev-comment-type="paramref" class="paramref">lines</code> this method will handle</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ParserState Parse(string[] lines)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ParserState ParseGrammarString(string input)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span>[]</span>
-        <span class="parametername">lines</span>
-        <p><p>Lines of the code that can be handled by one of the handlers implementing <a class="xref" href="Units.Core.Parser.Handlers.IHandler.html">IHandler</a></p>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">input</span>
+        <p><p>Units code that can be handled by units grammar</p>
 </p>
       </td>
     </tr>
@@ -173,7 +173,7 @@
   
   
   
-  <h5 id="Units_Core_Parser_Parser_Parse_System_String____remarks">Remarks</h5>
+  <h5 id="Units_Core_Parser_Parser_ParseGrammarString_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Given the lines like this:</p>
 <pre><code>Base(Unit) := Mass | Length | Time | Temperature | ElectricCurent | AmountOfSubstance | LuninusIntensity
 Operations := (*, Times) | (/, Per)
@@ -214,116 +214,10 @@ Unit(Force) := newton(i, N)</code></pre>
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Parser_ParseGrammar_ICharStream_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.ParseGrammar(ICharStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Parser_PaseGramarFile_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.PaseGramarFile(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Paser.cs/#L93" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="Units_Core_Parser_Parser_ParseGrammar_" data-uid="Units.Core.Parser.Parser.ParseGrammar*"></a>
-  
-  <h4 id="Units_Core_Parser_Parser_ParseGrammar_ICharStream_" data-uid="Units.Core.Parser.Parser.ParseGrammar(ICharStream)"><a href="#collapsible-Units_Core_Parser_Parser_ParseGrammar_ICharStream_" class="expander" data-toggle="collapse">ParseGrammar(ICharStream)</a></h4>
-  
-  <div id="collapsible-Units_Core_Parser_Parser_ParseGrammar_ICharStream_" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ParserState ParseGrammar(ICharStream stream)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">ICharStream</span></span>
-        <span class="parametername">stream</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Parser_ParseGrammarString_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.ParseGrammarString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Paser.cs/#L116" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="Units_Core_Parser_Parser_ParseGrammarString_" data-uid="Units.Core.Parser.Parser.ParseGrammarString*"></a>
-  
-  <h4 id="Units_Core_Parser_Parser_ParseGrammarString_System_String_" data-uid="Units.Core.Parser.Parser.ParseGrammarString(System.String)"><a href="#collapsible-Units_Core_Parser_Parser_ParseGrammarString_System_String_" class="expander" data-toggle="collapse">ParseGrammarString(String)</a></h4>
-  
-  <div id="collapsible-Units_Core_Parser_Parser_ParseGrammarString_System_String_" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ParserState ParseGrammarString(string input)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">input</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Parser_PaseGramarFile_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser.PaseGramarFile(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Paser.cs/#L121" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Paser.cs/#L145" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Parser_PaseGramarFile_" data-uid="Units.Core.Parser.Parser.PaseGramarFile*"></a>
@@ -331,21 +225,23 @@ Unit(Force) := newton(i, N)</code></pre>
   <h4 id="Units_Core_Parser_Parser_PaseGramarFile_System_String_" data-uid="Units.Core.Parser.Parser.PaseGramarFile(System.String)"><a href="#collapsible-Units_Core_Parser_Parser_PaseGramarFile_System_String_" class="expander" data-toggle="collapse">PaseGramarFile(String)</a></h4>
   
   <div id="collapsible-Units_Core_Parser_Parser_PaseGramarFile_System_String_" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Given the <code data-dev-comment-type="paramref" class="paramref">input</code> this method will handle</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ParserState PaseGramarFile(string input)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
         <span class="parametername">input</span>
-        <p>
+        <p><p>Lines of the code that can be handled by one of the handlers implementing <see cref="!:Handlers.IHandler"></see></p>
+</p>
       </td>
     </tr>
   </table>
@@ -355,7 +251,8 @@ Unit(Force) := newton(i, N)</code></pre>
     <tr>
       <td>
         <a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a>
-        <p>
+        <p><p>State of the parser after handling all lines</p>
+</p>
       </td>
     </tr>
   </table>
@@ -366,6 +263,40 @@ Unit(Force) := newton(i, N)</code></pre>
   
   
   
+  <h5 id="Units_Core_Parser_Parser_PaseGramarFile_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Given the lines like this:</p>
+<pre><code>Base(Unit) := Mass | Length | Time | Temperature | ElectricCurent | AmountOfSubstance | LuninusIntensity
+Operations := (*, Times) | (/, Per)
+SelfOps := (==, Eq, bool) | (!=, Ne, bool) | (+, Plus, null) | (-, Minus, null) | (*, Times, null) | (/, Per, null)
+Real(Types) := (float, RealFloat)
+
+Operator(*) := a = b * c | a = c * b | c = a / b | b = a / c
+Operator(/) := a = b / c | c = b / a | b = a * c | b = c * a
+
+Speed := Length / Time
+Acceleration := Speed / Time
+Area := Length * Length
+Volume := Area * Length
+Force := Mass * Acceleration
+Pressure := Force / Area
+Energy := Force * Length
+
+Infer
+
+Unit(Mass) := gram(i, g)
+Unit(Length) := meter(i, m)
+Unit(Time) := second(i, s) | hour(i/3600, h) | minute(i/60, min)
+Unit(Temperature) := kelvin(i, K) | celsius(i + 273, ˙C)
+Unit(Force) := newton(i, N)</code></pre>
+<p>It will generate the state that has:</p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_Units">Units</a></p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_GraphEdges">GraphEdges</a></p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_MesurmentUnits">MesurmentUnits</a></p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_Operators">Operators</a></p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_RealDefs">RealDefs</a></p>
+<p><a class="xref" href="Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_SelfOps">SelfOps</a></p>
+<p>that can be converted to c# core -maybe code of other languages.</p>
+</div>
   
   
   
@@ -375,8 +306,8 @@ Unit(Force) := newton(i, N)</code></pre>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Parser.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Paser.cs/#L11" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Parser.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Parser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Paser.cs/#L10" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

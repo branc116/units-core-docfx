@@ -74,7 +74,7 @@
   <div class="markdown level0 summary"><p>Helper class</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -114,7 +114,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Helpers</code></pre>
   </div>
-
+  
   
   
   
@@ -124,31 +124,48 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_GetHandlers.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.GetHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ShortestUnit_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ShortestUnit(Units.Core.Parser.State.BinaryCompositUnit%2CUnits.Core.Parser.State.ParserState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L41" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L48" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
-  <a id="Units_Core_Parser_Helpers_GetHandlers_" data-uid="Units.Core.Parser.Helpers.GetHandlers*"></a>
+  <a id="Units_Core_Parser_Helpers_ShortestUnit_" data-uid="Units.Core.Parser.Helpers.ShortestUnit*"></a>
   
-  <h4 id="Units_Core_Parser_Helpers_GetHandlers" data-uid="Units.Core.Parser.Helpers.GetHandlers"><a href="#collapsible-Units_Core_Parser_Helpers_GetHandlers" class="expander" data-toggle="collapse">GetHandlers()</a></h4>
+  <h4 id="Units_Core_Parser_Helpers_ShortestUnit_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_" data-uid="Units.Core.Parser.Helpers.ShortestUnit(Units.Core.Parser.State.BinaryCompositUnit,Units.Core.Parser.State.ParserState)"><a href="#collapsible-Units_Core_Parser_Helpers_ShortestUnit_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_" class="expander" data-toggle="collapse">ShortestUnit(BinaryCompositUnit, ParserState)</a></h4>
   
-  <div id="collapsible-Units_Core_Parser_Helpers_GetHandlers" class="collapse in">
+  <div id="collapsible-Units_Core_Parser_Helpers_ShortestUnit_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IHandler&gt; GetHandlers()</code></pre>
+    <pre><code class="lang-csharp hljs">public static (IUnit unit, int depth) ShortestUnit(BinaryCompositUnit compositUnit, ParserState state)</code></pre>
   </div>
-
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Units.Core.Parser.State.BinaryCompositUnit.html">BinaryCompositUnit</a></span>
+        <span class="parametername">compositUnit</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
+  </table>
   
   <h5 class="returns">Returns</h5>
   <table>
     <tr>
       <td>
-        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Units.Core.Parser.Handlers.IHandler.html">IHandler</a>&gt;
+        <span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="Units.Core.Parser.State.IUnit.html">IUnit</a>, <span class="xref">System.Int32</span>&gt;
         <p>
       </td>
     </tr>
@@ -167,10 +184,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_ToIndexed__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToIndexed%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ToIndexed__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToIndexed%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L49" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L39" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Helpers_ToIndexed_" data-uid="Units.Core.Parser.Helpers.ToIndexed*"></a>
@@ -181,11 +198,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(int index, T value)&gt; ToIndexed&lt;T&gt;(this IEnumerable&lt;T&gt; ts)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -229,10 +246,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_ToLinq_System_Text_RegularExpressions_CaptureCollection_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToLinq(System.Text.RegularExpressions.CaptureCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ToLinq_System_Text_RegularExpressions_CaptureCollection_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToLinq(System.Text.RegularExpressions.CaptureCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L34" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L32" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Helpers_ToLinq_" data-uid="Units.Core.Parser.Helpers.ToLinq*"></a>
@@ -243,11 +260,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Capture&gt; ToLinq(this CaptureCollection cc)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -282,10 +299,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_ToLinq_System_Text_RegularExpressions_MatchCollection_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToLinq(System.Text.RegularExpressions.MatchCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ToLinq_System_Text_RegularExpressions_MatchCollection_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToLinq(System.Text.RegularExpressions.MatchCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L27" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L25" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Helpers_ToLinq_" data-uid="Units.Core.Parser.Helpers.ToLinq*"></a>
@@ -296,11 +313,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Match&gt; ToLinq(this MatchCollection mc)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -335,30 +352,30 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Operator__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable%7BUnits.Core.Parser.State.Operator%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_BinaryOperator__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable%7BUnits.Core.Parser.State.BinaryOperator%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L19" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Helpers_ToRegexOr_" data-uid="Units.Core.Parser.Helpers.ToRegexOr*"></a>
   
-  <h4 id="Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Operator__" data-uid="Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable{Units.Core.Parser.State.Operator})"><a href="#collapsible-Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Operator__" class="expander" data-toggle="collapse">ToRegexOr(IEnumerable&lt;Operator&gt;)</a></h4>
+  <h4 id="Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_BinaryOperator__" data-uid="Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable{Units.Core.Parser.State.BinaryOperator})"><a href="#collapsible-Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_BinaryOperator__" class="expander" data-toggle="collapse">ToRegexOr(IEnumerable&lt;BinaryOperator&gt;)</a></h4>
   
-  <div id="collapsible-Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Operator__" class="collapse in">
+  <div id="collapsible-Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_BinaryOperator__" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToRegexOr(this IEnumerable&lt;Operator&gt; operators)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToRegexOr(this IEnumerable&lt;BinaryOperator&gt; operators)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Units.Core.Parser.State.Operator.html">Operator</a>&gt;</span>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Units.Core.Parser.State.BinaryOperator.html">BinaryOperator</a>&gt;</span>
         <span class="parametername">operators</span>
         <p>
       </td>
@@ -388,10 +405,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Unit__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable%7BUnits.Core.Parser.State.Unit%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_Unit__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable%7BUnits.Core.Parser.State.Unit%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L15" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L13" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_Helpers_ToRegexOr_" data-uid="Units.Core.Parser.Helpers.ToRegexOr*"></a>
@@ -402,11 +419,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string ToRegexOr(this IEnumerable&lt;Unit&gt; units)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -443,8 +460,8 @@
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_Helpers.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/Helpers.cs/#L13" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_Helpers.md&amp;value=---%0Auid%3A%20Units.Core.Parser.Helpers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/Helpers.cs/#L11" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

@@ -73,14 +73,15 @@
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ReadonlyUnit&lt;T&gt;</span></div>
   </div>
   
-      <div class="level2"><a class="xref" href="Units.Core.Parser.State.CompositUnit.html">CompositUnit</a></div>
+      <div class="level2"><a class="xref" href="Units.Core.Parser.State.BinaryCompositUnit.html">BinaryCompositUnit</a></div>
+      <div class="level2"><a class="xref" href="Units.Core.Parser.State.UnaryCompositUnit.html">UnaryCompositUnit</a></div>
       <div class="level2"><a class="xref" href="Units.Core.Parser.State.Unit.html">Unit</a></div>
   
   <div class="inheritedMembers">
@@ -104,9 +105,9 @@
   
   <h5 id="Units_Core_Parser_State_ReadonlyUnit_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ReadonlyUnit&lt;T&gt; : IUnit&lt;T&gt;, IUnit, IEquatable&lt;ReadonlyUnit&lt;T&gt;&gt; where T : ReadonlyUnit&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ReadonlyUnit&lt;T&gt; : IUnit&lt;T&gt;, IUnit, IReadonlyUnit, IEquatable&lt;ReadonlyUnit&lt;T&gt;&gt; where T : ReadonlyUnit&lt;T&gt;</code></pre>
   </div>
-
+  
   
   
   <h5 class="typeParameters">Type Parameters</h5>
@@ -125,10 +126,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1__ctor_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1__ctor_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L13" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L13" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1__ctor_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.#ctor*"></a>
@@ -139,11 +140,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected ReadonlyUnit(string name)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -171,10 +172,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Name.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Name.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Name_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Name*"></a>
@@ -186,11 +187,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
-
+  
   
   
   
@@ -219,10 +220,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L31" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L31" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Equals_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Equals*"></a>
@@ -233,11 +234,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -274,10 +275,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_Units_Core_Parser_State_IUnit_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(Units.Core.Parser.State.IUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_Units_Core_Parser_State_IUnit_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(Units.Core.Parser.State.IUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L37" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L37" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Equals_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Equals*"></a>
@@ -288,11 +289,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Equals(IUnit other)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -327,10 +328,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_Units_Core_Parser_State_ReadonlyUnit__0__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(Units.Core.Parser.State.ReadonlyUnit%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Equals_Units_Core_Parser_State_ReadonlyUnit__0__.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Equals(Units.Core.Parser.State.ReadonlyUnit%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L35" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L35" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Equals_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Equals*"></a>
@@ -341,11 +342,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Equals(ReadonlyUnit&lt;T&gt; other)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -382,10 +383,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_GetHashCode.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_GetHashCode.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L40" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L40" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_GetHashCode_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.GetHashCode*"></a>
@@ -396,11 +397,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
   </div>
-
+  
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -427,10 +428,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Simplify.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Simplify%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Simplify.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Simplify%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Simplify_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Simplify*"></a>
@@ -441,11 +442,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract IUnit Simplify()</code></pre>
   </div>
-
+  
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -472,10 +473,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Simplify_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Simplify(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_Simplify_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.Simplify(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L17" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L17" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_Simplify_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.Simplify*"></a>
@@ -486,11 +487,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IUnit Simplify(bool cache)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -525,10 +526,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_SiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.SiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_SiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.SiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L25" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L25" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_SiName_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.SiName*"></a>
@@ -539,11 +540,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract string SiName()</code></pre>
   </div>
-
+  
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -570,10 +571,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_SiName_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.SiName(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_SiName_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.SiName(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L22" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L22" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_SiName_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.SiName*"></a>
@@ -584,11 +585,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string SiName(bool cache)</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -615,6 +616,8 @@
   
   
   
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Units.Core.Parser.State.IReadonlyUnit.html#Units_Core_Parser_State_IReadonlyUnit_SiName_System_Boolean_">IReadonlyUnit.SiName(Boolean)</a></div>
   
   
   
@@ -623,10 +626,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_ToString.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_ToString.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L42" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L42" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_ToString_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.ToString*"></a>
@@ -637,11 +640,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-
+  
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -668,10 +671,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_WithSiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.WithSiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_WithSiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.WithSiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L29" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L29" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_WithSiName_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.WithSiName*"></a>
@@ -682,11 +685,11 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract IUnit WithSiName()</code></pre>
   </div>
-
+  
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -713,10 +716,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_WithSiName__1_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.WithSiName%60%601(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1_WithSiName__1_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601.WithSiName%60%601(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_ReadonlyUnit_1_WithSiName_" data-uid="Units.Core.Parser.State.ReadonlyUnit`1.WithSiName*"></a>
@@ -727,12 +730,12 @@
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public G WithSiName&lt;G&gt;(bool cache)
     where G : T</code></pre>
   </div>
-
+  
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -787,8 +790,8 @@
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/branc116/units-core/new/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/branc116/units-core/blob/307b4a643c6cbcdbd8f9cc29c17cd72f61c09629/Units.Core.Parser/State/ReadonlyUnit.cs/#L4" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_ReadonlyUnit_1.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.ReadonlyUnit%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/ReadonlyUnit.cs/#L4" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
