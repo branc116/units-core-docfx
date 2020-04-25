@@ -22,8 +22,7 @@ jobs:
       run: $b = [System.Environment]::SetEnvironmentVariable("Pub", "${{ secrets.SSH_PUBLIC }}", [System.EnvironmentVariableTarget]::User)
       shell: powershell
     - name: Setup keys
-      run: Scripts/SetKeys.ps1
-      shell: powershell
+      run: powershell .\Scripts\SetKeys.ps1
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
@@ -33,5 +32,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build docs
-      run: Scripts/PublishDocumentation.ps1
-      shell: powershell
+      run: powershell .\Scripts\PublishDocumentation.ps1
