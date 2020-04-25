@@ -16,13 +16,13 @@ jobs:
         repository:  branc116/units-core
         submodules: 1
     - name: SetKeysPriv
-      run: >
-        [System.Environment]::SetEnvironmentVariable("Priv", @"
+      run: \n
+        [System.Environment]::SetEnvironmentVariable("Priv", @"\n
         ${{ secrets.SSH_PRIVATE }}"@, [System.EnvironmentVariableTarget]::User)
       shell: powershell
     - name: SetKeysPub
-      run: >
-        b = [System.Environment]::SetEnvironmentVariable("Pub", @"
+      run: \n
+        b = [System.Environment]::SetEnvironmentVariable("Pub", @"\n
         ${{ secrets.SSH_PUBLIC }}"@, [System.EnvironmentVariableTarget]::User)
       shell: powershell
     - name: Setup keys
