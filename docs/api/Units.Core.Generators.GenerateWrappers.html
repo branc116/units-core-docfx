@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GenerateWrappers
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GenerateWrappers
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Units.Core.Generators.GenerateWrappers">
+  <h1 id="Units_Core_Generators_GenerateWrappers" data-uid="Units.Core.Generators.GenerateWrappers">Class GenerateWrappers
+  </h1>
+  <div class="markdown level0 summary"><p>Class to produce the template output</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html">GenerateWrappersBase</a></div>
+    <div class="level2"><span class="xref">GenerateWrappers</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_GenerationEnvironment">GenerateWrappersBase.GenerationEnvironment</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Errors">GenerateWrappersBase.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_CurrentIndent">GenerateWrappersBase.CurrentIndent</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Session">GenerateWrappersBase.Session</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Write_System_String_">GenerateWrappersBase.Write(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_WriteLine_System_String_">GenerateWrappersBase.WriteLine(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Write_System_String_System_Object___">GenerateWrappersBase.Write(String, Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_WriteLine_System_String_System_Object___">GenerateWrappersBase.WriteLine(String, Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Error_System_String_">GenerateWrappersBase.Error(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Warning_System_String_">GenerateWrappersBase.Warning(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PushIndent_System_String_">GenerateWrappersBase.PushIndent(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PopIndent">GenerateWrappersBase.PopIndent()</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ClearIndent">GenerateWrappersBase.ClearIndent()</a>
+    </div>
+    <div>
+      <a class="xref" href="Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ToStringHelper">GenerateWrappersBase.ToStringHelper</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="Units.Core.Generators.html">Units.Core.Generators</a></h6>
+  <h6><strong>Assembly</strong>: Units.Core.dll</h6>
+  
+  <h5 id="Units_Core_Generators_GenerateWrappers_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GenerateWrappers : GenerateWrappersBase</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers__ctor_Units_Core_Parser_State_ParserState_.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.%23ctor(Units.Core.Parser.State.ParserState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L15" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers__ctor_" data-uid="Units.Core.Generators.GenerateWrappers.#ctor*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers__ctor_Units_Core_Parser_State_ParserState_" data-uid="Units.Core.Generators.GenerateWrappers.#ctor(Units.Core.Parser.State.ParserState)"><a href="#collapsible-Units_Core_Generators_GenerateWrappers__ctor_Units_Core_Parser_State_ParserState_" class="expander" data-toggle="collapse">GenerateWrappers(ParserState)</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers__ctor_Units_Core_Parser_State_ParserState_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GenerateWrappers(ParserState state)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_RealDefs.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.RealDefs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_RealDefs_" data-uid="Units.Core.Generators.GenerateWrappers.RealDefs*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_RealDefs" data-uid="Units.Core.Generators.GenerateWrappers.RealDefs"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_RealDefs" class="expander" data-toggle="collapse">RealDefs</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_RealDefs" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;RealDef&gt; RealDefs { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.HashSet</span>&lt;<a class="xref" href="Units.Core.Parser.State.RealDef.html">RealDef</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_Scalar.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.Scalar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L14" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_Scalar_" data-uid="Units.Core.Generators.GenerateWrappers.Scalar*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_Scalar" data-uid="Units.Core.Generators.GenerateWrappers.Scalar"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_Scalar" class="expander" data-toggle="collapse">Scalar</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_Scalar" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IUnit Scalar { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Units.Core.Parser.State.IUnit.html">IUnit</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_SelfOps.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.SelfOps%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L13" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_SelfOps_" data-uid="Units.Core.Generators.GenerateWrappers.SelfOps*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_SelfOps" data-uid="Units.Core.Generators.GenerateWrappers.SelfOps"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_SelfOps" class="expander" data-toggle="collapse">SelfOps</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_SelfOps" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;SelfOp&gt; SelfOps { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.HashSet</span>&lt;<a class="xref" href="Units.Core.Parser.State.SelfOp.html">SelfOp</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_State.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L11" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_State_" data-uid="Units.Core.Generators.GenerateWrappers.State*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_State" data-uid="Units.Core.Generators.GenerateWrappers.State"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_State" class="expander" data-toggle="collapse">State</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_State" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParserState State { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Units.Core.Parser.State.ParserState.html">ParserState</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_EdgeOps_Units_Core_Parser_State_IUnit_.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.EdgeOps(Units.Core.Parser.State.IUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_EdgeOps_" data-uid="Units.Core.Generators.GenerateWrappers.EdgeOps*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_EdgeOps_Units_Core_Parser_State_IUnit_" data-uid="Units.Core.Generators.GenerateWrappers.EdgeOps(Units.Core.Parser.State.IUnit)"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_EdgeOps_Units_Core_Parser_State_IUnit_" class="expander" data-toggle="collapse">EdgeOps(IUnit)</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_EdgeOps_Units_Core_Parser_State_IUnit_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EdgeOps(IUnit forUnit)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Units.Core.Parser.State.IUnit.html">IUnit</a></span>
+        <span class="parametername">forUnit</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers_TransformText.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers.TransformText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.cs/#L29" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="Units_Core_Generators_GenerateWrappers_TransformText_" data-uid="Units.Core.Generators.GenerateWrappers.TransformText*"></a>
+  
+  <h4 id="Units_Core_Generators_GenerateWrappers_TransformText" data-uid="Units.Core.Generators.GenerateWrappers.TransformText"><a href="#collapsible-Units_Core_Generators_GenerateWrappers_TransformText" class="expander" data-toggle="collapse">TransformText()</a></h4>
+  
+  <div id="collapsible-Units_Core_Generators_GenerateWrappers_TransformText" class="collapse in">
+  <div class="markdown level1 summary"><p>Create the template output</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string TransformText()</code></pre>
+  </div>
+  
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Units.Core.Tests.Helpers.html#Units_Core_Tests_Helpers_DinamicCast_System_Object_System_Type_">Helpers.DinamicCast(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Units.Core.Tests.Helpers.html#Units_Core_Tests_Helpers_DinamicCtor_System_Object_System_Type_">Helpers.DinamicCtor(Object, Type)</a>
+  </div>
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Generators_GenerateWrappers.md&amp;value=---%0Auid%3A%20Units.Core.Generators.GenerateWrappers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core/Generators/GenerateWrappers.User.cs/#L9" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
