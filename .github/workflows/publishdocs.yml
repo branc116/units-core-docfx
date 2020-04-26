@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  Publish:
     runs-on: windows-latest
     steps:
     - name: clone
