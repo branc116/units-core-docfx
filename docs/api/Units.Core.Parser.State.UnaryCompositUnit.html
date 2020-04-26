@@ -88,6 +88,9 @@
       <a class="xref" href="Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Name">ReadonlyUnit&lt;UnaryCompositUnit&gt;.Name</a>
     </div>
     <div>
+      <a class="xref" href="Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_IsInfered">ReadonlyUnit&lt;UnaryCompositUnit&gt;.IsInfered</a>
+    </div>
+    <div>
       <a class="xref" href="Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Simplify_System_Boolean_">ReadonlyUnit&lt;UnaryCompositUnit&gt;.Simplify(Boolean)</a>
     </div>
     <div>
@@ -142,23 +145,23 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.%23ctor(Units.Core.Parser.State.IUnit%2CUnits.Core.Parser.State.UnaryOperator%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.%23ctor(Units.Core.Parser.State.IUnit%2CUnits.Core.Parser.State.UnaryOperator%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L7" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L7" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit__ctor_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.#ctor*"></a>
   
-  <h4 id="Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String)"><a href="#collapsible-Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_" class="expander" data-toggle="collapse">UnaryCompositUnit(IUnit, UnaryOperator, String)</a></h4>
+  <h4 id="Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_System_Boolean_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String,System.Boolean)"><a href="#collapsible-Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_System_Boolean_" class="expander" data-toggle="collapse">UnaryCompositUnit(IUnit, UnaryOperator, String, Boolean)</a></h4>
   
-  <div id="collapsible-Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_" class="collapse in">
+  <div id="collapsible-Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_System_Boolean_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnaryCompositUnit(IUnit unit, UnaryOperator unaryOperator, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public UnaryCompositUnit(IUnit unit, UnaryOperator unaryOperator, string name, bool isInfred = false)</code></pre>
   </div>
   
   <h5 class="parameters">Parameters</h5>
@@ -184,6 +187,13 @@
         <p>
       </td>
     </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Boolean</span></span>
+        <span class="parametername">isInfred</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
@@ -202,10 +212,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_UnaryOperator.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.UnaryOperator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_UnaryOperator.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.UnaryOperator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L6" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L6" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit_UnaryOperator_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.UnaryOperator*"></a>
@@ -245,10 +255,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_Unit.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.Unit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_Unit.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.Unit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L5" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L5" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit_Unit_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.Unit*"></a>
@@ -290,10 +300,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_Simplify.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.Simplify%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_Simplify.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.Simplify%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit_Simplify_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.Simplify*"></a>
@@ -335,10 +345,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_SiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.SiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_SiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.SiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L19" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L19" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit_SiName_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.SiName*"></a>
@@ -380,10 +390,10 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_WithSiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.WithSiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit_WithSiName.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit.WithSiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L24" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L24" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="Units_Core_Parser_State_UnaryCompositUnit_WithSiName_" data-uid="Units.Core.Parser.State.UnaryCompositUnit.WithSiName*"></a>
@@ -434,8 +444,8 @@
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/branc116/units-core/new/3728f970052505a8607b08d60c7bd8ab4f4e4761/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/branc116/units-core/blob/3728f970052505a8607b08d60c7bd8ab4f4e4761/Units.Core.Parser/State/UnaryCompositUnit.cs/#L3" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/branc116/units-core/new/667f7b23b293fe3c8bba34302d0adf11d85df928/apiSpec/new?filename=Units_Core_Parser_State_UnaryCompositUnit.md&amp;value=---%0Auid%3A%20Units.Core.Parser.State.UnaryCompositUnit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/branc116/units-core/blob/667f7b23b293fe3c8bba34302d0adf11d85df928/Units.Core.Parser/State/UnaryCompositUnit.cs/#L3" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

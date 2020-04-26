@@ -7,689 +7,1663 @@ references:
   commentId: N:Units.Core
   fullName: Units.Core
   nameWithType: Units.Core
-- uid: Units.Core.GenerateEdgeOperators
+- uid: Units.Core.CommandLineOptions
+  name: Units.Core.CommandLineOptions
+  href: api/Units.Core.CommandLineOptions.html
+  commentId: N:Units.Core.CommandLineOptions
+  fullName: Units.Core.CommandLineOptions
+  nameWithType: Units.Core.CommandLineOptions
+- uid: Units.Core.CommandLineOptions.ExporterType
+  name: ExporterType
+  href: api/Units.Core.CommandLineOptions.ExporterType.html
+  commentId: T:Units.Core.CommandLineOptions.ExporterType
+  fullName: Units.Core.CommandLineOptions.ExporterType
+  nameWithType: ExporterType
+- uid: Units.Core.CommandLineOptions.ExporterType.Console
+  name: Console
+  href: api/Units.Core.CommandLineOptions.ExporterType.html#Units_Core_CommandLineOptions_ExporterType_Console
+  commentId: F:Units.Core.CommandLineOptions.ExporterType.Console
+  fullName: Units.Core.CommandLineOptions.ExporterType.Console
+  nameWithType: ExporterType.Console
+- uid: Units.Core.CommandLineOptions.ExporterType.Default
+  name: Default
+  href: api/Units.Core.CommandLineOptions.ExporterType.html#Units_Core_CommandLineOptions_ExporterType_Default
+  commentId: F:Units.Core.CommandLineOptions.ExporterType.Default
+  fullName: Units.Core.CommandLineOptions.ExporterType.Default
+  nameWithType: ExporterType.Default
+- uid: Units.Core.CommandLineOptions.ExporterType.Null
+  name: "Null"
+  href: api/Units.Core.CommandLineOptions.ExporterType.html#Units_Core_CommandLineOptions_ExporterType_Null
+  commentId: F:Units.Core.CommandLineOptions.ExporterType.Null
+  fullName: Units.Core.CommandLineOptions.ExporterType.Null
+  nameWithType: ExporterType.Null
+- uid: Units.Core.CommandLineOptions.Init
+  name: Init
+  href: api/Units.Core.CommandLineOptions.Init.html
+  commentId: T:Units.Core.CommandLineOptions.Init
+  fullName: Units.Core.CommandLineOptions.Init
+  nameWithType: Init
+- uid: Units.Core.CommandLineOptions.Init.#ctor(Units.Core.CommandLineOptions.Init.InitOptions)
+  name: Init(Init.InitOptions)
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init__ctor_Units_Core_CommandLineOptions_Init_InitOptions_
+  commentId: M:Units.Core.CommandLineOptions.Init.#ctor(Units.Core.CommandLineOptions.Init.InitOptions)
+  fullName: Units.Core.CommandLineOptions.Init.Init(Units.Core.CommandLineOptions.Init.InitOptions)
+  nameWithType: Init.Init(Init.InitOptions)
+- uid: Units.Core.CommandLineOptions.Init.#ctor*
+  name: Init
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init__ctor_
+  commentId: Overload:Units.Core.CommandLineOptions.Init.#ctor
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Init.Init
+  nameWithType: Init.Init
+- uid: Units.Core.CommandLineOptions.Init.DoIt
+  name: DoIt()
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init_DoIt
+  commentId: M:Units.Core.CommandLineOptions.Init.DoIt
+  fullName: Units.Core.CommandLineOptions.Init.DoIt()
+  nameWithType: Init.DoIt()
+- uid: Units.Core.CommandLineOptions.Init.DoIt*
+  name: DoIt
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init_DoIt_
+  commentId: Overload:Units.Core.CommandLineOptions.Init.DoIt
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Init.DoIt
+  nameWithType: Init.DoIt
+- uid: Units.Core.CommandLineOptions.Init.FullSiStandard
+  name: FullSiStandard
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init_FullSiStandard
+  commentId: F:Units.Core.CommandLineOptions.Init.FullSiStandard
+  fullName: Units.Core.CommandLineOptions.Init.FullSiStandard
+  nameWithType: Init.FullSiStandard
+- uid: Units.Core.CommandLineOptions.Init.InitOptions
+  name: Init.InitOptions
+  href: api/Units.Core.CommandLineOptions.Init.InitOptions.html
+  commentId: T:Units.Core.CommandLineOptions.Init.InitOptions
+  fullName: Units.Core.CommandLineOptions.Init.InitOptions
+  nameWithType: Init.InitOptions
+- uid: Units.Core.CommandLineOptions.Init.InitOptions.Path
+  name: Path
+  href: api/Units.Core.CommandLineOptions.Init.InitOptions.html#Units_Core_CommandLineOptions_Init_InitOptions_Path
+  commentId: P:Units.Core.CommandLineOptions.Init.InitOptions.Path
+  fullName: Units.Core.CommandLineOptions.Init.InitOptions.Path
+  nameWithType: Init.InitOptions.Path
+- uid: Units.Core.CommandLineOptions.Init.InitOptions.Path*
+  name: Path
+  href: api/Units.Core.CommandLineOptions.Init.InitOptions.html#Units_Core_CommandLineOptions_Init_InitOptions_Path_
+  commentId: Overload:Units.Core.CommandLineOptions.Init.InitOptions.Path
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Init.InitOptions.Path
+  nameWithType: Init.InitOptions.Path
+- uid: Units.Core.CommandLineOptions.Init.InitType
+  name: Init.InitType
+  href: api/Units.Core.CommandLineOptions.Init.InitType.html
+  commentId: T:Units.Core.CommandLineOptions.Init.InitType
+  fullName: Units.Core.CommandLineOptions.Init.InitType
+  nameWithType: Init.InitType
+- uid: Units.Core.CommandLineOptions.Init.InitType.Empty
+  name: Empty
+  href: api/Units.Core.CommandLineOptions.Init.InitType.html#Units_Core_CommandLineOptions_Init_InitType_Empty
+  commentId: F:Units.Core.CommandLineOptions.Init.InitType.Empty
+  fullName: Units.Core.CommandLineOptions.Init.InitType.Empty
+  nameWithType: Init.InitType.Empty
+- uid: Units.Core.CommandLineOptions.Init.InitType.FullSiStandardAllOperators
+  name: FullSiStandardAllOperators
+  href: api/Units.Core.CommandLineOptions.Init.InitType.html#Units_Core_CommandLineOptions_Init_InitType_FullSiStandardAllOperators
+  commentId: F:Units.Core.CommandLineOptions.Init.InitType.FullSiStandardAllOperators
+  fullName: Units.Core.CommandLineOptions.Init.InitType.FullSiStandardAllOperators
+  nameWithType: Init.InitType.FullSiStandardAllOperators
+- uid: Units.Core.CommandLineOptions.Init.Options
+  name: Options
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init_Options
+  commentId: P:Units.Core.CommandLineOptions.Init.Options
+  fullName: Units.Core.CommandLineOptions.Init.Options
+  nameWithType: Init.Options
+- uid: Units.Core.CommandLineOptions.Init.Options*
+  name: Options
+  href: api/Units.Core.CommandLineOptions.Init.html#Units_Core_CommandLineOptions_Init_Options_
+  commentId: Overload:Units.Core.CommandLineOptions.Init.Options
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Init.Options
+  nameWithType: Init.Options
+- uid: Units.Core.CommandLineOptions.Run
+  name: Run
+  href: api/Units.Core.CommandLineOptions.Run.html
+  commentId: T:Units.Core.CommandLineOptions.Run
+  fullName: Units.Core.CommandLineOptions.Run
+  nameWithType: Run
+- uid: Units.Core.CommandLineOptions.Run.#ctor(Units.Core.CommandLineOptions.Run.RunOptions)
+  name: Run(Run.RunOptions)
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run__ctor_Units_Core_CommandLineOptions_Run_RunOptions_
+  commentId: M:Units.Core.CommandLineOptions.Run.#ctor(Units.Core.CommandLineOptions.Run.RunOptions)
+  fullName: Units.Core.CommandLineOptions.Run.Run(Units.Core.CommandLineOptions.Run.RunOptions)
+  nameWithType: Run.Run(Run.RunOptions)
+- uid: Units.Core.CommandLineOptions.Run.#ctor*
+  name: Run
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run__ctor_
+  commentId: Overload:Units.Core.CommandLineOptions.Run.#ctor
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Run.Run
+  nameWithType: Run.Run
+- uid: Units.Core.CommandLineOptions.Run.DoIt
+  name: DoIt()
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run_DoIt
+  commentId: M:Units.Core.CommandLineOptions.Run.DoIt
+  fullName: Units.Core.CommandLineOptions.Run.DoIt()
+  nameWithType: Run.DoIt()
+- uid: Units.Core.CommandLineOptions.Run.DoIt*
+  name: DoIt
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run_DoIt_
+  commentId: Overload:Units.Core.CommandLineOptions.Run.DoIt
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Run.DoIt
+  nameWithType: Run.DoIt
+- uid: Units.Core.CommandLineOptions.Run.Options
+  name: Options
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run_Options
+  commentId: P:Units.Core.CommandLineOptions.Run.Options
+  fullName: Units.Core.CommandLineOptions.Run.Options
+  nameWithType: Run.Options
+- uid: Units.Core.CommandLineOptions.Run.Options*
+  name: Options
+  href: api/Units.Core.CommandLineOptions.Run.html#Units_Core_CommandLineOptions_Run_Options_
+  commentId: Overload:Units.Core.CommandLineOptions.Run.Options
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Run.Options
+  nameWithType: Run.Options
+- uid: Units.Core.CommandLineOptions.Run.RunOptions
+  name: Run.RunOptions
+  href: api/Units.Core.CommandLineOptions.Run.RunOptions.html
+  commentId: T:Units.Core.CommandLineOptions.Run.RunOptions
+  fullName: Units.Core.CommandLineOptions.Run.RunOptions
+  nameWithType: Run.RunOptions
+- uid: Units.Core.CommandLineOptions.Run.RunOptions.ExportType
+  name: ExportType
+  href: api/Units.Core.CommandLineOptions.Run.RunOptions.html#Units_Core_CommandLineOptions_Run_RunOptions_ExportType
+  commentId: P:Units.Core.CommandLineOptions.Run.RunOptions.ExportType
+  fullName: Units.Core.CommandLineOptions.Run.RunOptions.ExportType
+  nameWithType: Run.RunOptions.ExportType
+- uid: Units.Core.CommandLineOptions.Run.RunOptions.ExportType*
+  name: ExportType
+  href: api/Units.Core.CommandLineOptions.Run.RunOptions.html#Units_Core_CommandLineOptions_Run_RunOptions_ExportType_
+  commentId: Overload:Units.Core.CommandLineOptions.Run.RunOptions.ExportType
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Run.RunOptions.ExportType
+  nameWithType: Run.RunOptions.ExportType
+- uid: Units.Core.CommandLineOptions.Run.RunOptions.File
+  name: File
+  href: api/Units.Core.CommandLineOptions.Run.RunOptions.html#Units_Core_CommandLineOptions_Run_RunOptions_File
+  commentId: P:Units.Core.CommandLineOptions.Run.RunOptions.File
+  fullName: Units.Core.CommandLineOptions.Run.RunOptions.File
+  nameWithType: Run.RunOptions.File
+- uid: Units.Core.CommandLineOptions.Run.RunOptions.File*
+  name: File
+  href: api/Units.Core.CommandLineOptions.Run.RunOptions.html#Units_Core_CommandLineOptions_Run_RunOptions_File_
+  commentId: Overload:Units.Core.CommandLineOptions.Run.RunOptions.File
+  isSpec: "True"
+  fullName: Units.Core.CommandLineOptions.Run.RunOptions.File
+  nameWithType: Run.RunOptions.File
+- uid: Units.Core.ConsoleExporter
+  name: ConsoleExporter
+  href: api/Units.Core.ConsoleExporter.html
+  commentId: T:Units.Core.ConsoleExporter
+  fullName: Units.Core.ConsoleExporter
+  nameWithType: ConsoleExporter
+- uid: Units.Core.ConsoleExporter.ExportUnits(Units.Core.Parser.State.ParserState,System.String)
+  name: ExportUnits(ParserState, String)
+  href: api/Units.Core.ConsoleExporter.html#Units_Core_ConsoleExporter_ExportUnits_Units_Core_Parser_State_ParserState_System_String_
+  commentId: M:Units.Core.ConsoleExporter.ExportUnits(Units.Core.Parser.State.ParserState,System.String)
+  fullName: Units.Core.ConsoleExporter.ExportUnits(Units.Core.Parser.State.ParserState, System.String)
+  nameWithType: ConsoleExporter.ExportUnits(ParserState, String)
+- uid: Units.Core.ConsoleExporter.ExportUnits*
+  name: ExportUnits
+  href: api/Units.Core.ConsoleExporter.html#Units_Core_ConsoleExporter_ExportUnits_
+  commentId: Overload:Units.Core.ConsoleExporter.ExportUnits
+  isSpec: "True"
+  fullName: Units.Core.ConsoleExporter.ExportUnits
+  nameWithType: ConsoleExporter.ExportUnits
+- uid: Units.Core.ConsoleExporter.ExportWrappers(Units.Core.Parser.State.ParserState,System.String)
+  name: ExportWrappers(ParserState, String)
+  href: api/Units.Core.ConsoleExporter.html#Units_Core_ConsoleExporter_ExportWrappers_Units_Core_Parser_State_ParserState_System_String_
+  commentId: M:Units.Core.ConsoleExporter.ExportWrappers(Units.Core.Parser.State.ParserState,System.String)
+  fullName: Units.Core.ConsoleExporter.ExportWrappers(Units.Core.Parser.State.ParserState, System.String)
+  nameWithType: ConsoleExporter.ExportWrappers(ParserState, String)
+- uid: Units.Core.ConsoleExporter.ExportWrappers*
+  name: ExportWrappers
+  href: api/Units.Core.ConsoleExporter.html#Units_Core_ConsoleExporter_ExportWrappers_
+  commentId: Overload:Units.Core.ConsoleExporter.ExportWrappers
+  isSpec: "True"
+  fullName: Units.Core.ConsoleExporter.ExportWrappers
+  nameWithType: ConsoleExporter.ExportWrappers
+- uid: Units.Core.DefaultExporter
+  name: DefaultExporter
+  href: api/Units.Core.DefaultExporter.html
+  commentId: T:Units.Core.DefaultExporter
+  fullName: Units.Core.DefaultExporter
+  nameWithType: DefaultExporter
+- uid: Units.Core.DefaultExporter.#ctor(System.String)
+  name: DefaultExporter(String)
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter__ctor_System_String_
+  commentId: M:Units.Core.DefaultExporter.#ctor(System.String)
+  fullName: Units.Core.DefaultExporter.DefaultExporter(System.String)
+  nameWithType: DefaultExporter.DefaultExporter(String)
+- uid: Units.Core.DefaultExporter.#ctor*
+  name: DefaultExporter
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter__ctor_
+  commentId: Overload:Units.Core.DefaultExporter.#ctor
+  isSpec: "True"
+  fullName: Units.Core.DefaultExporter.DefaultExporter
+  nameWithType: DefaultExporter.DefaultExporter
+- uid: Units.Core.DefaultExporter.BaseDir
+  name: BaseDir
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_BaseDir
+  commentId: P:Units.Core.DefaultExporter.BaseDir
+  fullName: Units.Core.DefaultExporter.BaseDir
+  nameWithType: DefaultExporter.BaseDir
+- uid: Units.Core.DefaultExporter.BaseDir*
+  name: BaseDir
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_BaseDir_
+  commentId: Overload:Units.Core.DefaultExporter.BaseDir
+  isSpec: "True"
+  fullName: Units.Core.DefaultExporter.BaseDir
+  nameWithType: DefaultExporter.BaseDir
+- uid: Units.Core.DefaultExporter.ExportUnits(Units.Core.Parser.State.ParserState,System.String)
+  name: ExportUnits(ParserState, String)
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_ExportUnits_Units_Core_Parser_State_ParserState_System_String_
+  commentId: M:Units.Core.DefaultExporter.ExportUnits(Units.Core.Parser.State.ParserState,System.String)
+  fullName: Units.Core.DefaultExporter.ExportUnits(Units.Core.Parser.State.ParserState, System.String)
+  nameWithType: DefaultExporter.ExportUnits(ParserState, String)
+- uid: Units.Core.DefaultExporter.ExportUnits*
+  name: ExportUnits
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_ExportUnits_
+  commentId: Overload:Units.Core.DefaultExporter.ExportUnits
+  isSpec: "True"
+  fullName: Units.Core.DefaultExporter.ExportUnits
+  nameWithType: DefaultExporter.ExportUnits
+- uid: Units.Core.DefaultExporter.ExportWrappers(Units.Core.Parser.State.ParserState,System.String)
+  name: ExportWrappers(ParserState, String)
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_ExportWrappers_Units_Core_Parser_State_ParserState_System_String_
+  commentId: M:Units.Core.DefaultExporter.ExportWrappers(Units.Core.Parser.State.ParserState,System.String)
+  fullName: Units.Core.DefaultExporter.ExportWrappers(Units.Core.Parser.State.ParserState, System.String)
+  nameWithType: DefaultExporter.ExportWrappers(ParserState, String)
+- uid: Units.Core.DefaultExporter.ExportWrappers*
+  name: ExportWrappers
+  href: api/Units.Core.DefaultExporter.html#Units_Core_DefaultExporter_ExportWrappers_
+  commentId: Overload:Units.Core.DefaultExporter.ExportWrappers
+  isSpec: "True"
+  fullName: Units.Core.DefaultExporter.ExportWrappers
+  nameWithType: DefaultExporter.ExportWrappers
+- uid: Units.Core.Generators
+  name: Units.Core.Generators
+  href: api/Units.Core.Generators.html
+  commentId: N:Units.Core.Generators
+  fullName: Units.Core.Generators
+  nameWithType: Units.Core.Generators
+- uid: Units.Core.Generators.GenerateEdgeOperators
   name: GenerateEdgeOperators
-  href: api/Units.Core.GenerateEdgeOperators.html
-  commentId: T:Units.Core.GenerateEdgeOperators
-  fullName: Units.Core.GenerateEdgeOperators
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html
+  commentId: T:Units.Core.Generators.GenerateEdgeOperators
+  fullName: Units.Core.Generators.GenerateEdgeOperators
   nameWithType: GenerateEdgeOperators
-- uid: Units.Core.GenerateEdgeOperators.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+- uid: Units.Core.Generators.GenerateEdgeOperators.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
   name: GenerateEdgeOperators(ParserState, IUnit)
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators__ctor_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_
-  commentId: M:Units.Core.GenerateEdgeOperators.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
-  fullName: Units.Core.GenerateEdgeOperators.GenerateEdgeOperators(Units.Core.Parser.State.ParserState, Units.Core.Parser.State.IUnit)
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators__ctor_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperators.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateEdgeOperators.GenerateEdgeOperators(Units.Core.Parser.State.ParserState, Units.Core.Parser.State.IUnit)
   nameWithType: GenerateEdgeOperators.GenerateEdgeOperators(ParserState, IUnit)
-- uid: Units.Core.GenerateEdgeOperators.#ctor*
+- uid: Units.Core.Generators.GenerateEdgeOperators.#ctor*
   name: GenerateEdgeOperators
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators__ctor_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.#ctor
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators__ctor_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.#ctor
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.GenerateEdgeOperators
+  fullName: Units.Core.Generators.GenerateEdgeOperators.GenerateEdgeOperators
   nameWithType: GenerateEdgeOperators.GenerateEdgeOperators
-- uid: Units.Core.GenerateEdgeOperators.Operators
+- uid: Units.Core.Generators.GenerateEdgeOperators.Operators
   name: Operators
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Operators
-  commentId: P:Units.Core.GenerateEdgeOperators.Operators
-  fullName: Units.Core.GenerateEdgeOperators.Operators
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Operators
+  commentId: P:Units.Core.Generators.GenerateEdgeOperators.Operators
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Operators
   nameWithType: GenerateEdgeOperators.Operators
-- uid: Units.Core.GenerateEdgeOperators.Operators*
+- uid: Units.Core.Generators.GenerateEdgeOperators.Operators*
   name: Operators
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Operators_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.Operators
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Operators_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.Operators
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.Operators
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Operators
   nameWithType: GenerateEdgeOperators.Operators
-- uid: Units.Core.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
+- uid: Units.Core.Generators.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
   name: Parameters(OperatorNodeEdge)
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Parameters_Units_Core_Parser_State_OperatorNodeEdge_
-  commentId: M:Units.Core.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
-  fullName: Units.Core.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Parameters_Units_Core_Parser_State_OperatorNodeEdge_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Parameters(Units.Core.Parser.State.OperatorNodeEdge)
   nameWithType: GenerateEdgeOperators.Parameters(OperatorNodeEdge)
-- uid: Units.Core.GenerateEdgeOperators.Parameters*
+- uid: Units.Core.Generators.GenerateEdgeOperators.Parameters*
   name: Parameters
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Parameters_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.Parameters
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Parameters_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.Parameters
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.Parameters
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Parameters
   nameWithType: GenerateEdgeOperators.Parameters
-- uid: Units.Core.GenerateEdgeOperators.TransformText
+- uid: Units.Core.Generators.GenerateEdgeOperators.TransformText
   name: TransformText()
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_TransformText
-  commentId: M:Units.Core.GenerateEdgeOperators.TransformText
-  fullName: Units.Core.GenerateEdgeOperators.TransformText()
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_TransformText
+  commentId: M:Units.Core.Generators.GenerateEdgeOperators.TransformText
+  fullName: Units.Core.Generators.GenerateEdgeOperators.TransformText()
   nameWithType: GenerateEdgeOperators.TransformText()
-- uid: Units.Core.GenerateEdgeOperators.TransformText*
+- uid: Units.Core.Generators.GenerateEdgeOperators.TransformText*
   name: TransformText
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_TransformText_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.TransformText
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_TransformText_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.TransformText
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.TransformText
+  fullName: Units.Core.Generators.GenerateEdgeOperators.TransformText
   nameWithType: GenerateEdgeOperators.TransformText
-- uid: Units.Core.GenerateEdgeOperators.UnaryEdges
+- uid: Units.Core.Generators.GenerateEdgeOperators.UnaryEdges
   name: UnaryEdges
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_UnaryEdges
-  commentId: P:Units.Core.GenerateEdgeOperators.UnaryEdges
-  fullName: Units.Core.GenerateEdgeOperators.UnaryEdges
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_UnaryEdges
+  commentId: P:Units.Core.Generators.GenerateEdgeOperators.UnaryEdges
+  fullName: Units.Core.Generators.GenerateEdgeOperators.UnaryEdges
   nameWithType: GenerateEdgeOperators.UnaryEdges
-- uid: Units.Core.GenerateEdgeOperators.UnaryEdges*
+- uid: Units.Core.Generators.GenerateEdgeOperators.UnaryEdges*
   name: UnaryEdges
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_UnaryEdges_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.UnaryEdges
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_UnaryEdges_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.UnaryEdges
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.UnaryEdges
+  fullName: Units.Core.Generators.GenerateEdgeOperators.UnaryEdges
   nameWithType: GenerateEdgeOperators.UnaryEdges
-- uid: Units.Core.GenerateEdgeOperators.Unit1
+- uid: Units.Core.Generators.GenerateEdgeOperators.Unit1
   name: Unit1
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Unit1
-  commentId: P:Units.Core.GenerateEdgeOperators.Unit1
-  fullName: Units.Core.GenerateEdgeOperators.Unit1
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Unit1
+  commentId: P:Units.Core.Generators.GenerateEdgeOperators.Unit1
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Unit1
   nameWithType: GenerateEdgeOperators.Unit1
-- uid: Units.Core.GenerateEdgeOperators.Unit1*
+- uid: Units.Core.Generators.GenerateEdgeOperators.Unit1*
   name: Unit1
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Unit1_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.Unit1
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Unit1_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.Unit1
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.Unit1
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Unit1
   nameWithType: GenerateEdgeOperators.Unit1
-- uid: Units.Core.GenerateEdgeOperators.Valid
+- uid: Units.Core.Generators.GenerateEdgeOperators.Valid
   name: Valid
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Valid
-  commentId: P:Units.Core.GenerateEdgeOperators.Valid
-  fullName: Units.Core.GenerateEdgeOperators.Valid
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Valid
+  commentId: P:Units.Core.Generators.GenerateEdgeOperators.Valid
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Valid
   nameWithType: GenerateEdgeOperators.Valid
-- uid: Units.Core.GenerateEdgeOperators.Valid*
+- uid: Units.Core.Generators.GenerateEdgeOperators.Valid*
   name: Valid
-  href: api/Units.Core.GenerateEdgeOperators.html#Units_Core_GenerateEdgeOperators_Valid_
-  commentId: Overload:Units.Core.GenerateEdgeOperators.Valid
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_Valid_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.Valid
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperators.Valid
+  fullName: Units.Core.Generators.GenerateEdgeOperators.Valid
   nameWithType: GenerateEdgeOperators.Valid
-- uid: Units.Core.GenerateEdgeOperatorsBase
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase
   name: GenerateEdgeOperatorsBase
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html
-  commentId: T:Units.Core.GenerateEdgeOperatorsBase
-  fullName: Units.Core.GenerateEdgeOperatorsBase
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html
+  commentId: T:Units.Core.Generators.GenerateEdgeOperatorsBase
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase
   nameWithType: GenerateEdgeOperatorsBase
-- uid: Units.Core.GenerateEdgeOperatorsBase.ClearIndent
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent
   name: ClearIndent()
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_ClearIndent
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.ClearIndent
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ClearIndent()
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ClearIndent
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent()
   nameWithType: GenerateEdgeOperatorsBase.ClearIndent()
-- uid: Units.Core.GenerateEdgeOperatorsBase.ClearIndent*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent*
   name: ClearIndent
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_ClearIndent_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.ClearIndent
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ClearIndent_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ClearIndent
   nameWithType: GenerateEdgeOperatorsBase.ClearIndent
-- uid: Units.Core.GenerateEdgeOperatorsBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent
   name: CurrentIndent
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_CurrentIndent
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.CurrentIndent
-  fullName: Units.Core.GenerateEdgeOperatorsBase.CurrentIndent
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_CurrentIndent
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent
   nameWithType: GenerateEdgeOperatorsBase.CurrentIndent
-- uid: Units.Core.GenerateEdgeOperatorsBase.CurrentIndent*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent*
   name: CurrentIndent
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_CurrentIndent_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.CurrentIndent
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_CurrentIndent_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.CurrentIndent
   nameWithType: GenerateEdgeOperatorsBase.CurrentIndent
-- uid: Units.Core.GenerateEdgeOperatorsBase.Error(System.String)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Error(System.String)
   name: Error(String)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Error_System_String_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.Error(System.String)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Error(System.String)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Error_System_String_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Error(System.String)
   nameWithType: GenerateEdgeOperatorsBase.Error(String)
-- uid: Units.Core.GenerateEdgeOperatorsBase.Error*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Error*
   name: Error
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Error_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.Error
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Error_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.Error
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Error
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Error
   nameWithType: GenerateEdgeOperatorsBase.Error
-- uid: Units.Core.GenerateEdgeOperatorsBase.Errors
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Errors
   name: Errors
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Errors
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.Errors
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Errors
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Errors
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.Errors
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Errors
   nameWithType: GenerateEdgeOperatorsBase.Errors
-- uid: Units.Core.GenerateEdgeOperatorsBase.Errors*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Errors*
   name: Errors
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Errors_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.Errors
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Errors_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.Errors
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Errors
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Errors
   nameWithType: GenerateEdgeOperatorsBase.Errors
-- uid: Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment
   name: GenerationEnvironment
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_GenerationEnvironment
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment
-  fullName: Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_GenerationEnvironment
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment
   nameWithType: GenerateEdgeOperatorsBase.GenerationEnvironment
-- uid: Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment*
   name: GenerationEnvironment
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_GenerationEnvironment_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_GenerationEnvironment_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.GenerationEnvironment
   nameWithType: GenerateEdgeOperatorsBase.GenerationEnvironment
-- uid: Units.Core.GenerateEdgeOperatorsBase.PopIndent
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent
   name: PopIndent()
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_PopIndent
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.PopIndent
-  fullName: Units.Core.GenerateEdgeOperatorsBase.PopIndent()
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_PopIndent
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent()
   nameWithType: GenerateEdgeOperatorsBase.PopIndent()
-- uid: Units.Core.GenerateEdgeOperatorsBase.PopIndent*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent*
   name: PopIndent
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_PopIndent_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.PopIndent
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_PopIndent_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.PopIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.PopIndent
   nameWithType: GenerateEdgeOperatorsBase.PopIndent
-- uid: Units.Core.GenerateEdgeOperatorsBase.PushIndent(System.String)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent(System.String)
   name: PushIndent(String)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_PushIndent_System_String_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.PushIndent(System.String)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.PushIndent(System.String)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_PushIndent_System_String_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent(System.String)
   nameWithType: GenerateEdgeOperatorsBase.PushIndent(String)
-- uid: Units.Core.GenerateEdgeOperatorsBase.PushIndent*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent*
   name: PushIndent
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_PushIndent_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.PushIndent
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_PushIndent_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.PushIndent
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.PushIndent
   nameWithType: GenerateEdgeOperatorsBase.PushIndent
-- uid: Units.Core.GenerateEdgeOperatorsBase.Session
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Session
   name: Session
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Session
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.Session
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Session
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Session
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.Session
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Session
   nameWithType: GenerateEdgeOperatorsBase.Session
-- uid: Units.Core.GenerateEdgeOperatorsBase.Session*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Session*
   name: Session
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Session_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.Session
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Session_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.Session
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Session
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Session
   nameWithType: GenerateEdgeOperatorsBase.Session
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper
   name: ToStringHelper
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_ToStringHelper
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.ToStringHelper
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringHelper
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringHelper
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper
   nameWithType: GenerateEdgeOperatorsBase.ToStringHelper
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringHelper*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper*
   name: ToStringHelper
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_ToStringHelper_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.ToStringHelper
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringHelper_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringHelper
   nameWithType: GenerateEdgeOperatorsBase.ToStringHelper
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper
   name: GenerateEdgeOperatorsBase.ToStringInstanceHelper
-  href: api/Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html
-  commentId: T:Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html
+  commentId: T:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper
   nameWithType: GenerateEdgeOperatorsBase.ToStringInstanceHelper
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
   name: FormatProvider
-  href: api/Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_GenerateEdgeOperatorsBase_ToStringInstanceHelper_FormatProvider
-  commentId: P:Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringInstanceHelper_FormatProvider
+  commentId: P:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
   nameWithType: GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider*
   name: FormatProvider
-  href: api/Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_GenerateEdgeOperatorsBase_ToStringInstanceHelper_FormatProvider_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringInstanceHelper_FormatProvider_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
   nameWithType: GenerateEdgeOperatorsBase.ToStringInstanceHelper.FormatProvider
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
   name: ToStringWithCulture(Object)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_GenerateEdgeOperatorsBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
   nameWithType: GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture(Object)
-- uid: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture*
   name: ToStringWithCulture
-  href: api/Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_GenerateEdgeOperatorsBase_ToStringInstanceHelper_ToStringWithCulture_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateEdgeOperatorsBase_ToStringInstanceHelper_ToStringWithCulture_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture
   nameWithType: GenerateEdgeOperatorsBase.ToStringInstanceHelper.ToStringWithCulture
-- uid: Units.Core.GenerateEdgeOperatorsBase.Warning(System.String)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Warning(System.String)
   name: Warning(String)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Warning_System_String_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.Warning(System.String)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Warning(System.String)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Warning_System_String_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Warning(System.String)
   nameWithType: GenerateEdgeOperatorsBase.Warning(String)
-- uid: Units.Core.GenerateEdgeOperatorsBase.Warning*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Warning*
   name: Warning
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Warning_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.Warning
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Warning_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.Warning
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Warning
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Warning
   nameWithType: GenerateEdgeOperatorsBase.Warning
-- uid: Units.Core.GenerateEdgeOperatorsBase.Write(System.String)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String)
   name: Write(String)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Write_System_String_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.Write(System.String)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Write(System.String)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Write_System_String_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String)
   nameWithType: GenerateEdgeOperatorsBase.Write(String)
-- uid: Units.Core.GenerateEdgeOperatorsBase.Write(System.String,System.Object[])
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String,System.Object[])
   name: Write(String, Object[])
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Write_System_String_System_Object___
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.Write(System.String,System.Object[])
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Write_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String,System.Object[])
   name.vb: Write(String, Object())
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Write(System.String, System.Object[])
-  fullName.vb: Units.Core.GenerateEdgeOperatorsBase.Write(System.String, System.Object())
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateEdgeOperatorsBase.Write(System.String, System.Object())
   nameWithType: GenerateEdgeOperatorsBase.Write(String, Object[])
   nameWithType.vb: GenerateEdgeOperatorsBase.Write(String, Object())
-- uid: Units.Core.GenerateEdgeOperatorsBase.Write*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.Write*
   name: Write
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_Write_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.Write
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_Write_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.Write
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.Write
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.Write
   nameWithType: GenerateEdgeOperatorsBase.Write
-- uid: Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String)
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String)
   name: WriteLine(String)
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_WriteLine_System_String_
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String)
-  fullName: Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String)
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_WriteLine_System_String_
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String)
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String)
   nameWithType: GenerateEdgeOperatorsBase.WriteLine(String)
-- uid: Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String,System.Object[])
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String,System.Object[])
   name: WriteLine(String, Object[])
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_WriteLine_System_String_System_Object___
-  commentId: M:Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String,System.Object[])
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_WriteLine_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String,System.Object[])
   name.vb: WriteLine(String, Object())
-  fullName: Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String, System.Object[])
-  fullName.vb: Units.Core.GenerateEdgeOperatorsBase.WriteLine(System.String, System.Object())
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine(System.String, System.Object())
   nameWithType: GenerateEdgeOperatorsBase.WriteLine(String, Object[])
   nameWithType.vb: GenerateEdgeOperatorsBase.WriteLine(String, Object())
-- uid: Units.Core.GenerateEdgeOperatorsBase.WriteLine*
+- uid: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine*
   name: WriteLine
-  href: api/Units.Core.GenerateEdgeOperatorsBase.html#Units_Core_GenerateEdgeOperatorsBase_WriteLine_
-  commentId: Overload:Units.Core.GenerateEdgeOperatorsBase.WriteLine
+  href: api/Units.Core.Generators.GenerateEdgeOperatorsBase.html#Units_Core_Generators_GenerateEdgeOperatorsBase_WriteLine_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine
   isSpec: "True"
-  fullName: Units.Core.GenerateEdgeOperatorsBase.WriteLine
+  fullName: Units.Core.Generators.GenerateEdgeOperatorsBase.WriteLine
   nameWithType: GenerateEdgeOperatorsBase.WriteLine
-- uid: Units.Core.GenerateUnits
-  name: GenerateUnits
-  href: api/Units.Core.GenerateUnits.html
-  commentId: T:Units.Core.GenerateUnits
-  fullName: Units.Core.GenerateUnits
-  nameWithType: GenerateUnits
-- uid: Units.Core.GenerateUnits.#ctor(Units.Core.Parser.State.ParserState)
-  name: GenerateUnits(ParserState)
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits__ctor_Units_Core_Parser_State_ParserState_
-  commentId: M:Units.Core.GenerateUnits.#ctor(Units.Core.Parser.State.ParserState)
-  fullName: Units.Core.GenerateUnits.GenerateUnits(Units.Core.Parser.State.ParserState)
-  nameWithType: GenerateUnits.GenerateUnits(ParserState)
-- uid: Units.Core.GenerateUnits.#ctor*
-  name: GenerateUnits
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits__ctor_
-  commentId: Overload:Units.Core.GenerateUnits.#ctor
+- uid: Units.Core.Generators.GenerateUnit
+  name: GenerateUnit
+  href: api/Units.Core.Generators.GenerateUnit.html
+  commentId: T:Units.Core.Generators.GenerateUnit
+  fullName: Units.Core.Generators.GenerateUnit
+  nameWithType: GenerateUnit
+- uid: Units.Core.Generators.GenerateUnit.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit,Units.Core.Parser.State.RealDef)
+  name: GenerateUnit(ParserState, IUnit, RealDef)
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit__ctor_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_RealDef_
+  commentId: M:Units.Core.Generators.GenerateUnit.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit,Units.Core.Parser.State.RealDef)
+  fullName: Units.Core.Generators.GenerateUnit.GenerateUnit(Units.Core.Parser.State.ParserState, Units.Core.Parser.State.IUnit, Units.Core.Parser.State.RealDef)
+  nameWithType: GenerateUnit.GenerateUnit(ParserState, IUnit, RealDef)
+- uid: Units.Core.Generators.GenerateUnit.#ctor*
+  name: GenerateUnit
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit__ctor_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.#ctor
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.GenerateUnits
-  nameWithType: GenerateUnits.GenerateUnits
-- uid: Units.Core.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateUnit.GenerateUnit
+  nameWithType: GenerateUnit.GenerateUnit
+- uid: Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
   name: EdgeOps(IUnit)
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_EdgeOps_Units_Core_Parser_State_IUnit_
-  commentId: M:Units.Core.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
-  fullName: Units.Core.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
-  nameWithType: GenerateUnits.EdgeOps(IUnit)
-- uid: Units.Core.GenerateUnits.EdgeOps*
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_EdgeOps_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
+  nameWithType: GenerateUnit.EdgeOps(IUnit)
+- uid: Units.Core.Generators.GenerateUnit.EdgeOps*
   name: EdgeOps
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_EdgeOps_
-  commentId: Overload:Units.Core.GenerateUnits.EdgeOps
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_EdgeOps_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.EdgeOps
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.EdgeOps
-  nameWithType: GenerateUnits.EdgeOps
-- uid: Units.Core.GenerateUnits.GraphEdges
-  name: GraphEdges
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_GraphEdges
-  commentId: P:Units.Core.GenerateUnits.GraphEdges
-  fullName: Units.Core.GenerateUnits.GraphEdges
-  nameWithType: GenerateUnits.GraphEdges
-- uid: Units.Core.GenerateUnits.GraphEdges*
-  name: GraphEdges
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_GraphEdges_
-  commentId: Overload:Units.Core.GenerateUnits.GraphEdges
+  fullName: Units.Core.Generators.GenerateUnit.EdgeOps
+  nameWithType: GenerateUnit.EdgeOps
+- uid: Units.Core.Generators.GenerateUnit.Namespace
+  name: Namespace()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Namespace
+  commentId: M:Units.Core.Generators.GenerateUnit.Namespace
+  fullName: Units.Core.Generators.GenerateUnit.Namespace()
+  nameWithType: GenerateUnit.Namespace()
+- uid: Units.Core.Generators.GenerateUnit.Namespace*
+  name: Namespace
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Namespace_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Namespace
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.GraphEdges
-  nameWithType: GenerateUnits.GraphEdges
-- uid: Units.Core.GenerateUnits.Lines
-  name: Lines
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Lines
-  commentId: P:Units.Core.GenerateUnits.Lines
-  fullName: Units.Core.GenerateUnits.Lines
-  nameWithType: GenerateUnits.Lines
-- uid: Units.Core.GenerateUnits.Lines*
-  name: Lines
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Lines_
-  commentId: Overload:Units.Core.GenerateUnits.Lines
+  fullName: Units.Core.Generators.GenerateUnit.Namespace
+  nameWithType: GenerateUnit.Namespace
+- uid: Units.Core.Generators.GenerateUnit.Real
+  name: Real
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Real
+  commentId: P:Units.Core.Generators.GenerateUnit.Real
+  fullName: Units.Core.Generators.GenerateUnit.Real
+  nameWithType: GenerateUnit.Real
+- uid: Units.Core.Generators.GenerateUnit.Real*
+  name: Real
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Real_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Real
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.Lines
-  nameWithType: GenerateUnits.Lines
-- uid: Units.Core.GenerateUnits.MesurmentUnits
-  name: MesurmentUnits
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_MesurmentUnits
-  commentId: P:Units.Core.GenerateUnits.MesurmentUnits
-  fullName: Units.Core.GenerateUnits.MesurmentUnits
-  nameWithType: GenerateUnits.MesurmentUnits
-- uid: Units.Core.GenerateUnits.MesurmentUnits*
-  name: MesurmentUnits
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_MesurmentUnits_
-  commentId: Overload:Units.Core.GenerateUnits.MesurmentUnits
+  fullName: Units.Core.Generators.GenerateUnit.Real
+  nameWithType: GenerateUnit.Real
+- uid: Units.Core.Generators.GenerateUnit.RealWrapper
+  name: RealWrapper()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_RealWrapper
+  commentId: M:Units.Core.Generators.GenerateUnit.RealWrapper
+  fullName: Units.Core.Generators.GenerateUnit.RealWrapper()
+  nameWithType: GenerateUnit.RealWrapper()
+- uid: Units.Core.Generators.GenerateUnit.RealWrapper*
+  name: RealWrapper
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_RealWrapper_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.RealWrapper
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.MesurmentUnits
-  nameWithType: GenerateUnits.MesurmentUnits
-- uid: Units.Core.GenerateUnits.Operators
-  name: Operators
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Operators
-  commentId: P:Units.Core.GenerateUnits.Operators
-  fullName: Units.Core.GenerateUnits.Operators
-  nameWithType: GenerateUnits.Operators
-- uid: Units.Core.GenerateUnits.Operators*
-  name: Operators
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Operators_
-  commentId: Overload:Units.Core.GenerateUnits.Operators
-  isSpec: "True"
-  fullName: Units.Core.GenerateUnits.Operators
-  nameWithType: GenerateUnits.Operators
-- uid: Units.Core.GenerateUnits.RealDefs
-  name: RealDefs
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_RealDefs
-  commentId: P:Units.Core.GenerateUnits.RealDefs
-  fullName: Units.Core.GenerateUnits.RealDefs
-  nameWithType: GenerateUnits.RealDefs
-- uid: Units.Core.GenerateUnits.RealDefs*
-  name: RealDefs
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_RealDefs_
-  commentId: Overload:Units.Core.GenerateUnits.RealDefs
-  isSpec: "True"
-  fullName: Units.Core.GenerateUnits.RealDefs
-  nameWithType: GenerateUnits.RealDefs
-- uid: Units.Core.GenerateUnits.Scalar
-  name: Scalar
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Scalar
-  commentId: P:Units.Core.GenerateUnits.Scalar
-  fullName: Units.Core.GenerateUnits.Scalar
-  nameWithType: GenerateUnits.Scalar
-- uid: Units.Core.GenerateUnits.Scalar*
-  name: Scalar
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Scalar_
-  commentId: Overload:Units.Core.GenerateUnits.Scalar
-  isSpec: "True"
-  fullName: Units.Core.GenerateUnits.Scalar
-  nameWithType: GenerateUnits.Scalar
-- uid: Units.Core.GenerateUnits.SelfOps
+  fullName: Units.Core.Generators.GenerateUnit.RealWrapper
+  nameWithType: GenerateUnit.RealWrapper
+- uid: Units.Core.Generators.GenerateUnit.SelfOps
   name: SelfOps
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_SelfOps
-  commentId: P:Units.Core.GenerateUnits.SelfOps
-  fullName: Units.Core.GenerateUnits.SelfOps
-  nameWithType: GenerateUnits.SelfOps
-- uid: Units.Core.GenerateUnits.SelfOps*
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_SelfOps
+  commentId: P:Units.Core.Generators.GenerateUnit.SelfOps
+  fullName: Units.Core.Generators.GenerateUnit.SelfOps
+  nameWithType: GenerateUnit.SelfOps
+- uid: Units.Core.Generators.GenerateUnit.SelfOps*
   name: SelfOps
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_SelfOps_
-  commentId: Overload:Units.Core.GenerateUnits.SelfOps
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_SelfOps_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.SelfOps
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.SelfOps
-  nameWithType: GenerateUnits.SelfOps
-- uid: Units.Core.GenerateUnits.State
+  fullName: Units.Core.Generators.GenerateUnit.SelfOps
+  nameWithType: GenerateUnit.SelfOps
+- uid: Units.Core.Generators.GenerateUnit.State
   name: State
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_State
-  commentId: P:Units.Core.GenerateUnits.State
-  fullName: Units.Core.GenerateUnits.State
-  nameWithType: GenerateUnits.State
-- uid: Units.Core.GenerateUnits.State*
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_State
+  commentId: P:Units.Core.Generators.GenerateUnit.State
+  fullName: Units.Core.Generators.GenerateUnit.State
+  nameWithType: GenerateUnit.State
+- uid: Units.Core.Generators.GenerateUnit.State*
   name: State
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_State_
-  commentId: Overload:Units.Core.GenerateUnits.State
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_State_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.State
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.State
-  nameWithType: GenerateUnits.State
-- uid: Units.Core.GenerateUnits.TransformText
+  fullName: Units.Core.Generators.GenerateUnit.State
+  nameWithType: GenerateUnit.State
+- uid: Units.Core.Generators.GenerateUnit.TransformText
   name: TransformText()
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_TransformText
-  commentId: M:Units.Core.GenerateUnits.TransformText
-  fullName: Units.Core.GenerateUnits.TransformText()
-  nameWithType: GenerateUnits.TransformText()
-- uid: Units.Core.GenerateUnits.TransformText*
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_TransformText
+  commentId: M:Units.Core.Generators.GenerateUnit.TransformText
+  fullName: Units.Core.Generators.GenerateUnit.TransformText()
+  nameWithType: GenerateUnit.TransformText()
+- uid: Units.Core.Generators.GenerateUnit.TransformText*
   name: TransformText
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_TransformText_
-  commentId: Overload:Units.Core.GenerateUnits.TransformText
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_TransformText_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.TransformText
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.TransformText
-  nameWithType: GenerateUnits.TransformText
-- uid: Units.Core.GenerateUnits.Units
-  name: Units
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Units
-  commentId: P:Units.Core.GenerateUnits.Units
-  fullName: Units.Core.GenerateUnits.Units
-  nameWithType: GenerateUnits.Units
-- uid: Units.Core.GenerateUnits.Units*
-  name: Units
-  href: api/Units.Core.GenerateUnits.html#Units_Core_GenerateUnits_Units_
-  commentId: Overload:Units.Core.GenerateUnits.Units
+  fullName: Units.Core.Generators.GenerateUnit.TransformText
+  nameWithType: GenerateUnit.TransformText
+- uid: Units.Core.Generators.GenerateUnit.Unit
+  name: Unit
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Unit
+  commentId: P:Units.Core.Generators.GenerateUnit.Unit
+  fullName: Units.Core.Generators.GenerateUnit.Unit
+  nameWithType: GenerateUnit.Unit
+- uid: Units.Core.Generators.GenerateUnit.Unit*
+  name: Unit
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Unit_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Unit
   isSpec: "True"
-  fullName: Units.Core.GenerateUnits.Units
-  nameWithType: GenerateUnits.Units
-- uid: Units.Core.GenerateUnitsBase
-  name: GenerateUnitsBase
-  href: api/Units.Core.GenerateUnitsBase.html
-  commentId: T:Units.Core.GenerateUnitsBase
-  fullName: Units.Core.GenerateUnitsBase
-  nameWithType: GenerateUnitsBase
-- uid: Units.Core.GenerateUnitsBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateUnit.Unit
+  nameWithType: GenerateUnit.Unit
+- uid: Units.Core.Generators.GenerateUnit.Usings
+  name: Usings()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Usings
+  commentId: M:Units.Core.Generators.GenerateUnit.Usings
+  fullName: Units.Core.Generators.GenerateUnit.Usings()
+  nameWithType: GenerateUnit.Usings()
+- uid: Units.Core.Generators.GenerateUnit.Usings*
+  name: Usings
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Usings_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Usings
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnit.Usings
+  nameWithType: GenerateUnit.Usings
+- uid: Units.Core.Generators.GenerateUnitBase
+  name: GenerateUnitBase
+  href: api/Units.Core.Generators.GenerateUnitBase.html
+  commentId: T:Units.Core.Generators.GenerateUnitBase
+  fullName: Units.Core.Generators.GenerateUnitBase
+  nameWithType: GenerateUnitBase
+- uid: Units.Core.Generators.GenerateUnitBase.ClearIndent
   name: ClearIndent()
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_ClearIndent
-  commentId: M:Units.Core.GenerateUnitsBase.ClearIndent
-  fullName: Units.Core.GenerateUnitsBase.ClearIndent()
-  nameWithType: GenerateUnitsBase.ClearIndent()
-- uid: Units.Core.GenerateUnitsBase.ClearIndent*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_ClearIndent
+  commentId: M:Units.Core.Generators.GenerateUnitBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateUnitBase.ClearIndent()
+  nameWithType: GenerateUnitBase.ClearIndent()
+- uid: Units.Core.Generators.GenerateUnitBase.ClearIndent*
   name: ClearIndent
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_ClearIndent_
-  commentId: Overload:Units.Core.GenerateUnitsBase.ClearIndent
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_ClearIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.ClearIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.ClearIndent
-  nameWithType: GenerateUnitsBase.ClearIndent
-- uid: Units.Core.GenerateUnitsBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateUnitBase.ClearIndent
+  nameWithType: GenerateUnitBase.ClearIndent
+- uid: Units.Core.Generators.GenerateUnitBase.CurrentIndent
   name: CurrentIndent
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_CurrentIndent
-  commentId: P:Units.Core.GenerateUnitsBase.CurrentIndent
-  fullName: Units.Core.GenerateUnitsBase.CurrentIndent
-  nameWithType: GenerateUnitsBase.CurrentIndent
-- uid: Units.Core.GenerateUnitsBase.CurrentIndent*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_CurrentIndent
+  commentId: P:Units.Core.Generators.GenerateUnitBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateUnitBase.CurrentIndent
+  nameWithType: GenerateUnitBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateUnitBase.CurrentIndent*
   name: CurrentIndent
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_CurrentIndent_
-  commentId: Overload:Units.Core.GenerateUnitsBase.CurrentIndent
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_CurrentIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.CurrentIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.CurrentIndent
-  nameWithType: GenerateUnitsBase.CurrentIndent
-- uid: Units.Core.GenerateUnitsBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.CurrentIndent
+  nameWithType: GenerateUnitBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateUnitBase.Error(System.String)
   name: Error(String)
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Error_System_String_
-  commentId: M:Units.Core.GenerateUnitsBase.Error(System.String)
-  fullName: Units.Core.GenerateUnitsBase.Error(System.String)
-  nameWithType: GenerateUnitsBase.Error(String)
-- uid: Units.Core.GenerateUnitsBase.Error*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Error_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.Error(System.String)
+  nameWithType: GenerateUnitBase.Error(String)
+- uid: Units.Core.Generators.GenerateUnitBase.Error*
   name: Error
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Error_
-  commentId: Overload:Units.Core.GenerateUnitsBase.Error
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Error_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.Error
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.Error
-  nameWithType: GenerateUnitsBase.Error
-- uid: Units.Core.GenerateUnitsBase.Errors
+  fullName: Units.Core.Generators.GenerateUnitBase.Error
+  nameWithType: GenerateUnitBase.Error
+- uid: Units.Core.Generators.GenerateUnitBase.Errors
   name: Errors
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Errors
-  commentId: P:Units.Core.GenerateUnitsBase.Errors
-  fullName: Units.Core.GenerateUnitsBase.Errors
-  nameWithType: GenerateUnitsBase.Errors
-- uid: Units.Core.GenerateUnitsBase.Errors*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Errors
+  commentId: P:Units.Core.Generators.GenerateUnitBase.Errors
+  fullName: Units.Core.Generators.GenerateUnitBase.Errors
+  nameWithType: GenerateUnitBase.Errors
+- uid: Units.Core.Generators.GenerateUnitBase.Errors*
   name: Errors
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Errors_
-  commentId: Overload:Units.Core.GenerateUnitsBase.Errors
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Errors_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.Errors
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.Errors
-  nameWithType: GenerateUnitsBase.Errors
-- uid: Units.Core.GenerateUnitsBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateUnitBase.Errors
+  nameWithType: GenerateUnitBase.Errors
+- uid: Units.Core.Generators.GenerateUnitBase.GenerationEnvironment
   name: GenerationEnvironment
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_GenerationEnvironment
-  commentId: P:Units.Core.GenerateUnitsBase.GenerationEnvironment
-  fullName: Units.Core.GenerateUnitsBase.GenerationEnvironment
-  nameWithType: GenerateUnitsBase.GenerationEnvironment
-- uid: Units.Core.GenerateUnitsBase.GenerationEnvironment*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_GenerationEnvironment
+  commentId: P:Units.Core.Generators.GenerateUnitBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateUnitBase.GenerationEnvironment
+  nameWithType: GenerateUnitBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateUnitBase.GenerationEnvironment*
   name: GenerationEnvironment
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_GenerationEnvironment_
-  commentId: Overload:Units.Core.GenerateUnitsBase.GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_GenerationEnvironment_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.GenerationEnvironment
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.GenerationEnvironment
-  nameWithType: GenerateUnitsBase.GenerationEnvironment
-- uid: Units.Core.GenerateUnitsBase.PopIndent
+  fullName: Units.Core.Generators.GenerateUnitBase.GenerationEnvironment
+  nameWithType: GenerateUnitBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateUnitBase.PopIndent
   name: PopIndent()
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_PopIndent
-  commentId: M:Units.Core.GenerateUnitsBase.PopIndent
-  fullName: Units.Core.GenerateUnitsBase.PopIndent()
-  nameWithType: GenerateUnitsBase.PopIndent()
-- uid: Units.Core.GenerateUnitsBase.PopIndent*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_PopIndent
+  commentId: M:Units.Core.Generators.GenerateUnitBase.PopIndent
+  fullName: Units.Core.Generators.GenerateUnitBase.PopIndent()
+  nameWithType: GenerateUnitBase.PopIndent()
+- uid: Units.Core.Generators.GenerateUnitBase.PopIndent*
   name: PopIndent
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_PopIndent_
-  commentId: Overload:Units.Core.GenerateUnitsBase.PopIndent
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_PopIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.PopIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.PopIndent
-  nameWithType: GenerateUnitsBase.PopIndent
-- uid: Units.Core.GenerateUnitsBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.PopIndent
+  nameWithType: GenerateUnitBase.PopIndent
+- uid: Units.Core.Generators.GenerateUnitBase.PushIndent(System.String)
   name: PushIndent(String)
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_PushIndent_System_String_
-  commentId: M:Units.Core.GenerateUnitsBase.PushIndent(System.String)
-  fullName: Units.Core.GenerateUnitsBase.PushIndent(System.String)
-  nameWithType: GenerateUnitsBase.PushIndent(String)
-- uid: Units.Core.GenerateUnitsBase.PushIndent*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_PushIndent_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.PushIndent(System.String)
+  nameWithType: GenerateUnitBase.PushIndent(String)
+- uid: Units.Core.Generators.GenerateUnitBase.PushIndent*
   name: PushIndent
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_PushIndent_
-  commentId: Overload:Units.Core.GenerateUnitsBase.PushIndent
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_PushIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.PushIndent
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.PushIndent
-  nameWithType: GenerateUnitsBase.PushIndent
-- uid: Units.Core.GenerateUnitsBase.Session
+  fullName: Units.Core.Generators.GenerateUnitBase.PushIndent
+  nameWithType: GenerateUnitBase.PushIndent
+- uid: Units.Core.Generators.GenerateUnitBase.Session
   name: Session
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Session
-  commentId: P:Units.Core.GenerateUnitsBase.Session
-  fullName: Units.Core.GenerateUnitsBase.Session
-  nameWithType: GenerateUnitsBase.Session
-- uid: Units.Core.GenerateUnitsBase.Session*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Session
+  commentId: P:Units.Core.Generators.GenerateUnitBase.Session
+  fullName: Units.Core.Generators.GenerateUnitBase.Session
+  nameWithType: GenerateUnitBase.Session
+- uid: Units.Core.Generators.GenerateUnitBase.Session*
   name: Session
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Session_
-  commentId: Overload:Units.Core.GenerateUnitsBase.Session
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Session_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.Session
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.Session
-  nameWithType: GenerateUnitsBase.Session
-- uid: Units.Core.GenerateUnitsBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateUnitBase.Session
+  nameWithType: GenerateUnitBase.Session
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringHelper
   name: ToStringHelper
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_ToStringHelper
-  commentId: P:Units.Core.GenerateUnitsBase.ToStringHelper
-  fullName: Units.Core.GenerateUnitsBase.ToStringHelper
-  nameWithType: GenerateUnitsBase.ToStringHelper
-- uid: Units.Core.GenerateUnitsBase.ToStringHelper*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_ToStringHelper
+  commentId: P:Units.Core.Generators.GenerateUnitBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringHelper
+  nameWithType: GenerateUnitBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringHelper*
   name: ToStringHelper
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_ToStringHelper_
-  commentId: Overload:Units.Core.GenerateUnitsBase.ToStringHelper
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_ToStringHelper_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.ToStringHelper
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.ToStringHelper
-  nameWithType: GenerateUnitsBase.ToStringHelper
-- uid: Units.Core.GenerateUnitsBase.ToStringInstanceHelper
-  name: GenerateUnitsBase.ToStringInstanceHelper
-  href: api/Units.Core.GenerateUnitsBase.ToStringInstanceHelper.html
-  commentId: T:Units.Core.GenerateUnitsBase.ToStringInstanceHelper
-  fullName: Units.Core.GenerateUnitsBase.ToStringInstanceHelper
-  nameWithType: GenerateUnitsBase.ToStringInstanceHelper
-- uid: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringHelper
+  nameWithType: GenerateUnitBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper
+  name: GenerateUnitBase.ToStringInstanceHelper
+  href: api/Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.html
+  commentId: T:Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper
+  nameWithType: GenerateUnitBase.ToStringInstanceHelper
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider
   name: FormatProvider
-  href: api/Units.Core.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_GenerateUnitsBase_ToStringInstanceHelper_FormatProvider
-  commentId: P:Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
-  fullName: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
-  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
-- uid: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider*
+  href: api/Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitBase_ToStringInstanceHelper_FormatProvider
+  commentId: P:Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateUnitBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider*
   name: FormatProvider
-  href: api/Units.Core.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_GenerateUnitsBase_ToStringInstanceHelper_FormatProvider_
-  commentId: Overload:Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  href: api/Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitBase_ToStringInstanceHelper_FormatProvider_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
-  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
-- uid: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateUnitBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
   name: ToStringWithCulture(Object)
-  href: api/Units.Core.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_GenerateUnitsBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
-  commentId: M:Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
-  fullName: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
-  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(Object)
-- uid: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture*
+  href: api/Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  nameWithType: GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture(Object)
+- uid: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture*
   name: ToStringWithCulture
-  href: api/Units.Core.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_GenerateUnitsBase_ToStringInstanceHelper_ToStringWithCulture_
-  commentId: Overload:Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
+  href: api/Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitBase_ToStringInstanceHelper_ToStringWithCulture_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
-  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
-- uid: Units.Core.GenerateUnitsBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture
+  nameWithType: GenerateUnitBase.ToStringInstanceHelper.ToStringWithCulture
+- uid: Units.Core.Generators.GenerateUnitBase.Warning(System.String)
   name: Warning(String)
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Warning_System_String_
-  commentId: M:Units.Core.GenerateUnitsBase.Warning(System.String)
-  fullName: Units.Core.GenerateUnitsBase.Warning(System.String)
-  nameWithType: GenerateUnitsBase.Warning(String)
-- uid: Units.Core.GenerateUnitsBase.Warning*
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Warning_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.Warning(System.String)
+  nameWithType: GenerateUnitBase.Warning(String)
+- uid: Units.Core.Generators.GenerateUnitBase.Warning*
   name: Warning
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Warning_
-  commentId: Overload:Units.Core.GenerateUnitsBase.Warning
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Warning_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.Warning
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.Warning
-  nameWithType: GenerateUnitsBase.Warning
-- uid: Units.Core.GenerateUnitsBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.Warning
+  nameWithType: GenerateUnitBase.Warning
+- uid: Units.Core.Generators.GenerateUnitBase.Write(System.String)
   name: Write(String)
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Write_System_String_
-  commentId: M:Units.Core.GenerateUnitsBase.Write(System.String)
-  fullName: Units.Core.GenerateUnitsBase.Write(System.String)
-  nameWithType: GenerateUnitsBase.Write(String)
-- uid: Units.Core.GenerateUnitsBase.Write(System.String,System.Object[])
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Write_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.Write(System.String)
+  nameWithType: GenerateUnitBase.Write(String)
+- uid: Units.Core.Generators.GenerateUnitBase.Write(System.String,System.Object[])
   name: Write(String, Object[])
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Write_System_String_System_Object___
-  commentId: M:Units.Core.GenerateUnitsBase.Write(System.String,System.Object[])
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Write_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateUnitBase.Write(System.String,System.Object[])
   name.vb: Write(String, Object())
-  fullName: Units.Core.GenerateUnitsBase.Write(System.String, System.Object[])
-  fullName.vb: Units.Core.GenerateUnitsBase.Write(System.String, System.Object())
+  fullName: Units.Core.Generators.GenerateUnitBase.Write(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateUnitBase.Write(System.String, System.Object())
+  nameWithType: GenerateUnitBase.Write(String, Object[])
+  nameWithType.vb: GenerateUnitBase.Write(String, Object())
+- uid: Units.Core.Generators.GenerateUnitBase.Write*
+  name: Write
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_Write_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.Write
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitBase.Write
+  nameWithType: GenerateUnitBase.Write
+- uid: Units.Core.Generators.GenerateUnitBase.WriteLine(System.String)
+  name: WriteLine(String)
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_WriteLine_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitBase.WriteLine(System.String)
+  fullName: Units.Core.Generators.GenerateUnitBase.WriteLine(System.String)
+  nameWithType: GenerateUnitBase.WriteLine(String)
+- uid: Units.Core.Generators.GenerateUnitBase.WriteLine(System.String,System.Object[])
+  name: WriteLine(String, Object[])
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_WriteLine_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateUnitBase.WriteLine(System.String,System.Object[])
+  name.vb: WriteLine(String, Object())
+  fullName: Units.Core.Generators.GenerateUnitBase.WriteLine(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateUnitBase.WriteLine(System.String, System.Object())
+  nameWithType: GenerateUnitBase.WriteLine(String, Object[])
+  nameWithType.vb: GenerateUnitBase.WriteLine(String, Object())
+- uid: Units.Core.Generators.GenerateUnitBase.WriteLine*
+  name: WriteLine
+  href: api/Units.Core.Generators.GenerateUnitBase.html#Units_Core_Generators_GenerateUnitBase_WriteLine_
+  commentId: Overload:Units.Core.Generators.GenerateUnitBase.WriteLine
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitBase.WriteLine
+  nameWithType: GenerateUnitBase.WriteLine
+- uid: Units.Core.Generators.GenerateUnits
+  name: GenerateUnits
+  href: api/Units.Core.Generators.GenerateUnits.html
+  commentId: T:Units.Core.Generators.GenerateUnits
+  fullName: Units.Core.Generators.GenerateUnits
+  nameWithType: GenerateUnits
+- uid: Units.Core.Generators.GenerateUnits.#ctor(Units.Core.Parser.State.ParserState)
+  name: GenerateUnits(ParserState)
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits__ctor_Units_Core_Parser_State_ParserState_
+  commentId: M:Units.Core.Generators.GenerateUnits.#ctor(Units.Core.Parser.State.ParserState)
+  fullName: Units.Core.Generators.GenerateUnits.GenerateUnits(Units.Core.Parser.State.ParserState)
+  nameWithType: GenerateUnits.GenerateUnits(ParserState)
+- uid: Units.Core.Generators.GenerateUnits.#ctor*
+  name: GenerateUnits
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits__ctor_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.GenerateUnits
+  nameWithType: GenerateUnits.GenerateUnits
+- uid: Units.Core.Generators.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
+  name: EdgeOps(IUnit)
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_EdgeOps_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Generators.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateUnits.EdgeOps(Units.Core.Parser.State.IUnit)
+  nameWithType: GenerateUnits.EdgeOps(IUnit)
+- uid: Units.Core.Generators.GenerateUnits.EdgeOps*
+  name: EdgeOps
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_EdgeOps_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.EdgeOps
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.EdgeOps
+  nameWithType: GenerateUnits.EdgeOps
+- uid: Units.Core.Generators.GenerateUnits.GenerateUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.RealDef)
+  name: GenerateUnit(IUnit, RealDef)
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_GenerateUnit_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_RealDef_
+  commentId: M:Units.Core.Generators.GenerateUnits.GenerateUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.RealDef)
+  fullName: Units.Core.Generators.GenerateUnits.GenerateUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.RealDef)
+  nameWithType: GenerateUnits.GenerateUnit(IUnit, RealDef)
+- uid: Units.Core.Generators.GenerateUnits.GenerateUnit*
+  name: GenerateUnit
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_GenerateUnit_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.GenerateUnit
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.GenerateUnit
+  nameWithType: GenerateUnits.GenerateUnit
+- uid: Units.Core.Generators.GenerateUnits.GraphEdges
+  name: GraphEdges
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_GraphEdges
+  commentId: P:Units.Core.Generators.GenerateUnits.GraphEdges
+  fullName: Units.Core.Generators.GenerateUnits.GraphEdges
+  nameWithType: GenerateUnits.GraphEdges
+- uid: Units.Core.Generators.GenerateUnits.GraphEdges*
+  name: GraphEdges
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_GraphEdges_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.GraphEdges
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.GraphEdges
+  nameWithType: GenerateUnits.GraphEdges
+- uid: Units.Core.Generators.GenerateUnits.Lines
+  name: Lines
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Lines
+  commentId: P:Units.Core.Generators.GenerateUnits.Lines
+  fullName: Units.Core.Generators.GenerateUnits.Lines
+  nameWithType: GenerateUnits.Lines
+- uid: Units.Core.Generators.GenerateUnits.Lines*
+  name: Lines
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Lines_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.Lines
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.Lines
+  nameWithType: GenerateUnits.Lines
+- uid: Units.Core.Generators.GenerateUnits.MesurmentUnits
+  name: MesurmentUnits
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_MesurmentUnits
+  commentId: P:Units.Core.Generators.GenerateUnits.MesurmentUnits
+  fullName: Units.Core.Generators.GenerateUnits.MesurmentUnits
+  nameWithType: GenerateUnits.MesurmentUnits
+- uid: Units.Core.Generators.GenerateUnits.MesurmentUnits*
+  name: MesurmentUnits
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_MesurmentUnits_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.MesurmentUnits
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.MesurmentUnits
+  nameWithType: GenerateUnits.MesurmentUnits
+- uid: Units.Core.Generators.GenerateUnits.Operators
+  name: Operators
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Operators
+  commentId: P:Units.Core.Generators.GenerateUnits.Operators
+  fullName: Units.Core.Generators.GenerateUnits.Operators
+  nameWithType: GenerateUnits.Operators
+- uid: Units.Core.Generators.GenerateUnits.Operators*
+  name: Operators
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Operators_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.Operators
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.Operators
+  nameWithType: GenerateUnits.Operators
+- uid: Units.Core.Generators.GenerateUnits.RealDefs
+  name: RealDefs
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_RealDefs
+  commentId: P:Units.Core.Generators.GenerateUnits.RealDefs
+  fullName: Units.Core.Generators.GenerateUnits.RealDefs
+  nameWithType: GenerateUnits.RealDefs
+- uid: Units.Core.Generators.GenerateUnits.RealDefs*
+  name: RealDefs
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_RealDefs_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.RealDefs
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.RealDefs
+  nameWithType: GenerateUnits.RealDefs
+- uid: Units.Core.Generators.GenerateUnits.Scalar
+  name: Scalar
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Scalar
+  commentId: P:Units.Core.Generators.GenerateUnits.Scalar
+  fullName: Units.Core.Generators.GenerateUnits.Scalar
+  nameWithType: GenerateUnits.Scalar
+- uid: Units.Core.Generators.GenerateUnits.Scalar*
+  name: Scalar
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Scalar_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.Scalar
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.Scalar
+  nameWithType: GenerateUnits.Scalar
+- uid: Units.Core.Generators.GenerateUnits.SelfOps
+  name: SelfOps
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_SelfOps
+  commentId: P:Units.Core.Generators.GenerateUnits.SelfOps
+  fullName: Units.Core.Generators.GenerateUnits.SelfOps
+  nameWithType: GenerateUnits.SelfOps
+- uid: Units.Core.Generators.GenerateUnits.SelfOps*
+  name: SelfOps
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_SelfOps_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.SelfOps
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.SelfOps
+  nameWithType: GenerateUnits.SelfOps
+- uid: Units.Core.Generators.GenerateUnits.State
+  name: State
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_State
+  commentId: P:Units.Core.Generators.GenerateUnits.State
+  fullName: Units.Core.Generators.GenerateUnits.State
+  nameWithType: GenerateUnits.State
+- uid: Units.Core.Generators.GenerateUnits.State*
+  name: State
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_State_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.State
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.State
+  nameWithType: GenerateUnits.State
+- uid: Units.Core.Generators.GenerateUnits.TransformText
+  name: TransformText()
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_TransformText
+  commentId: M:Units.Core.Generators.GenerateUnits.TransformText
+  fullName: Units.Core.Generators.GenerateUnits.TransformText()
+  nameWithType: GenerateUnits.TransformText()
+- uid: Units.Core.Generators.GenerateUnits.TransformText*
+  name: TransformText
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_TransformText_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.TransformText
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.TransformText
+  nameWithType: GenerateUnits.TransformText
+- uid: Units.Core.Generators.GenerateUnits.Units
+  name: Units
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Units
+  commentId: P:Units.Core.Generators.GenerateUnits.Units
+  fullName: Units.Core.Generators.GenerateUnits.Units
+  nameWithType: GenerateUnits.Units
+- uid: Units.Core.Generators.GenerateUnits.Units*
+  name: Units
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Units_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.Units
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.Units
+  nameWithType: GenerateUnits.Units
+- uid: Units.Core.Generators.GenerateUnits.Wrappers
+  name: Wrappers()
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Wrappers
+  commentId: M:Units.Core.Generators.GenerateUnits.Wrappers
+  fullName: Units.Core.Generators.GenerateUnits.Wrappers()
+  nameWithType: GenerateUnits.Wrappers()
+- uid: Units.Core.Generators.GenerateUnits.Wrappers*
+  name: Wrappers
+  href: api/Units.Core.Generators.GenerateUnits.html#Units_Core_Generators_GenerateUnits_Wrappers_
+  commentId: Overload:Units.Core.Generators.GenerateUnits.Wrappers
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnits.Wrappers
+  nameWithType: GenerateUnits.Wrappers
+- uid: Units.Core.Generators.GenerateUnitsBase
+  name: GenerateUnitsBase
+  href: api/Units.Core.Generators.GenerateUnitsBase.html
+  commentId: T:Units.Core.Generators.GenerateUnitsBase
+  fullName: Units.Core.Generators.GenerateUnitsBase
+  nameWithType: GenerateUnitsBase
+- uid: Units.Core.Generators.GenerateUnitsBase.ClearIndent
+  name: ClearIndent()
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_ClearIndent
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateUnitsBase.ClearIndent()
+  nameWithType: GenerateUnitsBase.ClearIndent()
+- uid: Units.Core.Generators.GenerateUnitsBase.ClearIndent*
+  name: ClearIndent
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_ClearIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.ClearIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.ClearIndent
+  nameWithType: GenerateUnitsBase.ClearIndent
+- uid: Units.Core.Generators.GenerateUnitsBase.CurrentIndent
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_CurrentIndent
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateUnitsBase.CurrentIndent
+  nameWithType: GenerateUnitsBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateUnitsBase.CurrentIndent*
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_CurrentIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.CurrentIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.CurrentIndent
+  nameWithType: GenerateUnitsBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateUnitsBase.Error(System.String)
+  name: Error(String)
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Error_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateUnitsBase.Error(System.String)
+  nameWithType: GenerateUnitsBase.Error(String)
+- uid: Units.Core.Generators.GenerateUnitsBase.Error*
+  name: Error
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Error_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.Error
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.Error
+  nameWithType: GenerateUnitsBase.Error
+- uid: Units.Core.Generators.GenerateUnitsBase.Errors
+  name: Errors
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Errors
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.Errors
+  fullName: Units.Core.Generators.GenerateUnitsBase.Errors
+  nameWithType: GenerateUnitsBase.Errors
+- uid: Units.Core.Generators.GenerateUnitsBase.Errors*
+  name: Errors
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Errors_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.Errors
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.Errors
+  nameWithType: GenerateUnitsBase.Errors
+- uid: Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_GenerationEnvironment
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment
+  nameWithType: GenerateUnitsBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment*
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_GenerationEnvironment_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.GenerationEnvironment
+  nameWithType: GenerateUnitsBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateUnitsBase.PopIndent
+  name: PopIndent()
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_PopIndent
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.PopIndent
+  fullName: Units.Core.Generators.GenerateUnitsBase.PopIndent()
+  nameWithType: GenerateUnitsBase.PopIndent()
+- uid: Units.Core.Generators.GenerateUnitsBase.PopIndent*
+  name: PopIndent
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_PopIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.PopIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.PopIndent
+  nameWithType: GenerateUnitsBase.PopIndent
+- uid: Units.Core.Generators.GenerateUnitsBase.PushIndent(System.String)
+  name: PushIndent(String)
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_PushIndent_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateUnitsBase.PushIndent(System.String)
+  nameWithType: GenerateUnitsBase.PushIndent(String)
+- uid: Units.Core.Generators.GenerateUnitsBase.PushIndent*
+  name: PushIndent
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_PushIndent_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.PushIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.PushIndent
+  nameWithType: GenerateUnitsBase.PushIndent
+- uid: Units.Core.Generators.GenerateUnitsBase.Session
+  name: Session
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Session
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.Session
+  fullName: Units.Core.Generators.GenerateUnitsBase.Session
+  nameWithType: GenerateUnitsBase.Session
+- uid: Units.Core.Generators.GenerateUnitsBase.Session*
+  name: Session
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Session_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.Session
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.Session
+  nameWithType: GenerateUnitsBase.Session
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringHelper
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_ToStringHelper
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringHelper
+  nameWithType: GenerateUnitsBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringHelper*
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_ToStringHelper_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.ToStringHelper
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringHelper
+  nameWithType: GenerateUnitsBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper
+  name: GenerateUnitsBase.ToStringInstanceHelper
+  href: api/Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.html
+  commentId: T:Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper
+  nameWithType: GenerateUnitsBase.ToStringInstanceHelper
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitsBase_ToStringInstanceHelper_FormatProvider
+  commentId: P:Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider*
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitsBase_ToStringInstanceHelper_FormatProvider_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  name: ToStringWithCulture(Object)
+  href: api/Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitsBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture(Object)
+- uid: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture*
+  name: ToStringWithCulture
+  href: api/Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateUnitsBase_ToStringInstanceHelper_ToStringWithCulture_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
+  nameWithType: GenerateUnitsBase.ToStringInstanceHelper.ToStringWithCulture
+- uid: Units.Core.Generators.GenerateUnitsBase.Warning(System.String)
+  name: Warning(String)
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Warning_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateUnitsBase.Warning(System.String)
+  nameWithType: GenerateUnitsBase.Warning(String)
+- uid: Units.Core.Generators.GenerateUnitsBase.Warning*
+  name: Warning
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Warning_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.Warning
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnitsBase.Warning
+  nameWithType: GenerateUnitsBase.Warning
+- uid: Units.Core.Generators.GenerateUnitsBase.Write(System.String)
+  name: Write(String)
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Write_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateUnitsBase.Write(System.String)
+  nameWithType: GenerateUnitsBase.Write(String)
+- uid: Units.Core.Generators.GenerateUnitsBase.Write(System.String,System.Object[])
+  name: Write(String, Object[])
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Write_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.Write(System.String,System.Object[])
+  name.vb: Write(String, Object())
+  fullName: Units.Core.Generators.GenerateUnitsBase.Write(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateUnitsBase.Write(System.String, System.Object())
   nameWithType: GenerateUnitsBase.Write(String, Object[])
   nameWithType.vb: GenerateUnitsBase.Write(String, Object())
-- uid: Units.Core.GenerateUnitsBase.Write*
+- uid: Units.Core.Generators.GenerateUnitsBase.Write*
   name: Write
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_Write_
-  commentId: Overload:Units.Core.GenerateUnitsBase.Write
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_Write_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.Write
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.Write
+  fullName: Units.Core.Generators.GenerateUnitsBase.Write
   nameWithType: GenerateUnitsBase.Write
-- uid: Units.Core.GenerateUnitsBase.WriteLine(System.String)
+- uid: Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String)
   name: WriteLine(String)
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_WriteLine_System_String_
-  commentId: M:Units.Core.GenerateUnitsBase.WriteLine(System.String)
-  fullName: Units.Core.GenerateUnitsBase.WriteLine(System.String)
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_WriteLine_System_String_
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String)
+  fullName: Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String)
   nameWithType: GenerateUnitsBase.WriteLine(String)
-- uid: Units.Core.GenerateUnitsBase.WriteLine(System.String,System.Object[])
+- uid: Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String,System.Object[])
   name: WriteLine(String, Object[])
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_WriteLine_System_String_System_Object___
-  commentId: M:Units.Core.GenerateUnitsBase.WriteLine(System.String,System.Object[])
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_WriteLine_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String,System.Object[])
   name.vb: WriteLine(String, Object())
-  fullName: Units.Core.GenerateUnitsBase.WriteLine(System.String, System.Object[])
-  fullName.vb: Units.Core.GenerateUnitsBase.WriteLine(System.String, System.Object())
+  fullName: Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateUnitsBase.WriteLine(System.String, System.Object())
   nameWithType: GenerateUnitsBase.WriteLine(String, Object[])
   nameWithType.vb: GenerateUnitsBase.WriteLine(String, Object())
-- uid: Units.Core.GenerateUnitsBase.WriteLine*
+- uid: Units.Core.Generators.GenerateUnitsBase.WriteLine*
   name: WriteLine
-  href: api/Units.Core.GenerateUnitsBase.html#Units_Core_GenerateUnitsBase_WriteLine_
-  commentId: Overload:Units.Core.GenerateUnitsBase.WriteLine
+  href: api/Units.Core.Generators.GenerateUnitsBase.html#Units_Core_Generators_GenerateUnitsBase_WriteLine_
+  commentId: Overload:Units.Core.Generators.GenerateUnitsBase.WriteLine
   isSpec: "True"
-  fullName: Units.Core.GenerateUnitsBase.WriteLine
+  fullName: Units.Core.Generators.GenerateUnitsBase.WriteLine
   nameWithType: GenerateUnitsBase.WriteLine
+- uid: Units.Core.Generators.GenerateWrappers
+  name: GenerateWrappers
+  href: api/Units.Core.Generators.GenerateWrappers.html
+  commentId: T:Units.Core.Generators.GenerateWrappers
+  fullName: Units.Core.Generators.GenerateWrappers
+  nameWithType: GenerateWrappers
+- uid: Units.Core.Generators.GenerateWrappers.#ctor(Units.Core.Parser.State.ParserState)
+  name: GenerateWrappers(ParserState)
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers__ctor_Units_Core_Parser_State_ParserState_
+  commentId: M:Units.Core.Generators.GenerateWrappers.#ctor(Units.Core.Parser.State.ParserState)
+  fullName: Units.Core.Generators.GenerateWrappers.GenerateWrappers(Units.Core.Parser.State.ParserState)
+  nameWithType: GenerateWrappers.GenerateWrappers(ParserState)
+- uid: Units.Core.Generators.GenerateWrappers.#ctor*
+  name: GenerateWrappers
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers__ctor_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.GenerateWrappers
+  nameWithType: GenerateWrappers.GenerateWrappers
+- uid: Units.Core.Generators.GenerateWrappers.EdgeOps(Units.Core.Parser.State.IUnit)
+  name: EdgeOps(IUnit)
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_EdgeOps_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Generators.GenerateWrappers.EdgeOps(Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateWrappers.EdgeOps(Units.Core.Parser.State.IUnit)
+  nameWithType: GenerateWrappers.EdgeOps(IUnit)
+- uid: Units.Core.Generators.GenerateWrappers.EdgeOps*
+  name: EdgeOps
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_EdgeOps_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.EdgeOps
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.EdgeOps
+  nameWithType: GenerateWrappers.EdgeOps
+- uid: Units.Core.Generators.GenerateWrappers.RealDefs
+  name: RealDefs
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_RealDefs
+  commentId: P:Units.Core.Generators.GenerateWrappers.RealDefs
+  fullName: Units.Core.Generators.GenerateWrappers.RealDefs
+  nameWithType: GenerateWrappers.RealDefs
+- uid: Units.Core.Generators.GenerateWrappers.RealDefs*
+  name: RealDefs
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_RealDefs_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.RealDefs
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.RealDefs
+  nameWithType: GenerateWrappers.RealDefs
+- uid: Units.Core.Generators.GenerateWrappers.Scalar
+  name: Scalar
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_Scalar
+  commentId: P:Units.Core.Generators.GenerateWrappers.Scalar
+  fullName: Units.Core.Generators.GenerateWrappers.Scalar
+  nameWithType: GenerateWrappers.Scalar
+- uid: Units.Core.Generators.GenerateWrappers.Scalar*
+  name: Scalar
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_Scalar_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.Scalar
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.Scalar
+  nameWithType: GenerateWrappers.Scalar
+- uid: Units.Core.Generators.GenerateWrappers.SelfOps
+  name: SelfOps
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_SelfOps
+  commentId: P:Units.Core.Generators.GenerateWrappers.SelfOps
+  fullName: Units.Core.Generators.GenerateWrappers.SelfOps
+  nameWithType: GenerateWrappers.SelfOps
+- uid: Units.Core.Generators.GenerateWrappers.SelfOps*
+  name: SelfOps
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_SelfOps_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.SelfOps
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.SelfOps
+  nameWithType: GenerateWrappers.SelfOps
+- uid: Units.Core.Generators.GenerateWrappers.State
+  name: State
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_State
+  commentId: P:Units.Core.Generators.GenerateWrappers.State
+  fullName: Units.Core.Generators.GenerateWrappers.State
+  nameWithType: GenerateWrappers.State
+- uid: Units.Core.Generators.GenerateWrappers.State*
+  name: State
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_State_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.State
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.State
+  nameWithType: GenerateWrappers.State
+- uid: Units.Core.Generators.GenerateWrappers.TransformText
+  name: TransformText()
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_TransformText
+  commentId: M:Units.Core.Generators.GenerateWrappers.TransformText
+  fullName: Units.Core.Generators.GenerateWrappers.TransformText()
+  nameWithType: GenerateWrappers.TransformText()
+- uid: Units.Core.Generators.GenerateWrappers.TransformText*
+  name: TransformText
+  href: api/Units.Core.Generators.GenerateWrappers.html#Units_Core_Generators_GenerateWrappers_TransformText_
+  commentId: Overload:Units.Core.Generators.GenerateWrappers.TransformText
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappers.TransformText
+  nameWithType: GenerateWrappers.TransformText
+- uid: Units.Core.Generators.GenerateWrappersBase
+  name: GenerateWrappersBase
+  href: api/Units.Core.Generators.GenerateWrappersBase.html
+  commentId: T:Units.Core.Generators.GenerateWrappersBase
+  fullName: Units.Core.Generators.GenerateWrappersBase
+  nameWithType: GenerateWrappersBase
+- uid: Units.Core.Generators.GenerateWrappersBase.ClearIndent
+  name: ClearIndent()
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ClearIndent
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateWrappersBase.ClearIndent()
+  nameWithType: GenerateWrappersBase.ClearIndent()
+- uid: Units.Core.Generators.GenerateWrappersBase.ClearIndent*
+  name: ClearIndent
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ClearIndent_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.ClearIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.ClearIndent
+  nameWithType: GenerateWrappersBase.ClearIndent
+- uid: Units.Core.Generators.GenerateWrappersBase.CurrentIndent
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_CurrentIndent
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateWrappersBase.CurrentIndent
+  nameWithType: GenerateWrappersBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateWrappersBase.CurrentIndent*
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_CurrentIndent_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.CurrentIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.CurrentIndent
+  nameWithType: GenerateWrappersBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateWrappersBase.Error(System.String)
+  name: Error(String)
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Error_System_String_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateWrappersBase.Error(System.String)
+  nameWithType: GenerateWrappersBase.Error(String)
+- uid: Units.Core.Generators.GenerateWrappersBase.Error*
+  name: Error
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Error_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.Error
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.Error
+  nameWithType: GenerateWrappersBase.Error
+- uid: Units.Core.Generators.GenerateWrappersBase.Errors
+  name: Errors
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Errors
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.Errors
+  fullName: Units.Core.Generators.GenerateWrappersBase.Errors
+  nameWithType: GenerateWrappersBase.Errors
+- uid: Units.Core.Generators.GenerateWrappersBase.Errors*
+  name: Errors
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Errors_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.Errors
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.Errors
+  nameWithType: GenerateWrappersBase.Errors
+- uid: Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_GenerationEnvironment
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment
+  nameWithType: GenerateWrappersBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment*
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_GenerationEnvironment_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.GenerationEnvironment
+  nameWithType: GenerateWrappersBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateWrappersBase.PopIndent
+  name: PopIndent()
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PopIndent
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.PopIndent
+  fullName: Units.Core.Generators.GenerateWrappersBase.PopIndent()
+  nameWithType: GenerateWrappersBase.PopIndent()
+- uid: Units.Core.Generators.GenerateWrappersBase.PopIndent*
+  name: PopIndent
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PopIndent_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.PopIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.PopIndent
+  nameWithType: GenerateWrappersBase.PopIndent
+- uid: Units.Core.Generators.GenerateWrappersBase.PushIndent(System.String)
+  name: PushIndent(String)
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PushIndent_System_String_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateWrappersBase.PushIndent(System.String)
+  nameWithType: GenerateWrappersBase.PushIndent(String)
+- uid: Units.Core.Generators.GenerateWrappersBase.PushIndent*
+  name: PushIndent
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_PushIndent_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.PushIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.PushIndent
+  nameWithType: GenerateWrappersBase.PushIndent
+- uid: Units.Core.Generators.GenerateWrappersBase.Session
+  name: Session
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Session
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.Session
+  fullName: Units.Core.Generators.GenerateWrappersBase.Session
+  nameWithType: GenerateWrappersBase.Session
+- uid: Units.Core.Generators.GenerateWrappersBase.Session*
+  name: Session
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Session_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.Session
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.Session
+  nameWithType: GenerateWrappersBase.Session
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringHelper
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ToStringHelper
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringHelper
+  nameWithType: GenerateWrappersBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringHelper*
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_ToStringHelper_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.ToStringHelper
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringHelper
+  nameWithType: GenerateWrappersBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper
+  name: GenerateWrappersBase.ToStringInstanceHelper
+  href: api/Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.html
+  commentId: T:Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper
+  nameWithType: GenerateWrappersBase.ToStringInstanceHelper
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateWrappersBase_ToStringInstanceHelper_FormatProvider
+  commentId: P:Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider*
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateWrappersBase_ToStringInstanceHelper_FormatProvider_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateWrappersBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  name: ToStringWithCulture(Object)
+  href: api/Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateWrappersBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  nameWithType: GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture(Object)
+- uid: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture*
+  name: ToStringWithCulture
+  href: api/Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateWrappersBase_ToStringInstanceHelper_ToStringWithCulture_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture
+  nameWithType: GenerateWrappersBase.ToStringInstanceHelper.ToStringWithCulture
+- uid: Units.Core.Generators.GenerateWrappersBase.Warning(System.String)
+  name: Warning(String)
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Warning_System_String_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateWrappersBase.Warning(System.String)
+  nameWithType: GenerateWrappersBase.Warning(String)
+- uid: Units.Core.Generators.GenerateWrappersBase.Warning*
+  name: Warning
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Warning_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.Warning
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.Warning
+  nameWithType: GenerateWrappersBase.Warning
+- uid: Units.Core.Generators.GenerateWrappersBase.Write(System.String)
+  name: Write(String)
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Write_System_String_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateWrappersBase.Write(System.String)
+  nameWithType: GenerateWrappersBase.Write(String)
+- uid: Units.Core.Generators.GenerateWrappersBase.Write(System.String,System.Object[])
+  name: Write(String, Object[])
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Write_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.Write(System.String,System.Object[])
+  name.vb: Write(String, Object())
+  fullName: Units.Core.Generators.GenerateWrappersBase.Write(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateWrappersBase.Write(System.String, System.Object())
+  nameWithType: GenerateWrappersBase.Write(String, Object[])
+  nameWithType.vb: GenerateWrappersBase.Write(String, Object())
+- uid: Units.Core.Generators.GenerateWrappersBase.Write*
+  name: Write
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_Write_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.Write
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.Write
+  nameWithType: GenerateWrappersBase.Write
+- uid: Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String)
+  name: WriteLine(String)
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_WriteLine_System_String_
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String)
+  fullName: Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String)
+  nameWithType: GenerateWrappersBase.WriteLine(String)
+- uid: Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String,System.Object[])
+  name: WriteLine(String, Object[])
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_WriteLine_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String,System.Object[])
+  name.vb: WriteLine(String, Object())
+  fullName: Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateWrappersBase.WriteLine(System.String, System.Object())
+  nameWithType: GenerateWrappersBase.WriteLine(String, Object[])
+  nameWithType.vb: GenerateWrappersBase.WriteLine(String, Object())
+- uid: Units.Core.Generators.GenerateWrappersBase.WriteLine*
+  name: WriteLine
+  href: api/Units.Core.Generators.GenerateWrappersBase.html#Units_Core_Generators_GenerateWrappersBase_WriteLine_
+  commentId: Overload:Units.Core.Generators.GenerateWrappersBase.WriteLine
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateWrappersBase.WriteLine
+  nameWithType: GenerateWrappersBase.WriteLine
 - uid: Units.Core.Parser
   name: Units.Core.Parser
   href: api/Units.Core.Parser.html
@@ -740,6 +1714,19 @@ references:
   commentId: T:Units.Core.Parser.Helpers
   fullName: Units.Core.Parser.Helpers
   nameWithType: Helpers
+- uid: Units.Core.Parser.Helpers.MakeItNice(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+  name: MakeItNice(ParserState, IUnit)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_MakeItNice_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Parser.Helpers.MakeItNice(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Parser.Helpers.MakeItNice(Units.Core.Parser.State.ParserState, Units.Core.Parser.State.IUnit)
+  nameWithType: Helpers.MakeItNice(ParserState, IUnit)
+- uid: Units.Core.Parser.Helpers.MakeItNice*
+  name: MakeItNice
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_MakeItNice_
+  commentId: Overload:Units.Core.Parser.Helpers.MakeItNice
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.MakeItNice
+  nameWithType: Helpers.MakeItNice
 - uid: Units.Core.Parser.Helpers.ShortestUnit(Units.Core.Parser.State.BinaryCompositUnit,Units.Core.Parser.State.ParserState)
   name: ShortestUnit(BinaryCompositUnit, ParserState)
   href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ShortestUnit_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_
@@ -819,12 +1806,12 @@ references:
   commentId: T:Units.Core.Parser.Parser
   fullName: Units.Core.Parser.Parser
   nameWithType: Parser
-- uid: Units.Core.Parser.Parser.ParseGrammarString(System.String)
-  name: ParseGrammarString(String)
-  href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_ParseGrammarString_System_String_
-  commentId: M:Units.Core.Parser.Parser.ParseGrammarString(System.String)
-  fullName: Units.Core.Parser.Parser.ParseGrammarString(System.String)
-  nameWithType: Parser.ParseGrammarString(String)
+- uid: Units.Core.Parser.Parser.ParseGrammarString(System.String,Units.Core.Parser.State.IExportHandle)
+  name: ParseGrammarString(String, IExportHandle)
+  href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_ParseGrammarString_System_String_Units_Core_Parser_State_IExportHandle_
+  commentId: M:Units.Core.Parser.Parser.ParseGrammarString(System.String,Units.Core.Parser.State.IExportHandle)
+  fullName: Units.Core.Parser.Parser.ParseGrammarString(System.String, Units.Core.Parser.State.IExportHandle)
+  nameWithType: Parser.ParseGrammarString(String, IExportHandle)
 - uid: Units.Core.Parser.Parser.ParseGrammarString*
   name: ParseGrammarString
   href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_ParseGrammarString_
@@ -832,12 +1819,12 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Parser.ParseGrammarString
   nameWithType: Parser.ParseGrammarString
-- uid: Units.Core.Parser.Parser.PaseGramarFile(System.String)
-  name: PaseGramarFile(String)
-  href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_PaseGramarFile_System_String_
-  commentId: M:Units.Core.Parser.Parser.PaseGramarFile(System.String)
-  fullName: Units.Core.Parser.Parser.PaseGramarFile(System.String)
-  nameWithType: Parser.PaseGramarFile(String)
+- uid: Units.Core.Parser.Parser.PaseGramarFile(System.String,Units.Core.Parser.State.IExportHandle)
+  name: PaseGramarFile(String, IExportHandle)
+  href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_PaseGramarFile_System_String_Units_Core_Parser_State_IExportHandle_
+  commentId: M:Units.Core.Parser.Parser.PaseGramarFile(System.String,Units.Core.Parser.State.IExportHandle)
+  fullName: Units.Core.Parser.Parser.PaseGramarFile(System.String, Units.Core.Parser.State.IExportHandle)
+  nameWithType: Parser.PaseGramarFile(String, IExportHandle)
 - uid: Units.Core.Parser.Parser.PaseGramarFile*
   name: PaseGramarFile
   href: api/Units.Core.Parser.Parser.html#Units_Core_Parser_Parser_PaseGramarFile_
@@ -2013,6 +3000,12 @@ references:
   commentId: M:Units.Core.Parser.State.BinaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.BinaryOperator,Units.Core.Parser.State.IUnit,System.String)
   fullName: Units.Core.Parser.State.BinaryCompositUnit.BinaryCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.BinaryOperator, Units.Core.Parser.State.IUnit, System.String)
   nameWithType: BinaryCompositUnit.BinaryCompositUnit(IUnit, BinaryOperator, IUnit, String)
+- uid: Units.Core.Parser.State.BinaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.BinaryOperator,Units.Core.Parser.State.IUnit,System.String,System.Boolean)
+  name: BinaryCompositUnit(IUnit, BinaryOperator, IUnit, String, Boolean)
+  href: api/Units.Core.Parser.State.BinaryCompositUnit.html#Units_Core_Parser_State_BinaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_BinaryOperator_Units_Core_Parser_State_IUnit_System_String_System_Boolean_
+  commentId: M:Units.Core.Parser.State.BinaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.BinaryOperator,Units.Core.Parser.State.IUnit,System.String,System.Boolean)
+  fullName: Units.Core.Parser.State.BinaryCompositUnit.BinaryCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.BinaryOperator, Units.Core.Parser.State.IUnit, System.String, System.Boolean)
+  nameWithType: BinaryCompositUnit.BinaryCompositUnit(IUnit, BinaryOperator, IUnit, String, Boolean)
 - uid: Units.Core.Parser.State.BinaryCompositUnit.#ctor*
   name: BinaryCompositUnit
   href: api/Units.Core.Parser.State.BinaryCompositUnit.html#Units_Core_Parser_State_BinaryCompositUnit__ctor_
@@ -2453,6 +3446,19 @@ references:
   commentId: T:Units.Core.Parser.State.IUnit
   fullName: Units.Core.Parser.State.IUnit
   nameWithType: IUnit
+- uid: Units.Core.Parser.State.IUnit.IsInfered
+  name: IsInfered
+  href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_IsInfered
+  commentId: P:Units.Core.Parser.State.IUnit.IsInfered
+  fullName: Units.Core.Parser.State.IUnit.IsInfered
+  nameWithType: IUnit.IsInfered
+- uid: Units.Core.Parser.State.IUnit.IsInfered*
+  name: IsInfered
+  href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_IsInfered_
+  commentId: Overload:Units.Core.Parser.State.IUnit.IsInfered
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.IUnit.IsInfered
+  nameWithType: IUnit.IsInfered
 - uid: Units.Core.Parser.State.IUnit.Name
   name: Name
   href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_Name
@@ -2781,12 +3787,12 @@ references:
   commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(System.String,System.String,System.String,System.String)
   fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(System.String, System.String, System.String, System.String)
   nameWithType: ParserState.AddNewCompositUnit(String, String, String, String)
-- uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit)
-  name: AddNewCompositUnit(IUnit, IOperator, IUnit)
-  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_IOperator_Units_Core_Parser_State_IUnit_
-  commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit)
-  fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.IOperator, Units.Core.Parser.State.IUnit)
-  nameWithType: ParserState.AddNewCompositUnit(IUnit, IOperator, IUnit)
+- uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean)
+  name: AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean)
+  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_IOperator_Units_Core_Parser_State_IUnit_System_Boolean_
+  commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean)
+  fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.IOperator, Units.Core.Parser.State.IUnit, System.Boolean)
+  nameWithType: ParserState.AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean)
 - uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit*
   name: AddNewCompositUnit
   href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_
@@ -2941,6 +3947,14 @@ references:
   fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).ReadonlyUnit(System.String)
   nameWithType: ReadonlyUnit<T>.ReadonlyUnit(String)
   nameWithType.vb: ReadonlyUnit(Of T).ReadonlyUnit(String)
+- uid: Units.Core.Parser.State.ReadonlyUnit`1.#ctor(System.String,System.Boolean)
+  name: ReadonlyUnit(String, Boolean)
+  href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1__ctor_System_String_System_Boolean_
+  commentId: M:Units.Core.Parser.State.ReadonlyUnit`1.#ctor(System.String,System.Boolean)
+  fullName: Units.Core.Parser.State.ReadonlyUnit<T>.ReadonlyUnit(System.String, System.Boolean)
+  fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).ReadonlyUnit(System.String, System.Boolean)
+  nameWithType: ReadonlyUnit<T>.ReadonlyUnit(String, Boolean)
+  nameWithType.vb: ReadonlyUnit(Of T).ReadonlyUnit(String, Boolean)
 - uid: Units.Core.Parser.State.ReadonlyUnit`1.#ctor*
   name: ReadonlyUnit
   href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1__ctor_
@@ -3001,6 +4015,23 @@ references:
   fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).GetHashCode
   nameWithType: ReadonlyUnit<T>.GetHashCode
   nameWithType.vb: ReadonlyUnit(Of T).GetHashCode
+- uid: Units.Core.Parser.State.ReadonlyUnit`1.IsInfered
+  name: IsInfered
+  href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_IsInfered
+  commentId: P:Units.Core.Parser.State.ReadonlyUnit`1.IsInfered
+  fullName: Units.Core.Parser.State.ReadonlyUnit<T>.IsInfered
+  fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).IsInfered
+  nameWithType: ReadonlyUnit<T>.IsInfered
+  nameWithType.vb: ReadonlyUnit(Of T).IsInfered
+- uid: Units.Core.Parser.State.ReadonlyUnit`1.IsInfered*
+  name: IsInfered
+  href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_IsInfered_
+  commentId: Overload:Units.Core.Parser.State.ReadonlyUnit`1.IsInfered
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.ReadonlyUnit<T>.IsInfered
+  fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).IsInfered
+  nameWithType: ReadonlyUnit<T>.IsInfered
+  nameWithType.vb: ReadonlyUnit(Of T).IsInfered
 - uid: Units.Core.Parser.State.ReadonlyUnit`1.Name
   name: Name
   href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Name
@@ -3193,6 +4224,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.Scalar.GetHashCode
   nameWithType: Scalar.GetHashCode
+- uid: Units.Core.Parser.State.Scalar.IsInfered
+  name: IsInfered
+  href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_IsInfered
+  commentId: P:Units.Core.Parser.State.Scalar.IsInfered
+  fullName: Units.Core.Parser.State.Scalar.IsInfered
+  nameWithType: Scalar.IsInfered
+- uid: Units.Core.Parser.State.Scalar.IsInfered*
+  name: IsInfered
+  href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_IsInfered_
+  commentId: Overload:Units.Core.Parser.State.Scalar.IsInfered
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.Scalar.IsInfered
+  nameWithType: Scalar.IsInfered
 - uid: Units.Core.Parser.State.Scalar.Name
   name: Name
   href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_Name
@@ -3337,12 +4381,12 @@ references:
   commentId: T:Units.Core.Parser.State.UnaryCompositUnit
   fullName: Units.Core.Parser.State.UnaryCompositUnit
   nameWithType: UnaryCompositUnit
-- uid: Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String)
-  name: UnaryCompositUnit(IUnit, UnaryOperator, String)
-  href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_
-  commentId: M:Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String)
-  fullName: Units.Core.Parser.State.UnaryCompositUnit.UnaryCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.UnaryOperator, System.String)
-  nameWithType: UnaryCompositUnit.UnaryCompositUnit(IUnit, UnaryOperator, String)
+- uid: Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String,System.Boolean)
+  name: UnaryCompositUnit(IUnit, UnaryOperator, String, Boolean)
+  href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit__ctor_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_UnaryOperator_System_String_System_Boolean_
+  commentId: M:Units.Core.Parser.State.UnaryCompositUnit.#ctor(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.UnaryOperator,System.String,System.Boolean)
+  fullName: Units.Core.Parser.State.UnaryCompositUnit.UnaryCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.UnaryOperator, System.String, System.Boolean)
+  nameWithType: UnaryCompositUnit.UnaryCompositUnit(IUnit, UnaryOperator, String, Boolean)
 - uid: Units.Core.Parser.State.UnaryCompositUnit.#ctor*
   name: UnaryCompositUnit
   href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit__ctor_
@@ -3823,12 +4867,63 @@ references:
   commentId: N:Units.Core.Tests
   fullName: Units.Core.Tests
   nameWithType: Units.Core.Tests
+- uid: Units.Core.Tests.CompileException
+  name: CompileException
+  href: api/Units.Core.Tests.CompileException.html
+  commentId: T:Units.Core.Tests.CompileException
+  fullName: Units.Core.Tests.CompileException
+  nameWithType: CompileException
+- uid: Units.Core.Tests.CompileException.#ctor(System.String,System.Exception)
+  name: CompileException(String, Exception)
+  href: api/Units.Core.Tests.CompileException.html#Units_Core_Tests_CompileException__ctor_System_String_System_Exception_
+  commentId: M:Units.Core.Tests.CompileException.#ctor(System.String,System.Exception)
+  fullName: Units.Core.Tests.CompileException.CompileException(System.String, System.Exception)
+  nameWithType: CompileException.CompileException(String, Exception)
+- uid: Units.Core.Tests.CompileException.#ctor(System.String,System.Int32)
+  name: CompileException(String, Int32)
+  href: api/Units.Core.Tests.CompileException.html#Units_Core_Tests_CompileException__ctor_System_String_System_Int32_
+  commentId: M:Units.Core.Tests.CompileException.#ctor(System.String,System.Int32)
+  fullName: Units.Core.Tests.CompileException.CompileException(System.String, System.Int32)
+  nameWithType: CompileException.CompileException(String, Int32)
+- uid: Units.Core.Tests.CompileException.#ctor*
+  name: CompileException
+  href: api/Units.Core.Tests.CompileException.html#Units_Core_Tests_CompileException__ctor_
+  commentId: Overload:Units.Core.Tests.CompileException.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Tests.CompileException.CompileException
+  nameWithType: CompileException.CompileException
+- uid: Units.Core.Tests.CompileException.LineNum
+  name: LineNum
+  href: api/Units.Core.Tests.CompileException.html#Units_Core_Tests_CompileException_LineNum
+  commentId: P:Units.Core.Tests.CompileException.LineNum
+  fullName: Units.Core.Tests.CompileException.LineNum
+  nameWithType: CompileException.LineNum
+- uid: Units.Core.Tests.CompileException.LineNum*
+  name: LineNum
+  href: api/Units.Core.Tests.CompileException.html#Units_Core_Tests_CompileException_LineNum_
+  commentId: Overload:Units.Core.Tests.CompileException.LineNum
+  isSpec: "True"
+  fullName: Units.Core.Tests.CompileException.LineNum
+  nameWithType: CompileException.LineNum
 - uid: Units.Core.Tests.Helpers
   name: Helpers
   href: api/Units.Core.Tests.Helpers.html
   commentId: T:Units.Core.Tests.Helpers
   fullName: Units.Core.Tests.Helpers
   nameWithType: Helpers
+- uid: Units.Core.Tests.Helpers.AddLineNumbers(System.String,System.Int32,System.Int32)
+  name: AddLineNumbers(String, Int32, Int32)
+  href: api/Units.Core.Tests.Helpers.html#Units_Core_Tests_Helpers_AddLineNumbers_System_String_System_Int32_System_Int32_
+  commentId: M:Units.Core.Tests.Helpers.AddLineNumbers(System.String,System.Int32,System.Int32)
+  fullName: Units.Core.Tests.Helpers.AddLineNumbers(System.String, System.Int32, System.Int32)
+  nameWithType: Helpers.AddLineNumbers(String, Int32, Int32)
+- uid: Units.Core.Tests.Helpers.AddLineNumbers*
+  name: AddLineNumbers
+  href: api/Units.Core.Tests.Helpers.html#Units_Core_Tests_Helpers_AddLineNumbers_
+  commentId: Overload:Units.Core.Tests.Helpers.AddLineNumbers
+  isSpec: "True"
+  fullName: Units.Core.Tests.Helpers.AddLineNumbers
+  nameWithType: Helpers.AddLineNumbers
 - uid: Units.Core.Tests.Helpers.DinamicCast(System.Object,System.Type)
   name: DinamicCast(Object, Type)
   href: api/Units.Core.Tests.Helpers.html#Units_Core_Tests_Helpers_DinamicCast_System_Object_System_Type_
@@ -3965,6 +5060,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Tests.UnitTest1.Testing_Test
   nameWithType: UnitTest1.Testing_Test
+- uid: Units.Core.Tests.UnitTest1.TestInitDefinitino
+  name: TestInitDefinitino()
+  href: api/Units.Core.Tests.UnitTest1.html#Units_Core_Tests_UnitTest1_TestInitDefinitino
+  commentId: M:Units.Core.Tests.UnitTest1.TestInitDefinitino
+  fullName: Units.Core.Tests.UnitTest1.TestInitDefinitino()
+  nameWithType: UnitTest1.TestInitDefinitino()
+- uid: Units.Core.Tests.UnitTest1.TestInitDefinitino*
+  name: TestInitDefinitino
+  href: api/Units.Core.Tests.UnitTest1.html#Units_Core_Tests_UnitTest1_TestInitDefinitino_
+  commentId: Overload:Units.Core.Tests.UnitTest1.TestInitDefinitino
+  isSpec: "True"
+  fullName: Units.Core.Tests.UnitTest1.TestInitDefinitino
+  nameWithType: UnitTest1.TestInitDefinitino
 - uid: Units.Core.Tests.UnitTest1.TestOperators
   name: TestOperators()
   href: api/Units.Core.Tests.UnitTest1.html#Units_Core_Tests_UnitTest1_TestOperators
