@@ -17,6 +17,8 @@ $changes = $status | ForEach-Object -Begin {$a = 0} -Process {
     $a = $a + ($_ -like "*updated:*");
 } -End {return $a}
 if ($changes) {
+    git.exe config --global user.name "github_actions_units_core";
+    git.exe config --global user.email "rickobranimir@gmail.com";
     git.exe add .
     git.exe commit -m "Updated documentation"
     git.exe remote add s git@github.com:branc116/units-core-docfx.git
