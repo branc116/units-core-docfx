@@ -18,6 +18,6 @@ Showcase:
 
 #### Check out the code [units-core](https://github.com/branc116/units-core)
 
-#### Check out the code documentation [code docs](/api)
+#### Check out the code documentation [code docs](/api/index)
 
-#### Check out the documentation [docs](/articles)
+#### Check out the documentation [docs](/articles/intro.html)

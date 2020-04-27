@@ -1,7 +1,9 @@
+- name: Getting started
+  href: articles/gettingStarted.md
 - name: Documentation
-  href: articles/
+  href: articles/intro.md
 - name: The CODE documentation
-  href: api/
+  href: /api/
   homepage: api/index.md
 - name: The CODE (github)
   href: https://github.com/branc116/units-core
