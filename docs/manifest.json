@@ -989,6 +989,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/gettingStarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/gettingStarted.html",
+          "hash": "KY7JkJtjK1ijqd8TsLHesA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -1005,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "yLOSfJfVv3vYNE1pikPiUw=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bnI9jNKc76UZjbzF+Zf37w=="
+          "hash": "wKGSnWOzCKGgzk7TK1EWdQ=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "V4y5prOwvZu7AArXAS+5+Q=="
+          "hash": "s/y48RbCrON0diE1xw/rRg=="
         }
       },
       "is_incremental": false,
@@ -1083,7 +1095,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
