@@ -109,4 +109,20 @@ $(document).on("click", "#countdown", () => {
     const el = hashMap["i.id"];
     hashMap["i.id"] = undefined;
     el.remove();
-})
+});
+const ImABaaaaaaaadGuy = async () => {
+    const footer = $("footer");
+    footer.html(`<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-5374995622527963"
+data-ad-slot="8526272107"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>`);
+    const adds = await fetch("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js");
+    const addsTxt = await adds.text();
+    eval(addsTxt);
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+}
+ImABaaaaaaaadGuy()
+    .then(i => console.log("I'm sorry for beeing a bad guy ... :("))
+    .catch(i => console.log("I'm not successfuly beeing a bad guy"));
