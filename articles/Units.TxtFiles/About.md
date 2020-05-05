@@ -4,9 +4,10 @@ Units.txt files is a text file that has definitions of units that you want the U
 It's made to be *easy to use*, *easy to understand*, *modular*, *extendable*, *declerative*.
 Documentation for the sintax is available in related articles.
 
-Easiest way to get familiar with the sintax is to read the [getting started](/gettingStarted.md) article.
+Easiest way to get familiar with the sintax is to read the [getting started](../gettingStarted.md) article.
 
 Heare is the list of commands the units.txt file support right now:
+
 
  * [Export](Export.md)
  * [Infer](Infer.md)

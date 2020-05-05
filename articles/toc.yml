@@ -3,7 +3,8 @@
 - name: Getting started
   href: gettingStarted.md
 - name: Units.txt
-  href: Units.TxtFiles/index.md
+  href: Units.TxtFiles/about.md
+  homepage: Units.TxtFiles/about.md
   items:
     - name: Export
       href: Units.TxtFiles/Export.md
