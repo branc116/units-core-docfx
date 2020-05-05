@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Operators </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Operators ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="operators">Operators</h1>
+
+<p>Define what operators you want to use with your units.</p>
+<p>Subcommands:</p>
+<ul>
+<li><a href="#operators-binary">Binary</a></li>
+<li><a href="#operators-unary">Unary</a></li>
+<li><a href="#operators-self">Self</a></li>
+</ul>
+<hr>
+<h2 id="operators-binary">Operators Binary</h2>
+<h4 id="parameters">Parameters</h4>
+<ul>
+<li>symbol: System.String - What symbol will be used for this operator (<strong>+</strong>, <strong>-</strong>, <strong>*</strong>, ...)</li>
+<li>name: System.String - What is the name of the symbol</li>
+<li>leftCount: System.String</li>
+<li>rightCount: System.String</li>
+</ul>
+<p>Left count and right count are defined defined like this:
+If one has an expression expr1 op expr2 then that the count of expr1 will be expr1.count * op.leftCount and
+cout of expr2 will be expr2.count * op.rightCount.
+This is useful if one have custom operator that behve unexpectedly.</p>
+<h4 id="usage">Usage</h4>
+<p><code>Operators(Binary) := (*, Times, 1, 1)</code></p>
+<p>This will add binary operator that has left count 1 and the right count 1 -- Multiplication.</p>
+<p>To get and expected behaviar add this line of code to units.txt file:</p>
+<p><code>Operators(Binary) := (*, Times, 1, 1) | (/, Per, 1, -1)</code></p>
+<hr>
+<h2 id="operators-unary">Operators Unary</h2>
+<p>Add new unary operator.</p>
+<h4 id="parameters-1">Parameters</h4>
+<ul>
+<li>name: System.String - Name of the unary operator. When generating code this will be used as a method name.</li>
+<li>rightCount: System.String</li>
+</ul>
+<p>Similar to the explenation for leftCount and rightCount in Operator Binary command.</p>
+<h4 id="usage-1">Usage</h4>
+<p><code>Operators(Unary) := Square, 2 | SquareRoot, 0.5</code></p>
+<p>This will add 2 unary operator: Square and Square root</p>
+<hr>
+<h2 id="operators-self">Operators Self</h2>
+<p>Operator that will not change the units type to other units type.
+This operator will return the constant type - no matter what is the state.</p>
+<h4 id="parameters-2">Parameters</h4>
+<ul>
+<li>symbol: System.String - Symbol ( <strong>+</strong>, <strong>-</strong>, <strong>/</strong>, ...)</li>
+<li>name: System.String - Name of the operator</li>
+<li>retName: System.String - Return type of the operation or <strong>&quot;null&quot;</strong> if the return type is equal to unit</li>
+</ul>
+<h4 id="usage-2">Usage</h4>
+<p><code>Operators(Self) := (&lt;=, LessOrEqualThen, bool) | (==, Equal, bool) | (+, Plus, null)</code></p>
+<p>This will define 3 new self operators <strong>&lt;=</strong>, <strong>==</strong>, <strong>+</strong></p>
+<p>Standard operators that one'd like to have defined are:</p>
+<p><code>Opeartors(Self) := (&lt;, Lt, bool) | (&lt;=, Let, bool) | (&gt;, Gt, bool) | (&gt;=, Get, bool) | (==, Eq, bool) | (!=, Ne, bool) | (+, Plus, null) | (-, Minus, null)</code></p>
+<hr>
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/branc116/units-core-docfx/blob/master/articles/Units.TxtFiles/Operators.md/#L1" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+          <p>ad :(</p>
+          <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5374995622527963" data-ad-slot="8526272107" data-ad-format="auto" data-full-width-responsive="true">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
