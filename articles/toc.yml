@@ -2,3 +2,23 @@
   href: intro.md
 - name: Getting started
   href: gettingStarted.md
+- name: Units.txt
+  href: Units.TxtFiles/index.md
+  items:
+    - name: Export
+      href: Units.TxtFiles/Export.md
+    - name: Infer
+      href: Units.TxtFiles/Infer.md
+    - name: NewUnit
+      href: Units.TxtFiles/NewUnit.md
+    - name: Operator
+      href: Units.TxtFiles/Operator.md
+    - name: Operators
+      href: Units.TxtFiles/Operators.md
+    - name: Real
+      href: Units.TxtFiles/Real.md
+    - name: Unit
+      href: Units.TxtFiles/Unit.md
+    - name: UnitsNet
+      href: Units.TxtFiles/UnitsNet.md
+ 
