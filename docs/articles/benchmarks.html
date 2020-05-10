@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Benchmarks </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Benchmarks ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="benchmarks">Benchmarks</h1>
+
+<h2 id="custom-benchmark">Custom benchmark</h2>
+<h3 id="results">Results</h3>
+<p><img src="/images/benchmark2.png" alt="Length Benchmark"></p>
+<hr>
+<h3 id="code-for-benchmark">Code for benchmark</h3>
+<pre><code class="lang-C#">
+using System;
+using System.Collections.Generic;
+using Units.RealFloat;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        if (args.Length == 0)
+        {
+            return;
+        }
+        if (args[0] == &quot;length&quot;)
+        {
+            var len = Length.FromYard(1f);
+            var yard = Length.FromYard(1f);
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{(float)(len.ToMeter())} meters&quot;);
+        }
+        else if (args[0] == &quot;unitsnet&quot;)
+        {
+            var len = UnitsNet.Length.FromYards(1f);
+            var yard = UnitsNet.Length.FromYards(1f);
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{len.Meters} meters&quot;);
+        }
+        else if (args[0] == &quot;float&quot;)
+        {
+            var len = 0.9144f;
+            var yard = 0.9144f;
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{len} meters&quot;);
+        }
+        else if (args[0] == &quot;double&quot;)
+        {
+            var len = 0.9144f;
+            var yard = 0.9144f;
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{len} meters&quot;);
+        }
+        else if (args[0] == &quot;scalar&quot;)
+        {
+            var len = (Numbers.RealFloats.RealFloat)1f;
+            var yard = (Numbers.RealFloats.RealFloat)0.9144f;
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{(float)len} meters&quot;);
+        }
+        else if (args[0] == &quot;scalarD&quot;)
+        {
+            var len = (Numbers.RealDoubles.RealDouble)1f;
+            var yard = (Numbers.RealDoubles.RealDouble)0.9144f;
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{(float)len} meters&quot;);
+        }
+        else if (args[0] == &quot;lengthD&quot;)
+        {
+            var len = Units.RealDouble.Length.FromYard(1f);
+            var yard = Units.RealDouble.Length.FromYard(1f);
+            for (int i = 0; i &lt; 10000000; i++)
+            {
+                len += yard;
+            }
+            System.Console.WriteLine($&quot;{(float)(len)} meters&quot;);
+        }
+    }
+}
+
+</code></pre>
+<h2 id="benchmarknet-benchmark">BenchmarkNet benchmark</h2>
+<h3 id="system">System</h3>
+<pre><code>BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.815 (1909/November2018Update/19H2)
+Intel Core i5-5200U CPU 2.20GHz (Broadwell), 1 CPU, 4 logical and 2 physical cores
+.NET Core SDK=5.0.100-preview.3.20216.6
+  [Host]        : .NET Core 5.0.0 (CoreCLR 5.0.20.21406, CoreFX 5.0.20.21406), X64 RyuJIT  [AttachedDebugger]
+  .NET Core 5.0 : .NET Core 5.0.0 (CoreCLR 5.0.20.21406, CoreFX 5.0.20.21406), X64 RyuJIT
+  CoreRt 5.0    : .NET CoreRT 1.0.28905.01 @BuiltBy: dlab14-DDVSOWINAGE063 @Branch: master @Commit: 8428c6630b6e3e1c66446a5040ba1c0a077d2725, X64 AOT
+</code></pre>
+<h3 id="results-1">Results</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Job</th>
+<th>Runtime</th>
+<th>N</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">Error</th>
+<th style="text-align: right;">StdDev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnitsCore_Length_Float</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">11.583 μs</td>
+<td style="text-align: right;">0.1145 μs</td>
+<td style="text-align: right;">0.1071 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Length_Double</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">11.607 μs</td>
+<td style="text-align: right;">0.1780 μs</td>
+<td style="text-align: right;">0.1665 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Scalar_Float</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">7.507 μs</td>
+<td style="text-align: right;">0.0231 μs</td>
+<td style="text-align: right;">0.0205 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Scalar_Double</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">7.522 μs</td>
+<td style="text-align: right;">0.0653 μs</td>
+<td style="text-align: right;">0.0546 μs</td>
+</tr>
+<tr>
+<td>System_Single</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">1.151 μs</td>
+<td style="text-align: right;">0.0059 μs</td>
+<td style="text-align: right;">0.0052 μs</td>
+</tr>
+<tr>
+<td>System_Double</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">1.149 μs</td>
+<td style="text-align: right;">0.0049 μs</td>
+<td style="text-align: right;">0.0041 μs</td>
+</tr>
+<tr>
+<td>UnitsNet_Length</td>
+<td>NET Core 5.0</td>
+<td>.NET Core 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">22.225 μs</td>
+<td style="text-align: right;">0.3612 μs</td>
+<td style="text-align: right;">0.3202 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Length_Float</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">11.855 μs</td>
+<td style="text-align: right;">0.2321 μs</td>
+<td style="text-align: right;">0.2763 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Length_Double</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">11.549 μs</td>
+<td style="text-align: right;">0.0839 μs</td>
+<td style="text-align: right;">0.0785 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Scalar_Float</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">7.509 μs</td>
+<td style="text-align: right;">0.0419 μs</td>
+<td style="text-align: right;">0.0392 μs</td>
+</tr>
+<tr>
+<td>UnitsCore_Scalar_Double</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">7.613 μs</td>
+<td style="text-align: right;">0.1304 μs</td>
+<td style="text-align: right;">0.1220 μs</td>
+</tr>
+<tr>
+<td>System_Single</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">1.150 μs</td>
+<td style="text-align: right;">0.0051 μs</td>
+<td style="text-align: right;">0.0039 μs</td>
+</tr>
+<tr>
+<td>System_Double</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">1.150 μs</td>
+<td style="text-align: right;">0.0074 μs</td>
+<td style="text-align: right;">0.0066 μs</td>
+</tr>
+<tr>
+<td>UnitsNet_Length</td>
+<td>CoreRt 5.0</td>
+<td>CoreRt 5.0</td>
+<td>1000</td>
+<td style="text-align: right;">22.757 μs</td>
+<td style="text-align: right;">0.1787 μs</td>
+<td style="text-align: right;">0.1584 μs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="code-for-benchmark-1">Code for benchmark</h3>
+<pre><code class="lang-C#">
+using System;
+using System.Collections.Generic;
+using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using Units.RealFloat;
+
+[SimpleJob(runtimeMoniker: BenchmarkDotNet.Jobs.RuntimeMoniker.CoreRt50)]
+[SimpleJob(runtimeMoniker: BenchmarkDotNet.Jobs.RuntimeMoniker.NetCoreApp50)]
+[MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
+public class AddingBenchmark
+{
+    [Params(1000)]
+    public int N { get; set; }
+    private readonly Length lf = Length.FromYard(1f);
+    private readonly Units.RealDouble.Length ld = Units.RealDouble.Length.FromYard(1);
+    private readonly Numbers.RealFloats.RealFloat rf = 1f;
+    private readonly Numbers.RealDoubles.RealDouble rd = 1f;
+    private readonly float f = 1f;
+    private readonly double d = 1;
+    private readonly UnitsNet.Length unl = UnitsNet.Length.FromYards(1);
+
+    [Benchmark]
+    public Length UnitsCore_Length_Float()
+    {
+        var v = lf;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += lf;
+        }
+        return v;
+    }
+    [Benchmark]
+    public Units.RealDouble.Length UnitsCore_Length_Double()
+    {
+        var v = ld;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += ld;
+        }
+        return v;
+    }
+    [Benchmark]
+    public Numbers.RealFloats.RealFloat UnitsCore_Scalar_Float()
+    {
+        var v = rf;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += rf;
+        }
+        return v;
+    }
+    [Benchmark]
+    public Numbers.RealDoubles.RealDouble UnitsCore_Scalar_Double()
+    {
+        var v = rd;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += rd;
+        }
+        return v;
+    }
+    [Benchmark]
+    public float System_Single()
+    {
+        var v = f;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += f;
+        }
+        return v;
+    }
+    [Benchmark]
+    public double System_Double()
+    {
+        var v = d;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += d;
+        }
+        return v;
+    }
+    [Benchmark]
+    public UnitsNet.Length UnitsNet_Length()
+    {
+        var v = unl;
+        for (int i = 0; i &lt; N; i++)
+        {
+            v += unl;
+        }
+        return v;
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        BenchmarkRunner.Run&lt;AddingBenchmark&gt;();
+    }
+}
+
+</code></pre>
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/branc116/units-core-docfx/blob/master/articles/benchmarks.md/#L1" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+          <p>ad :(</p>
+          <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5374995622527963" data-ad-slot="8526272107" data-ad-format="auto" data-full-width-responsive="true">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

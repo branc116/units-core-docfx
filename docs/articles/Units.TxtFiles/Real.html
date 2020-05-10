@@ -69,20 +69,47 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="real">Real</h1>
 
+<p>Define what types you want to have Units.Core work with. You can have clr types like <strong>float</strong> or <strong>double</strong>.
+Or you can have types that are defined in 3rd party librarers like <strong>Godot.Vector3</strong> or <strong>UnityEngine.CoreModule.Vector2</strong>, ...
+Or you can have your own types that you defined in your own library.</p>
+<p>If you are using 3rd pary library you have to reference it using nuget or dll reference and you have to provide
+the full name (E.g. if you want to use Vector3 defined in Godot package, you have to specify <strong>Godot.Vector3</strong>)</p>
 <p>Subcommands:</p>
 <ul>
 <li><a href="#real-types">Types</a></li>
 </ul>
 <hr>
 <h2 id="real-types">Real Types</h2>
+<p>Used for adding new wrapper types.</p>
 <h4 id="parameters">Parameters</h4>
 <ul>
-<li>clrTypeName: System.String - TODO</li>
-<li>wrapperName: System.String - TODO</li>
+<li>clrTypeName: System.String - Name of the base type</li>
+<li>wrapperName: System.String - Name of the wrapper type</li>
 </ul>
 <h4 id="usage">Usage</h4>
-<p><code>!Real Types clrTypeName, wrapperName</code></p>
+<p><code>!Real Types float, floatWrapper</code></p>
+<p>This will create new Wrapper type that wraps float type inside itself.
+Foreach new defined type all of the units defined will be genererated.</p>
+<p>This implyes that if you define 10 units and 2 wrapper types there will be defined:</p>
+<ul>
+<li>10 unit types for 1st wrapper type</li>
+<li>10 unit types for 2nd wrapper type</li>
+<li>Scalar type for 1st wrapper type</li>
+<li>Scalar type for 2nd wrapper type</li>
+<li>generic inteface that 1st and 2nd wrapper must implement</li>
+</ul>
 <hr>
+<h4 id="plans-for-the-future">Plans for the future</h4>
+<p>Plans for the future are to have operations between wrapper types.
+In those operations one could define how to convert between wrapper types.</p>
+<p>E.G.</p>
+<p>1st wrapper class is Vector3
+2nd wrapper class is float</p>
+<p>It should be possible to define operation between them</p>
+<p><strong>Vector3</strong> * <strong>float</strong> = <strong>Vector3</strong>
+<strong>Vector3</strong> / <strong>float</strong> = <strong>Vector3</strong>
+<strong>Vector3</strong> + <strong>float</strong> = <strong>Vector3</strong>
+<strong>Vector3</strong> - <strong>float</strong> = <strong>Vector3</strong></p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">

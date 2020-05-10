@@ -69,21 +69,19 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="unit">Unit</h1>
 
-<p>Subcommands:</p>
-<ul>
-<li><a href="#unit-all"></a></li>
-</ul>
+<p>Command for defining new measuremen.</p>
 <hr>
 <h2 id="unit-1">Unit</h2>
+<p>Unit(for) := (name, expr, sym)</p>
 <h4 id="parameters">Parameters</h4>
 <ul>
-<li>for: System.String - TODO</li>
-<li>name: System.String - TODO</li>
-<li>expr: System.String - TODO</li>
-<li>sym: System.String - TODO</li>
+<li>for: System.String - for what unit do you want to define measurement</li>
+<li>name: System.String - name of the measurement</li>
+<li>expr: System.String - expression to convert the mesurment to the base measurement</li>
+<li>sym: System.String - what is the symbol for the measurement</li>
 </ul>
 <h4 id="usage">Usage</h4>
-<p><code>!Unit for, name, expr, sym</code></p>
+<p><code>Unit(Length) := (meter, x, m) | (mile, x * 0.00062137, mile)</code></p>
 <hr>
 </article>
           </div>

@@ -69,6 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="unitsnet">UnitsNet</h1>
 
+<p>Command for integration with current state-of-the-art units library for c#</p>
 <p>Subcommands:</p>
 <ul>
 <li><a href="#unitsnet-dimension">Dimension</a></li>
@@ -76,17 +77,22 @@
 </ul>
 <hr>
 <h2 id="unitsnet-dimension">UnitsNet Dimension</h2>
+<p>Use dimension defined in UnitsNet library.</p>
 <h4 id="parameters">Parameters</h4>
 <ul>
-<li>dimensionName: System.String - TODO</li>
+<li>dimensionName: System.String - Dimension name you want to grab from UnitsNet library</li>
 </ul>
 <h4 id="usage">Usage</h4>
-<p><code>!UnitsNet Dimension dimensionName</code></p>
+<p><code>UnitsNet(Dimension) := Length | Mass | Duration | Acceleration | Speed</code></p>
+<p>This will grab all the inforomation for the dimensions that UnitsNet team has defined.</p>
+<p>It will grab Names of the dimensions, measurement names, expressions for converion, descriptions for the units, ...</p>
 <hr>
 <h2 id="unitsnet-all">UnitsNet All</h2>
+<p>Grab everything for every unit that UntisNet team has defined.
+It's about 80 dimensions and for every dimension about 5 units of measurement.</p>
 <h4 id="usage-1">Usage</h4>
 <p><code>!UnitsNet All</code></p>
-<hr>
+<h2 id="grabs-everything-that-unitsnet-has">Grabs everything that UnitsNet has.</h2>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
