@@ -7,6 +7,34 @@ references:
   commentId: N:Units.Core
   fullName: Units.Core
   nameWithType: Units.Core
+- uid: Units.Core.Benchmark
+  name: Units.Core.Benchmark
+  href: api/Units.Core.Benchmark.html
+  commentId: N:Units.Core.Benchmark
+  fullName: Units.Core.Benchmark
+  nameWithType: Units.Core.Benchmark
+- uid: Units.Core.Benchmark.Program
+  name: Program
+  href: api/Units.Core.Benchmark.Program.html
+  commentId: T:Units.Core.Benchmark.Program
+  fullName: Units.Core.Benchmark.Program
+  nameWithType: Program
+- uid: Units.Core.Benchmark.Program.Main(System.String[])
+  name: Main(String[])
+  href: api/Units.Core.Benchmark.Program.html#Units_Core_Benchmark_Program_Main_System_String___
+  commentId: M:Units.Core.Benchmark.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: Units.Core.Benchmark.Program.Main(System.String[])
+  fullName.vb: Units.Core.Benchmark.Program.Main(System.String())
+  nameWithType: Program.Main(String[])
+  nameWithType.vb: Program.Main(String())
+- uid: Units.Core.Benchmark.Program.Main*
+  name: Main
+  href: api/Units.Core.Benchmark.Program.html#Units_Core_Benchmark_Program_Main_
+  commentId: Overload:Units.Core.Benchmark.Program.Main
+  isSpec: "True"
+  fullName: Units.Core.Benchmark.Program.Main
+  nameWithType: Program.Main
 - uid: Units.Core.CommandLineOptions
   name: Units.Core.CommandLineOptions
   href: api/Units.Core.CommandLineOptions.html
@@ -298,6 +326,387 @@ references:
   commentId: N:Units.Core.Generators
   fullName: Units.Core.Generators
   nameWithType: Units.Core.Generators
+- uid: Units.Core.Generators.BinaryOperaorModel
+  name: BinaryOperaorModel
+  href: api/Units.Core.Generators.BinaryOperaorModel.html
+  commentId: T:Units.Core.Generators.BinaryOperaorModel
+  fullName: Units.Core.Generators.BinaryOperaorModel
+  nameWithType: BinaryOperaorModel
+- uid: Units.Core.Generators.BinaryOperaorModel.#ctor(System.String,System.String,System.String,System.String,System.String)
+  name: BinaryOperaorModel(String, String, String, String, String)
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel__ctor_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Units.Core.Generators.BinaryOperaorModel.#ctor(System.String,System.String,System.String,System.String,System.String)
+  fullName: Units.Core.Generators.BinaryOperaorModel.BinaryOperaorModel(System.String, System.String, System.String, System.String, System.String)
+  nameWithType: BinaryOperaorModel.BinaryOperaorModel(String, String, String, String, String)
+- uid: Units.Core.Generators.BinaryOperaorModel.#ctor*
+  name: BinaryOperaorModel
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel__ctor_
+  commentId: Overload:Units.Core.Generators.BinaryOperaorModel.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Generators.BinaryOperaorModel.BinaryOperaorModel
+  nameWithType: BinaryOperaorModel.BinaryOperaorModel
+- uid: Units.Core.Generators.BinaryOperaorModel.l
+  name: l
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel_l
+  commentId: F:Units.Core.Generators.BinaryOperaorModel.l
+  fullName: Units.Core.Generators.BinaryOperaorModel.l
+  nameWithType: BinaryOperaorModel.l
+- uid: Units.Core.Generators.BinaryOperaorModel.method
+  name: method
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel_method
+  commentId: F:Units.Core.Generators.BinaryOperaorModel.method
+  fullName: Units.Core.Generators.BinaryOperaorModel.method
+  nameWithType: BinaryOperaorModel.method
+- uid: Units.Core.Generators.BinaryOperaorModel.name
+  name: name
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel_name
+  commentId: F:Units.Core.Generators.BinaryOperaorModel.name
+  fullName: Units.Core.Generators.BinaryOperaorModel.name
+  nameWithType: BinaryOperaorModel.name
+- uid: Units.Core.Generators.BinaryOperaorModel.r
+  name: r
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel_r
+  commentId: F:Units.Core.Generators.BinaryOperaorModel.r
+  fullName: Units.Core.Generators.BinaryOperaorModel.r
+  nameWithType: BinaryOperaorModel.r
+- uid: Units.Core.Generators.BinaryOperaorModel.returnType
+  name: returnType
+  href: api/Units.Core.Generators.BinaryOperaorModel.html#Units_Core_Generators_BinaryOperaorModel_returnType
+  commentId: F:Units.Core.Generators.BinaryOperaorModel.returnType
+  fullName: Units.Core.Generators.BinaryOperaorModel.returnType
+  nameWithType: BinaryOperaorModel.returnType
+- uid: Units.Core.Generators.ConverterModel
+  name: ConverterModel
+  href: api/Units.Core.Generators.ConverterModel.html
+  commentId: T:Units.Core.Generators.ConverterModel
+  fullName: Units.Core.Generators.ConverterModel
+  nameWithType: ConverterModel
+- uid: Units.Core.Generators.ConverterModel.#ctor(System.String,System.String,System.String,System.String,System.String)
+  name: ConverterModel(String, String, String, String, String)
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel__ctor_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Units.Core.Generators.ConverterModel.#ctor(System.String,System.String,System.String,System.String,System.String)
+  fullName: Units.Core.Generators.ConverterModel.ConverterModel(System.String, System.String, System.String, System.String, System.String)
+  nameWithType: ConverterModel.ConverterModel(String, String, String, String, String)
+- uid: Units.Core.Generators.ConverterModel.#ctor*
+  name: ConverterModel
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel__ctor_
+  commentId: Overload:Units.Core.Generators.ConverterModel.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Generators.ConverterModel.ConverterModel
+  nameWithType: ConverterModel.ConverterModel
+- uid: Units.Core.Generators.ConverterModel.expr
+  name: expr
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel_expr
+  commentId: F:Units.Core.Generators.ConverterModel.expr
+  fullName: Units.Core.Generators.ConverterModel.expr
+  nameWithType: ConverterModel.expr
+- uid: Units.Core.Generators.ConverterModel.name
+  name: name
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel_name
+  commentId: F:Units.Core.Generators.ConverterModel.name
+  fullName: Units.Core.Generators.ConverterModel.name
+  nameWithType: ConverterModel.name
+- uid: Units.Core.Generators.ConverterModel.params
+  name: params
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel_params
+  commentId: F:Units.Core.Generators.ConverterModel.params
+  fullName: Units.Core.Generators.ConverterModel.params
+  nameWithType: ConverterModel.params
+- uid: Units.Core.Generators.ConverterModel.remarks
+  name: remarks
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel_remarks
+  commentId: F:Units.Core.Generators.ConverterModel.remarks
+  fullName: Units.Core.Generators.ConverterModel.remarks
+  nameWithType: ConverterModel.remarks
+- uid: Units.Core.Generators.ConverterModel.summary
+  name: summary
+  href: api/Units.Core.Generators.ConverterModel.html#Units_Core_Generators_ConverterModel_summary
+  commentId: F:Units.Core.Generators.ConverterModel.summary
+  fullName: Units.Core.Generators.ConverterModel.summary
+  nameWithType: ConverterModel.summary
+- uid: Units.Core.Generators.GenerateConverters
+  name: GenerateConverters
+  href: api/Units.Core.Generators.GenerateConverters.html
+  commentId: T:Units.Core.Generators.GenerateConverters
+  fullName: Units.Core.Generators.GenerateConverters
+  nameWithType: GenerateConverters
+- uid: Units.Core.Generators.GenerateConverters.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+  name: GenerateConverters(ParserState, IUnit)
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters__ctor_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Generators.GenerateConverters.#ctor(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
+  fullName: Units.Core.Generators.GenerateConverters.GenerateConverters(Units.Core.Parser.State.ParserState, Units.Core.Parser.State.IUnit)
+  nameWithType: GenerateConverters.GenerateConverters(ParserState, IUnit)
+- uid: Units.Core.Generators.GenerateConverters.#ctor*
+  name: GenerateConverters
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters__ctor_
+  commentId: Overload:Units.Core.Generators.GenerateConverters.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConverters.GenerateConverters
+  nameWithType: GenerateConverters.GenerateConverters
+- uid: Units.Core.Generators.GenerateConverters.GetConverts
+  name: GetConverts()
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_GetConverts
+  commentId: M:Units.Core.Generators.GenerateConverters.GetConverts
+  fullName: Units.Core.Generators.GenerateConverters.GetConverts()
+  nameWithType: GenerateConverters.GetConverts()
+- uid: Units.Core.Generators.GenerateConverters.GetConverts*
+  name: GetConverts
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_GetConverts_
+  commentId: Overload:Units.Core.Generators.GenerateConverters.GetConverts
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConverters.GetConverts
+  nameWithType: GenerateConverters.GetConverts
+- uid: Units.Core.Generators.GenerateConverters.State
+  name: State
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_State
+  commentId: P:Units.Core.Generators.GenerateConverters.State
+  fullName: Units.Core.Generators.GenerateConverters.State
+  nameWithType: GenerateConverters.State
+- uid: Units.Core.Generators.GenerateConverters.State*
+  name: State
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_State_
+  commentId: Overload:Units.Core.Generators.GenerateConverters.State
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConverters.State
+  nameWithType: GenerateConverters.State
+- uid: Units.Core.Generators.GenerateConverters.TransformText
+  name: TransformText()
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_TransformText
+  commentId: M:Units.Core.Generators.GenerateConverters.TransformText
+  fullName: Units.Core.Generators.GenerateConverters.TransformText()
+  nameWithType: GenerateConverters.TransformText()
+- uid: Units.Core.Generators.GenerateConverters.TransformText*
+  name: TransformText
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_TransformText_
+  commentId: Overload:Units.Core.Generators.GenerateConverters.TransformText
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConverters.TransformText
+  nameWithType: GenerateConverters.TransformText
+- uid: Units.Core.Generators.GenerateConverters.Unit
+  name: Unit
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_Unit
+  commentId: P:Units.Core.Generators.GenerateConverters.Unit
+  fullName: Units.Core.Generators.GenerateConverters.Unit
+  nameWithType: GenerateConverters.Unit
+- uid: Units.Core.Generators.GenerateConverters.Unit*
+  name: Unit
+  href: api/Units.Core.Generators.GenerateConverters.html#Units_Core_Generators_GenerateConverters_Unit_
+  commentId: Overload:Units.Core.Generators.GenerateConverters.Unit
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConverters.Unit
+  nameWithType: GenerateConverters.Unit
+- uid: Units.Core.Generators.GenerateConvertersBase
+  name: GenerateConvertersBase
+  href: api/Units.Core.Generators.GenerateConvertersBase.html
+  commentId: T:Units.Core.Generators.GenerateConvertersBase
+  fullName: Units.Core.Generators.GenerateConvertersBase
+  nameWithType: GenerateConvertersBase
+- uid: Units.Core.Generators.GenerateConvertersBase.ClearIndent
+  name: ClearIndent()
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_ClearIndent
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.ClearIndent
+  fullName: Units.Core.Generators.GenerateConvertersBase.ClearIndent()
+  nameWithType: GenerateConvertersBase.ClearIndent()
+- uid: Units.Core.Generators.GenerateConvertersBase.ClearIndent*
+  name: ClearIndent
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_ClearIndent_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.ClearIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.ClearIndent
+  nameWithType: GenerateConvertersBase.ClearIndent
+- uid: Units.Core.Generators.GenerateConvertersBase.CurrentIndent
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_CurrentIndent
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.CurrentIndent
+  fullName: Units.Core.Generators.GenerateConvertersBase.CurrentIndent
+  nameWithType: GenerateConvertersBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateConvertersBase.CurrentIndent*
+  name: CurrentIndent
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_CurrentIndent_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.CurrentIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.CurrentIndent
+  nameWithType: GenerateConvertersBase.CurrentIndent
+- uid: Units.Core.Generators.GenerateConvertersBase.Error(System.String)
+  name: Error(String)
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Error_System_String_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.Error(System.String)
+  fullName: Units.Core.Generators.GenerateConvertersBase.Error(System.String)
+  nameWithType: GenerateConvertersBase.Error(String)
+- uid: Units.Core.Generators.GenerateConvertersBase.Error*
+  name: Error
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Error_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.Error
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.Error
+  nameWithType: GenerateConvertersBase.Error
+- uid: Units.Core.Generators.GenerateConvertersBase.Errors
+  name: Errors
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Errors
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.Errors
+  fullName: Units.Core.Generators.GenerateConvertersBase.Errors
+  nameWithType: GenerateConvertersBase.Errors
+- uid: Units.Core.Generators.GenerateConvertersBase.Errors*
+  name: Errors
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Errors_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.Errors
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.Errors
+  nameWithType: GenerateConvertersBase.Errors
+- uid: Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_GenerationEnvironment
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment
+  fullName: Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment
+  nameWithType: GenerateConvertersBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment*
+  name: GenerationEnvironment
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_GenerationEnvironment_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.GenerationEnvironment
+  nameWithType: GenerateConvertersBase.GenerationEnvironment
+- uid: Units.Core.Generators.GenerateConvertersBase.PopIndent
+  name: PopIndent()
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_PopIndent
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.PopIndent
+  fullName: Units.Core.Generators.GenerateConvertersBase.PopIndent()
+  nameWithType: GenerateConvertersBase.PopIndent()
+- uid: Units.Core.Generators.GenerateConvertersBase.PopIndent*
+  name: PopIndent
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_PopIndent_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.PopIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.PopIndent
+  nameWithType: GenerateConvertersBase.PopIndent
+- uid: Units.Core.Generators.GenerateConvertersBase.PushIndent(System.String)
+  name: PushIndent(String)
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_PushIndent_System_String_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.PushIndent(System.String)
+  fullName: Units.Core.Generators.GenerateConvertersBase.PushIndent(System.String)
+  nameWithType: GenerateConvertersBase.PushIndent(String)
+- uid: Units.Core.Generators.GenerateConvertersBase.PushIndent*
+  name: PushIndent
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_PushIndent_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.PushIndent
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.PushIndent
+  nameWithType: GenerateConvertersBase.PushIndent
+- uid: Units.Core.Generators.GenerateConvertersBase.Session
+  name: Session
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Session
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.Session
+  fullName: Units.Core.Generators.GenerateConvertersBase.Session
+  nameWithType: GenerateConvertersBase.Session
+- uid: Units.Core.Generators.GenerateConvertersBase.Session*
+  name: Session
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Session_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.Session
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.Session
+  nameWithType: GenerateConvertersBase.Session
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringHelper
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_ToStringHelper
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.ToStringHelper
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringHelper
+  nameWithType: GenerateConvertersBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringHelper*
+  name: ToStringHelper
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_ToStringHelper_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.ToStringHelper
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringHelper
+  nameWithType: GenerateConvertersBase.ToStringHelper
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper
+  name: GenerateConvertersBase.ToStringInstanceHelper
+  href: api/Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.html
+  commentId: T:Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper
+  nameWithType: GenerateConvertersBase.ToStringInstanceHelper
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateConvertersBase_ToStringInstanceHelper_FormatProvider
+  commentId: P:Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider*
+  name: FormatProvider
+  href: api/Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateConvertersBase_ToStringInstanceHelper_FormatProvider_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+  nameWithType: GenerateConvertersBase.ToStringInstanceHelper.FormatProvider
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  name: ToStringWithCulture(Object)
+  href: api/Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateConvertersBase_ToStringInstanceHelper_ToStringWithCulture_System_Object_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture(System.Object)
+  nameWithType: GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture(Object)
+- uid: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture*
+  name: ToStringWithCulture
+  href: api/Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.html#Units_Core_Generators_GenerateConvertersBase_ToStringInstanceHelper_ToStringWithCulture_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture
+  nameWithType: GenerateConvertersBase.ToStringInstanceHelper.ToStringWithCulture
+- uid: Units.Core.Generators.GenerateConvertersBase.Warning(System.String)
+  name: Warning(String)
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Warning_System_String_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.Warning(System.String)
+  fullName: Units.Core.Generators.GenerateConvertersBase.Warning(System.String)
+  nameWithType: GenerateConvertersBase.Warning(String)
+- uid: Units.Core.Generators.GenerateConvertersBase.Warning*
+  name: Warning
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Warning_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.Warning
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.Warning
+  nameWithType: GenerateConvertersBase.Warning
+- uid: Units.Core.Generators.GenerateConvertersBase.Write(System.String)
+  name: Write(String)
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Write_System_String_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.Write(System.String)
+  fullName: Units.Core.Generators.GenerateConvertersBase.Write(System.String)
+  nameWithType: GenerateConvertersBase.Write(String)
+- uid: Units.Core.Generators.GenerateConvertersBase.Write(System.String,System.Object[])
+  name: Write(String, Object[])
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Write_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.Write(System.String,System.Object[])
+  name.vb: Write(String, Object())
+  fullName: Units.Core.Generators.GenerateConvertersBase.Write(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateConvertersBase.Write(System.String, System.Object())
+  nameWithType: GenerateConvertersBase.Write(String, Object[])
+  nameWithType.vb: GenerateConvertersBase.Write(String, Object())
+- uid: Units.Core.Generators.GenerateConvertersBase.Write*
+  name: Write
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_Write_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.Write
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.Write
+  nameWithType: GenerateConvertersBase.Write
+- uid: Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String)
+  name: WriteLine(String)
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_WriteLine_System_String_
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String)
+  fullName: Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String)
+  nameWithType: GenerateConvertersBase.WriteLine(String)
+- uid: Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String,System.Object[])
+  name: WriteLine(String, Object[])
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_WriteLine_System_String_System_Object___
+  commentId: M:Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String,System.Object[])
+  name.vb: WriteLine(String, Object())
+  fullName: Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String, System.Object[])
+  fullName.vb: Units.Core.Generators.GenerateConvertersBase.WriteLine(System.String, System.Object())
+  nameWithType: GenerateConvertersBase.WriteLine(String, Object[])
+  nameWithType.vb: GenerateConvertersBase.WriteLine(String, Object())
+- uid: Units.Core.Generators.GenerateConvertersBase.WriteLine*
+  name: WriteLine
+  href: api/Units.Core.Generators.GenerateConvertersBase.html#Units_Core_Generators_GenerateConvertersBase_WriteLine_
+  commentId: Overload:Units.Core.Generators.GenerateConvertersBase.WriteLine
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateConvertersBase.WriteLine
+  nameWithType: GenerateConvertersBase.WriteLine
 - uid: Units.Core.Generators.GenerateEdgeOperators
   name: GenerateEdgeOperators
   href: api/Units.Core.Generators.GenerateEdgeOperators.html
@@ -343,6 +752,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Generators.GenerateEdgeOperators.Parameters
   nameWithType: GenerateEdgeOperators.Parameters
+- uid: Units.Core.Generators.GenerateEdgeOperators.State
+  name: State
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_State
+  commentId: P:Units.Core.Generators.GenerateEdgeOperators.State
+  fullName: Units.Core.Generators.GenerateEdgeOperators.State
+  nameWithType: GenerateEdgeOperators.State
+- uid: Units.Core.Generators.GenerateEdgeOperators.State*
+  name: State
+  href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_State_
+  commentId: Overload:Units.Core.Generators.GenerateEdgeOperators.State
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateEdgeOperators.State
+  nameWithType: GenerateEdgeOperators.State
 - uid: Units.Core.Generators.GenerateEdgeOperators.TransformText
   name: TransformText()
   href: api/Units.Core.Generators.GenerateEdgeOperators.html#Units_Core_Generators_GenerateEdgeOperators_TransformText
@@ -626,12 +1048,25 @@ references:
   isSpec: "True"
   fullName: Units.Core.Generators.GenerateUnit.GenerateUnit
   nameWithType: GenerateUnit.GenerateUnit
-- uid: Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
-  name: EdgeOps(IUnit)
-  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_EdgeOps_Units_Core_Parser_State_IUnit_
-  commentId: M:Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
-  fullName: Units.Core.Generators.GenerateUnit.EdgeOps(Units.Core.Parser.State.IUnit)
-  nameWithType: GenerateUnit.EdgeOps(IUnit)
+- uid: Units.Core.Generators.GenerateUnit.Converts
+  name: Converts()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Converts
+  commentId: M:Units.Core.Generators.GenerateUnit.Converts
+  fullName: Units.Core.Generators.GenerateUnit.Converts()
+  nameWithType: GenerateUnit.Converts()
+- uid: Units.Core.Generators.GenerateUnit.Converts*
+  name: Converts
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Converts_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Converts
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnit.Converts
+  nameWithType: GenerateUnit.Converts
+- uid: Units.Core.Generators.GenerateUnit.EdgeOps
+  name: EdgeOps()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_EdgeOps
+  commentId: M:Units.Core.Generators.GenerateUnit.EdgeOps
+  fullName: Units.Core.Generators.GenerateUnit.EdgeOps()
+  nameWithType: GenerateUnit.EdgeOps()
 - uid: Units.Core.Generators.GenerateUnit.EdgeOps*
   name: EdgeOps
   href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_EdgeOps_
@@ -678,6 +1113,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Generators.GenerateUnit.RealWrapper
   nameWithType: GenerateUnit.RealWrapper
+- uid: Units.Core.Generators.GenerateUnit.Remarks
+  name: Remarks()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Remarks
+  commentId: M:Units.Core.Generators.GenerateUnit.Remarks
+  fullName: Units.Core.Generators.GenerateUnit.Remarks()
+  nameWithType: GenerateUnit.Remarks()
+- uid: Units.Core.Generators.GenerateUnit.Remarks*
+  name: Remarks
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Remarks_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Remarks
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnit.Remarks
+  nameWithType: GenerateUnit.Remarks
 - uid: Units.Core.Generators.GenerateUnit.SelfOps
   name: SelfOps
   href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_SelfOps
@@ -704,6 +1152,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Generators.GenerateUnit.State
   nameWithType: GenerateUnit.State
+- uid: Units.Core.Generators.GenerateUnit.Summary
+  name: Summary()
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Summary
+  commentId: M:Units.Core.Generators.GenerateUnit.Summary
+  fullName: Units.Core.Generators.GenerateUnit.Summary()
+  nameWithType: GenerateUnit.Summary()
+- uid: Units.Core.Generators.GenerateUnit.Summary*
+  name: Summary
+  href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_Summary_
+  commentId: Overload:Units.Core.Generators.GenerateUnit.Summary
+  isSpec: "True"
+  fullName: Units.Core.Generators.GenerateUnit.Summary
+  nameWithType: GenerateUnit.Summary
 - uid: Units.Core.Generators.GenerateUnit.TransformText
   name: TransformText()
   href: api/Units.Core.Generators.GenerateUnit.html#Units_Core_Generators_GenerateUnit_TransformText
@@ -1714,6 +2175,77 @@ references:
   commentId: T:Units.Core.Parser.Helpers
   fullName: Units.Core.Parser.Helpers
   nameWithType: Helpers
+- uid: Units.Core.Parser.Helpers.AddExplicitConvertToNumbers(System.String,System.String)
+  name: AddExplicitConvertToNumbers(String, String)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_AddExplicitConvertToNumbers_System_String_System_String_
+  commentId: M:Units.Core.Parser.Helpers.AddExplicitConvertToNumbers(System.String,System.String)
+  fullName: Units.Core.Parser.Helpers.AddExplicitConvertToNumbers(System.String, System.String)
+  nameWithType: Helpers.AddExplicitConvertToNumbers(String, String)
+- uid: Units.Core.Parser.Helpers.AddExplicitConvertToNumbers*
+  name: AddExplicitConvertToNumbers
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_AddExplicitConvertToNumbers_
+  commentId: Overload:Units.Core.Parser.Helpers.AddExplicitConvertToNumbers
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.AddExplicitConvertToNumbers
+  nameWithType: Helpers.AddExplicitConvertToNumbers
+- uid: Units.Core.Parser.Helpers.Aprox(System.String)
+  name: Aprox(String)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_Aprox_System_String_
+  commentId: M:Units.Core.Parser.Helpers.Aprox(System.String)
+  fullName: Units.Core.Parser.Helpers.Aprox(System.String)
+  nameWithType: Helpers.Aprox(String)
+- uid: Units.Core.Parser.Helpers.Aprox*
+  name: Aprox
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_Aprox_
+  commentId: Overload:Units.Core.Parser.Helpers.Aprox
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.Aprox
+  nameWithType: Helpers.Aprox
+- uid: Units.Core.Parser.Helpers.Batched*
+  name: Batched
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_Batched_
+  commentId: Overload:Units.Core.Parser.Helpers.Batched
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.Batched
+  nameWithType: Helpers.Batched
+- uid: Units.Core.Parser.Helpers.Batched``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Batched<T>(IEnumerable<T>, Int32)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_Batched__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:Units.Core.Parser.Helpers.Batched``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Batched(Of T)(IEnumerable(Of T), Int32)
+  fullName: Units.Core.Parser.Helpers.Batched<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  fullName.vb: Units.Core.Parser.Helpers.Batched(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  nameWithType: Helpers.Batched<T>(IEnumerable<T>, Int32)
+  nameWithType.vb: Helpers.Batched(Of T)(IEnumerable(Of T), Int32)
+- uid: Units.Core.Parser.Helpers.CleanExpression(System.String)
+  name: CleanExpression(String)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_CleanExpression_System_String_
+  commentId: M:Units.Core.Parser.Helpers.CleanExpression(System.String)
+  fullName: Units.Core.Parser.Helpers.CleanExpression(System.String)
+  nameWithType: Helpers.CleanExpression(String)
+- uid: Units.Core.Parser.Helpers.CleanExpression*
+  name: CleanExpression
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_CleanExpression_
+  commentId: Overload:Units.Core.Parser.Helpers.CleanExpression
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.CleanExpression
+  nameWithType: Helpers.CleanExpression
+- uid: Units.Core.Parser.Helpers.GetHashSetHealth*
+  name: GetHashSetHealth
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_GetHashSetHealth_
+  commentId: Overload:Units.Core.Parser.Helpers.GetHashSetHealth
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.GetHashSetHealth
+  nameWithType: Helpers.GetHashSetHealth
+- uid: Units.Core.Parser.Helpers.GetHashSetHealth``1(System.Collections.Generic.HashSet{``0})
+  name: GetHashSetHealth<T>(HashSet<T>)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_GetHashSetHealth__1_System_Collections_Generic_HashSet___0__
+  commentId: M:Units.Core.Parser.Helpers.GetHashSetHealth``1(System.Collections.Generic.HashSet{``0})
+  name.vb: GetHashSetHealth(Of T)(HashSet(Of T))
+  fullName: Units.Core.Parser.Helpers.GetHashSetHealth<T>(System.Collections.Generic.HashSet<T>)
+  fullName.vb: Units.Core.Parser.Helpers.GetHashSetHealth(Of T)(System.Collections.Generic.HashSet(Of T))
+  nameWithType: Helpers.GetHashSetHealth<T>(HashSet<T>)
+  nameWithType.vb: Helpers.GetHashSetHealth(Of T)(HashSet(Of T))
 - uid: Units.Core.Parser.Helpers.MakeItNice(Units.Core.Parser.State.ParserState,Units.Core.Parser.State.IUnit)
   name: MakeItNice(ParserState, IUnit)
   href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_MakeItNice_Units_Core_Parser_State_ParserState_Units_Core_Parser_State_IUnit_
@@ -1740,6 +2272,32 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Helpers.ShortestUnit
   nameWithType: Helpers.ShortestUnit
+- uid: Units.Core.Parser.Helpers.ShortestUnitFast(Units.Core.Parser.State.BinaryCompositUnit,Units.Core.Parser.State.ParserState)
+  name: ShortestUnitFast(BinaryCompositUnit, ParserState)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ShortestUnitFast_Units_Core_Parser_State_BinaryCompositUnit_Units_Core_Parser_State_ParserState_
+  commentId: M:Units.Core.Parser.Helpers.ShortestUnitFast(Units.Core.Parser.State.BinaryCompositUnit,Units.Core.Parser.State.ParserState)
+  fullName: Units.Core.Parser.Helpers.ShortestUnitFast(Units.Core.Parser.State.BinaryCompositUnit, Units.Core.Parser.State.ParserState)
+  nameWithType: Helpers.ShortestUnitFast(BinaryCompositUnit, ParserState)
+- uid: Units.Core.Parser.Helpers.ShortestUnitFast*
+  name: ShortestUnitFast
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ShortestUnitFast_
+  commentId: Overload:Units.Core.Parser.Helpers.ShortestUnitFast
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.ShortestUnitFast
+  nameWithType: Helpers.ShortestUnitFast
+- uid: Units.Core.Parser.Helpers.SolveSimpleRoot(MathNet.Symbolics.Expression,MathNet.Symbolics.Expression)
+  name: SolveSimpleRoot(MathNet.Symbolics.Expression, MathNet.Symbolics.Expression)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_SolveSimpleRoot_MathNet_Symbolics_Expression_MathNet_Symbolics_Expression_
+  commentId: M:Units.Core.Parser.Helpers.SolveSimpleRoot(MathNet.Symbolics.Expression,MathNet.Symbolics.Expression)
+  fullName: Units.Core.Parser.Helpers.SolveSimpleRoot(MathNet.Symbolics.Expression, MathNet.Symbolics.Expression)
+  nameWithType: Helpers.SolveSimpleRoot(MathNet.Symbolics.Expression, MathNet.Symbolics.Expression)
+- uid: Units.Core.Parser.Helpers.SolveSimpleRoot*
+  name: SolveSimpleRoot
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_SolveSimpleRoot_
+  commentId: Overload:Units.Core.Parser.Helpers.SolveSimpleRoot
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.SolveSimpleRoot
+  nameWithType: Helpers.SolveSimpleRoot
 - uid: Units.Core.Parser.Helpers.ToIndexed*
   name: ToIndexed
   href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ToIndexed_
@@ -1775,6 +2333,22 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Helpers.ToLinq
   nameWithType: Helpers.ToLinq
+- uid: Units.Core.Parser.Helpers.ToMesurmentUnits(System.Collections.Generic.IEnumerable{Units.Core.Parser.Metadata.UnitsNetUnit},Units.Core.Parser.State.IUnit)
+  name: ToMesurmentUnits(IEnumerable<UnitsNetUnit>, IUnit)
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ToMesurmentUnits_System_Collections_Generic_IEnumerable_Units_Core_Parser_Metadata_UnitsNetUnit__Units_Core_Parser_State_IUnit_
+  commentId: M:Units.Core.Parser.Helpers.ToMesurmentUnits(System.Collections.Generic.IEnumerable{Units.Core.Parser.Metadata.UnitsNetUnit},Units.Core.Parser.State.IUnit)
+  name.vb: ToMesurmentUnits(IEnumerable(Of UnitsNetUnit), IUnit)
+  fullName: Units.Core.Parser.Helpers.ToMesurmentUnits(System.Collections.Generic.IEnumerable<Units.Core.Parser.Metadata.UnitsNetUnit>, Units.Core.Parser.State.IUnit)
+  fullName.vb: Units.Core.Parser.Helpers.ToMesurmentUnits(System.Collections.Generic.IEnumerable(Of Units.Core.Parser.Metadata.UnitsNetUnit), Units.Core.Parser.State.IUnit)
+  nameWithType: Helpers.ToMesurmentUnits(IEnumerable<UnitsNetUnit>, IUnit)
+  nameWithType.vb: Helpers.ToMesurmentUnits(IEnumerable(Of UnitsNetUnit), IUnit)
+- uid: Units.Core.Parser.Helpers.ToMesurmentUnits*
+  name: ToMesurmentUnits
+  href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ToMesurmentUnits_
+  commentId: Overload:Units.Core.Parser.Helpers.ToMesurmentUnits
+  isSpec: "True"
+  fullName: Units.Core.Parser.Helpers.ToMesurmentUnits
+  nameWithType: Helpers.ToMesurmentUnits
 - uid: Units.Core.Parser.Helpers.ToRegexOr(System.Collections.Generic.IEnumerable{Units.Core.Parser.State.BinaryOperator})
   name: ToRegexOr(IEnumerable<BinaryOperator>)
   href: api/Units.Core.Parser.Helpers.html#Units_Core_Parser_Helpers_ToRegexOr_System_Collections_Generic_IEnumerable_Units_Core_Parser_State_BinaryOperator__
@@ -1800,6 +2374,386 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Helpers.ToRegexOr
   nameWithType: Helpers.ToRegexOr
+- uid: Units.Core.Parser.Metadata
+  name: Units.Core.Parser.Metadata
+  href: api/Units.Core.Parser.Metadata.html
+  commentId: N:Units.Core.Parser.Metadata
+  fullName: Units.Core.Parser.Metadata
+  nameWithType: Units.Core.Parser.Metadata
+- uid: Units.Core.Parser.Metadata.Basedimensions
+  name: Basedimensions
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html
+  commentId: T:Units.Core.Parser.Metadata.Basedimensions
+  fullName: Units.Core.Parser.Metadata.Basedimensions
+  nameWithType: Basedimensions
+- uid: Units.Core.Parser.Metadata.Basedimensions.Bases
+  name: Bases
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_Bases
+  commentId: F:Units.Core.Parser.Metadata.Basedimensions.Bases
+  fullName: Units.Core.Parser.Metadata.Basedimensions.Bases
+  nameWithType: Basedimensions.Bases
+- uid: Units.Core.Parser.Metadata.Basedimensions.I
+  name: I
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_I
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.I
+  fullName: Units.Core.Parser.Metadata.Basedimensions.I
+  nameWithType: Basedimensions.I
+- uid: Units.Core.Parser.Metadata.Basedimensions.I*
+  name: I
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_I_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.I
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.I
+  nameWithType: Basedimensions.I
+- uid: Units.Core.Parser.Metadata.Basedimensions.J
+  name: J
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_J
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.J
+  fullName: Units.Core.Parser.Metadata.Basedimensions.J
+  nameWithType: Basedimensions.J
+- uid: Units.Core.Parser.Metadata.Basedimensions.J*
+  name: J
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_J_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.J
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.J
+  nameWithType: Basedimensions.J
+- uid: Units.Core.Parser.Metadata.Basedimensions.L
+  name: L
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_L
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.L
+  fullName: Units.Core.Parser.Metadata.Basedimensions.L
+  nameWithType: Basedimensions.L
+- uid: Units.Core.Parser.Metadata.Basedimensions.L*
+  name: L
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_L_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.L
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.L
+  nameWithType: Basedimensions.L
+- uid: Units.Core.Parser.Metadata.Basedimensions.M
+  name: M
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_M
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.M
+  fullName: Units.Core.Parser.Metadata.Basedimensions.M
+  nameWithType: Basedimensions.M
+- uid: Units.Core.Parser.Metadata.Basedimensions.M*
+  name: M
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_M_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.M
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.M
+  nameWithType: Basedimensions.M
+- uid: Units.Core.Parser.Metadata.Basedimensions.N
+  name: N
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_N
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.N
+  fullName: Units.Core.Parser.Metadata.Basedimensions.N
+  nameWithType: Basedimensions.N
+- uid: Units.Core.Parser.Metadata.Basedimensions.N*
+  name: N
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_N_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.N
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.N
+  nameWithType: Basedimensions.N
+- uid: Units.Core.Parser.Metadata.Basedimensions.T
+  name: T
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_T
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.T
+  fullName: Units.Core.Parser.Metadata.Basedimensions.T
+  nameWithType: Basedimensions.T
+- uid: Units.Core.Parser.Metadata.Basedimensions.T*
+  name: T
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions_T_
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.T
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.T
+  nameWithType: Basedimensions.T
+- uid: Units.Core.Parser.Metadata.Basedimensions.Θ
+  name: Θ
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions__
+  commentId: P:Units.Core.Parser.Metadata.Basedimensions.Θ
+  fullName: Units.Core.Parser.Metadata.Basedimensions.Θ
+  nameWithType: Basedimensions.Θ
+- uid: Units.Core.Parser.Metadata.Basedimensions.Θ*
+  name: Θ
+  href: api/Units.Core.Parser.Metadata.Basedimensions.html#Units_Core_Parser_Metadata_Basedimensions___
+  commentId: Overload:Units.Core.Parser.Metadata.Basedimensions.Θ
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Basedimensions.Θ
+  nameWithType: Basedimensions.Θ
+- uid: Units.Core.Parser.Metadata.Localization
+  name: Localization
+  href: api/Units.Core.Parser.Metadata.Localization.html
+  commentId: T:Units.Core.Parser.Metadata.Localization
+  fullName: Units.Core.Parser.Metadata.Localization
+  nameWithType: Localization
+- uid: Units.Core.Parser.Metadata.Localization.Abbreviations
+  name: Abbreviations
+  href: api/Units.Core.Parser.Metadata.Localization.html#Units_Core_Parser_Metadata_Localization_Abbreviations
+  commentId: P:Units.Core.Parser.Metadata.Localization.Abbreviations
+  fullName: Units.Core.Parser.Metadata.Localization.Abbreviations
+  nameWithType: Localization.Abbreviations
+- uid: Units.Core.Parser.Metadata.Localization.Abbreviations*
+  name: Abbreviations
+  href: api/Units.Core.Parser.Metadata.Localization.html#Units_Core_Parser_Metadata_Localization_Abbreviations_
+  commentId: Overload:Units.Core.Parser.Metadata.Localization.Abbreviations
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Localization.Abbreviations
+  nameWithType: Localization.Abbreviations
+- uid: Units.Core.Parser.Metadata.Localization.Culture
+  name: Culture
+  href: api/Units.Core.Parser.Metadata.Localization.html#Units_Core_Parser_Metadata_Localization_Culture
+  commentId: P:Units.Core.Parser.Metadata.Localization.Culture
+  fullName: Units.Core.Parser.Metadata.Localization.Culture
+  nameWithType: Localization.Culture
+- uid: Units.Core.Parser.Metadata.Localization.Culture*
+  name: Culture
+  href: api/Units.Core.Parser.Metadata.Localization.html#Units_Core_Parser_Metadata_Localization_Culture_
+  commentId: Overload:Units.Core.Parser.Metadata.Localization.Culture
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.Localization.Culture
+  nameWithType: Localization.Culture
+- uid: Units.Core.Parser.Metadata.UnitsNetBaseunits
+  name: UnitsNetBaseunits
+  href: api/Units.Core.Parser.Metadata.UnitsNetBaseunits.html
+  commentId: T:Units.Core.Parser.Metadata.UnitsNetBaseunits
+  fullName: Units.Core.Parser.Metadata.UnitsNetBaseunits
+  nameWithType: UnitsNetBaseunits
+- uid: Units.Core.Parser.Metadata.UnitsNetBaseunits.L
+  name: L
+  href: api/Units.Core.Parser.Metadata.UnitsNetBaseunits.html#Units_Core_Parser_Metadata_UnitsNetBaseunits_L
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetBaseunits.L
+  fullName: Units.Core.Parser.Metadata.UnitsNetBaseunits.L
+  nameWithType: UnitsNetBaseunits.L
+- uid: Units.Core.Parser.Metadata.UnitsNetBaseunits.L*
+  name: L
+  href: api/Units.Core.Parser.Metadata.UnitsNetBaseunits.html#Units_Core_Parser_Metadata_UnitsNetBaseunits_L_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetBaseunits.L
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetBaseunits.L
+  nameWithType: UnitsNetBaseunits.L
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription
+  name: UnitsNetDescription
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html
+  commentId: T:Units.Core.Parser.Metadata.UnitsNetDescription
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription
+  nameWithType: UnitsNetDescription
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions
+  name: BaseDimensions
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_BaseDimensions
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions
+  nameWithType: UnitsNetDescription.BaseDimensions
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions*
+  name: BaseDimensions
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_BaseDimensions_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.BaseDimensions
+  nameWithType: UnitsNetDescription.BaseDimensions
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit
+  name: BaseUnit
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_BaseUnit
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit
+  nameWithType: UnitsNetDescription.BaseUnit
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit*
+  name: BaseUnit
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_BaseUnit_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.BaseUnit
+  nameWithType: UnitsNetDescription.BaseUnit
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.Name
+  name: Name
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_Name
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.Name
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.Name
+  nameWithType: UnitsNetDescription.Name
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.Name*
+  name: Name
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_Name_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.Name
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.Name
+  nameWithType: UnitsNetDescription.Name
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.Units
+  name: Units
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_Units
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.Units
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.Units
+  nameWithType: UnitsNetDescription.Units
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.Units*
+  name: Units
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_Units_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.Units
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.Units
+  nameWithType: UnitsNetDescription.Units
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc
+  name: XmlDoc
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_XmlDoc
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc
+  nameWithType: UnitsNetDescription.XmlDoc
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc*
+  name: XmlDoc
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_XmlDoc_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDoc
+  nameWithType: UnitsNetDescription.XmlDoc
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks
+  name: XmlDocRemarks
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_XmlDocRemarks
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks
+  nameWithType: UnitsNetDescription.XmlDocRemarks
+- uid: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks*
+  name: XmlDocRemarks
+  href: api/Units.Core.Parser.Metadata.UnitsNetDescription.html#Units_Core_Parser_Metadata_UnitsNetDescription_XmlDocRemarks_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetDescription.XmlDocRemarks
+  nameWithType: UnitsNetDescription.XmlDocRemarks
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit
+  name: UnitsNetUnit
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html
+  commentId: T:Units.Core.Parser.Metadata.UnitsNetUnit
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit
+  nameWithType: UnitsNetUnit
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits
+  name: BaseUnits
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_BaseUnits
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits
+  nameWithType: UnitsNetUnit.BaseUnits
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits*
+  name: BaseUnits
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_BaseUnits_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.BaseUnits
+  nameWithType: UnitsNetUnit.BaseUnits
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc
+  name: FromBaseToUnitFunc
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_FromBaseToUnitFunc
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc
+  nameWithType: UnitsNetUnit.FromBaseToUnitFunc
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc*
+  name: FromBaseToUnitFunc
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_FromBaseToUnitFunc_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.FromBaseToUnitFunc
+  nameWithType: UnitsNetUnit.FromBaseToUnitFunc
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc
+  name: FromUnitToBaseFunc
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_FromUnitToBaseFunc
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc
+  nameWithType: UnitsNetUnit.FromUnitToBaseFunc
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc*
+  name: FromUnitToBaseFunc
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_FromUnitToBaseFunc_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.FromUnitToBaseFunc
+  nameWithType: UnitsNetUnit.FromUnitToBaseFunc
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Localization
+  name: Localization
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Localization
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.Localization
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Localization
+  nameWithType: UnitsNetUnit.Localization
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Localization*
+  name: Localization
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Localization_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.Localization
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Localization
+  nameWithType: UnitsNetUnit.Localization
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.PluralName
+  name: PluralName
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_PluralName
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.PluralName
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.PluralName
+  nameWithType: UnitsNetUnit.PluralName
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.PluralName*
+  name: PluralName
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_PluralName_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.PluralName
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.PluralName
+  nameWithType: UnitsNetUnit.PluralName
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Postfix
+  name: Postfix
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Postfix
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.Postfix
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Postfix
+  nameWithType: UnitsNetUnit.Postfix
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Postfix*
+  name: Postfix
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Postfix_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.Postfix
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Postfix
+  nameWithType: UnitsNetUnit.Postfix
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes
+  name: Prefixes
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Prefixes
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes
+  nameWithType: UnitsNetUnit.Prefixes
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes*
+  name: Prefixes
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_Prefixes_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.Prefixes
+  nameWithType: UnitsNetUnit.Prefixes
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.SingularName
+  name: SingularName
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_SingularName
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.SingularName
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.SingularName
+  nameWithType: UnitsNetUnit.SingularName
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.SingularName*
+  name: SingularName
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_SingularName_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.SingularName
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.SingularName
+  nameWithType: UnitsNetUnit.SingularName
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks
+  name: XmlDocRemarks
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_XmlDocRemarks
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks
+  nameWithType: UnitsNetUnit.XmlDocRemarks
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks*
+  name: XmlDocRemarks
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_XmlDocRemarks_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocRemarks
+  nameWithType: UnitsNetUnit.XmlDocRemarks
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary
+  name: XmlDocSummary
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_XmlDocSummary
+  commentId: P:Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary
+  nameWithType: UnitsNetUnit.XmlDocSummary
+- uid: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary*
+  name: XmlDocSummary
+  href: api/Units.Core.Parser.Metadata.UnitsNetUnit.html#Units_Core_Parser_Metadata_UnitsNetUnit_XmlDocSummary_
+  commentId: Overload:Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary
+  isSpec: "True"
+  fullName: Units.Core.Parser.Metadata.UnitsNetUnit.XmlDocSummary
+  nameWithType: UnitsNetUnit.XmlDocSummary
 - uid: Units.Core.Parser.Parser
   name: Parser
   href: api/Units.Core.Parser.Parser.html
@@ -2116,6 +3070,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Semantic.Rules.InferSematic.Handle
   nameWithType: InferSematic.Handle
+- uid: Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast
+  name: HandleFast()
+  href: api/Units.Core.Parser.Semantic.Rules.InferSematic.html#Units_Core_Parser_Semantic_Rules_InferSematic_HandleFast
+  commentId: M:Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast
+  fullName: Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast()
+  nameWithType: InferSematic.HandleFast()
+- uid: Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast*
+  name: HandleFast
+  href: api/Units.Core.Parser.Semantic.Rules.InferSematic.html#Units_Core_Parser_Semantic_Rules_InferSematic_HandleFast_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.InferSematic.HandleFast
+  nameWithType: InferSematic.HandleFast
 - uid: Units.Core.Parser.Semantic.Rules.NewUnitSemantic
   name: NewUnitSemantic
   href: api/Units.Core.Parser.Semantic.Rules.NewUnitSemantic.html
@@ -2311,6 +3278,89 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Semantic.Rules.UnitSemantic.Handle
   nameWithType: UnitSemantic.Handle
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic
+  name: UnitsNetSemantic
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html
+  commentId: T:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic
+  nameWithType: UnitsNetSemantic
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.#ctor(Units.Core.Parser.State.ParserState)
+  name: UnitsNetSemantic(ParserState)
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic__ctor_Units_Core_Parser_State_ParserState_
+  commentId: M:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.#ctor(Units.Core.Parser.State.ParserState)
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.UnitsNetSemantic(Units.Core.Parser.State.ParserState)
+  nameWithType: UnitsNetSemantic.UnitsNetSemantic(ParserState)
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.#ctor*
+  name: UnitsNetSemantic
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic__ctor_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.#ctor
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.UnitsNetSemantic
+  nameWithType: UnitsNetSemantic.UnitsNetSemantic
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.AppDir
+  name: AppDir
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_AppDir
+  commentId: F:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.AppDir
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.AppDir
+  nameWithType: UnitsNetSemantic.AppDir
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.CacheDirectory
+  name: CacheDirectory
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_CacheDirectory
+  commentId: F:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.CacheDirectory
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.CacheDirectory
+  nameWithType: UnitsNetSemantic.CacheDirectory
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions
+  name: GetAllDimensions()
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetAllDimensions
+  commentId: M:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions()
+  nameWithType: UnitsNetSemantic.GetAllDimensions()
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions*
+  name: GetAllDimensions
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetAllDimensions_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensions
+  nameWithType: UnitsNetSemantic.GetAllDimensions
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync
+  name: GetAllDimensionsAsync()
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetAllDimensionsAsync
+  commentId: M:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync()
+  nameWithType: UnitsNetSemantic.GetAllDimensionsAsync()
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync*
+  name: GetAllDimensionsAsync
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetAllDimensionsAsync_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetAllDimensionsAsync
+  nameWithType: UnitsNetSemantic.GetAllDimensionsAsync
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension(System.String)
+  name: GetDimension(String)
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetDimension_System_String_
+  commentId: M:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension(System.String)
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension(System.String)
+  nameWithType: UnitsNetSemantic.GetDimension(String)
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension*
+  name: GetDimension
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetDimension_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimension
+  nameWithType: UnitsNetSemantic.GetDimension
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync(System.String)
+  name: GetDimensionAsync(String)
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetDimensionAsync_System_String_
+  commentId: M:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync(System.String)
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync(System.String)
+  nameWithType: UnitsNetSemantic.GetDimensionAsync(String)
+- uid: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync*
+  name: GetDimensionAsync
+  href: api/Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.html#Units_Core_Parser_Semantic_Rules_UnitsNetSemantic_GetDimensionAsync_
+  commentId: Overload:Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync
+  isSpec: "True"
+  fullName: Units.Core.Parser.Semantic.Rules.UnitsNetSemantic.GetDimensionAsync
+  nameWithType: UnitsNetSemantic.GetDimensionAsync
 - uid: Units.Core.Parser.Semantic.SemanticAbstract
   name: SemanticAbstract
   href: api/Units.Core.Parser.Semantic.SemanticAbstract.html
@@ -3068,6 +4118,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.BinaryCompositUnit.Operator
   nameWithType: BinaryCompositUnit.Operator
+- uid: Units.Core.Parser.State.BinaryCompositUnit.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.BinaryCompositUnit.html#Units_Core_Parser_State_BinaryCompositUnit_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.BinaryCompositUnit.Rename(System.String)
+  fullName: Units.Core.Parser.State.BinaryCompositUnit.Rename(System.String)
+  nameWithType: BinaryCompositUnit.Rename(String)
+- uid: Units.Core.Parser.State.BinaryCompositUnit.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.BinaryCompositUnit.html#Units_Core_Parser_State_BinaryCompositUnit_Rename_
+  commentId: Overload:Units.Core.Parser.State.BinaryCompositUnit.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.BinaryCompositUnit.Rename
+  nameWithType: BinaryCompositUnit.Rename
 - uid: Units.Core.Parser.State.BinaryCompositUnit.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.BinaryCompositUnit.html#Units_Core_Parser_State_BinaryCompositUnit_Simplify
@@ -3472,6 +4535,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.IUnit.Name
   nameWithType: IUnit.Name
+- uid: Units.Core.Parser.State.IUnit.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.IUnit.Rename(System.String)
+  fullName: Units.Core.Parser.State.IUnit.Rename(System.String)
+  nameWithType: IUnit.Rename(String)
+- uid: Units.Core.Parser.State.IUnit.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_Rename_
+  commentId: Overload:Units.Core.Parser.State.IUnit.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.IUnit.Rename
+  nameWithType: IUnit.Rename
 - uid: Units.Core.Parser.State.IUnit.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.IUnit.html#Units_Core_Parser_State_IUnit_Simplify
@@ -3544,19 +4620,32 @@ references:
   commentId: T:Units.Core.Parser.State.MesurmentUnit
   fullName: Units.Core.Parser.State.MesurmentUnit
   nameWithType: MesurmentUnit
-- uid: Units.Core.Parser.State.MesurmentUnit.Derive
-  name: Derive
-  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Derive
-  commentId: P:Units.Core.Parser.State.MesurmentUnit.Derive
-  fullName: Units.Core.Parser.State.MesurmentUnit.Derive
-  nameWithType: MesurmentUnit.Derive
-- uid: Units.Core.Parser.State.MesurmentUnit.Derive*
-  name: Derive
-  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Derive_
-  commentId: Overload:Units.Core.Parser.State.MesurmentUnit.Derive
+- uid: Units.Core.Parser.State.MesurmentUnit.ConvertFrom
+  name: ConvertFrom
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_ConvertFrom
+  commentId: P:Units.Core.Parser.State.MesurmentUnit.ConvertFrom
+  fullName: Units.Core.Parser.State.MesurmentUnit.ConvertFrom
+  nameWithType: MesurmentUnit.ConvertFrom
+- uid: Units.Core.Parser.State.MesurmentUnit.ConvertFrom*
+  name: ConvertFrom
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_ConvertFrom_
+  commentId: Overload:Units.Core.Parser.State.MesurmentUnit.ConvertFrom
   isSpec: "True"
-  fullName: Units.Core.Parser.State.MesurmentUnit.Derive
-  nameWithType: MesurmentUnit.Derive
+  fullName: Units.Core.Parser.State.MesurmentUnit.ConvertFrom
+  nameWithType: MesurmentUnit.ConvertFrom
+- uid: Units.Core.Parser.State.MesurmentUnit.ConvertTo
+  name: ConvertTo
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_ConvertTo
+  commentId: P:Units.Core.Parser.State.MesurmentUnit.ConvertTo
+  fullName: Units.Core.Parser.State.MesurmentUnit.ConvertTo
+  nameWithType: MesurmentUnit.ConvertTo
+- uid: Units.Core.Parser.State.MesurmentUnit.ConvertTo*
+  name: ConvertTo
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_ConvertTo_
+  commentId: Overload:Units.Core.Parser.State.MesurmentUnit.ConvertTo
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.MesurmentUnit.ConvertTo
+  nameWithType: MesurmentUnit.ConvertTo
 - uid: Units.Core.Parser.State.MesurmentUnit.Equals(System.Object)
   name: Equals(Object)
   href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Equals_System_Object_
@@ -3628,6 +4717,32 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.MesurmentUnit.Postfix
   nameWithType: MesurmentUnit.Postfix
+- uid: Units.Core.Parser.State.MesurmentUnit.Remarks
+  name: Remarks
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Remarks
+  commentId: P:Units.Core.Parser.State.MesurmentUnit.Remarks
+  fullName: Units.Core.Parser.State.MesurmentUnit.Remarks
+  nameWithType: MesurmentUnit.Remarks
+- uid: Units.Core.Parser.State.MesurmentUnit.Remarks*
+  name: Remarks
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Remarks_
+  commentId: Overload:Units.Core.Parser.State.MesurmentUnit.Remarks
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.MesurmentUnit.Remarks
+  nameWithType: MesurmentUnit.Remarks
+- uid: Units.Core.Parser.State.MesurmentUnit.Summary
+  name: Summary
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Summary
+  commentId: P:Units.Core.Parser.State.MesurmentUnit.Summary
+  fullName: Units.Core.Parser.State.MesurmentUnit.Summary
+  nameWithType: MesurmentUnit.Summary
+- uid: Units.Core.Parser.State.MesurmentUnit.Summary*
+  name: Summary
+  href: api/Units.Core.Parser.State.MesurmentUnit.html#Units_Core_Parser_State_MesurmentUnit_Summary_
+  commentId: Overload:Units.Core.Parser.State.MesurmentUnit.Summary
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.MesurmentUnit.Summary
+  nameWithType: MesurmentUnit.Summary
 - uid: Units.Core.Parser.State.MockExportHandle
   name: MockExportHandle
   href: api/Units.Core.Parser.State.MockExportHandle.html
@@ -3787,12 +4902,12 @@ references:
   commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(System.String,System.String,System.String,System.String)
   fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(System.String, System.String, System.String, System.String)
   nameWithType: ParserState.AddNewCompositUnit(String, String, String, String)
-- uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean)
-  name: AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean)
-  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_IOperator_Units_Core_Parser_State_IUnit_System_Boolean_
-  commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean)
-  fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.IOperator, Units.Core.Parser.State.IUnit, System.Boolean)
-  nameWithType: ParserState.AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean)
+- uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean,System.Boolean)
+  name: AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean, Boolean)
+  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_Units_Core_Parser_State_IUnit_Units_Core_Parser_State_IOperator_Units_Core_Parser_State_IUnit_System_Boolean_System_Boolean_
+  commentId: M:Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit,Units.Core.Parser.State.IOperator,Units.Core.Parser.State.IUnit,System.Boolean,System.Boolean)
+  fullName: Units.Core.Parser.State.ParserState.AddNewCompositUnit(Units.Core.Parser.State.IUnit, Units.Core.Parser.State.IOperator, Units.Core.Parser.State.IUnit, System.Boolean, System.Boolean)
+  nameWithType: ParserState.AddNewCompositUnit(IUnit, IOperator, IUnit, Boolean, Boolean)
 - uid: Units.Core.Parser.State.ParserState.AddNewCompositUnit*
   name: AddNewCompositUnit
   href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_AddNewCompositUnit_
@@ -3813,6 +4928,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.ParserState.AddUnit
   nameWithType: ParserState.AddUnit
+- uid: Units.Core.Parser.State.ParserState.Descriptions
+  name: Descriptions
+  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_Descriptions
+  commentId: P:Units.Core.Parser.State.ParserState.Descriptions
+  fullName: Units.Core.Parser.State.ParserState.Descriptions
+  nameWithType: ParserState.Descriptions
+- uid: Units.Core.Parser.State.ParserState.Descriptions*
+  name: Descriptions
+  href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_Descriptions_
+  commentId: Overload:Units.Core.Parser.State.ParserState.Descriptions
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.ParserState.Descriptions
+  nameWithType: ParserState.Descriptions
 - uid: Units.Core.Parser.State.ParserState.Exporter
   name: Exporter
   href: api/Units.Core.Parser.State.ParserState.html#Units_Core_Parser_State_ParserState_Exporter
@@ -4049,6 +5177,23 @@ references:
   fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).Name
   nameWithType: ReadonlyUnit<T>.Name
   nameWithType.vb: ReadonlyUnit(Of T).Name
+- uid: Units.Core.Parser.State.ReadonlyUnit`1.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.ReadonlyUnit`1.Rename(System.String)
+  fullName: Units.Core.Parser.State.ReadonlyUnit<T>.Rename(System.String)
+  fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).Rename(System.String)
+  nameWithType: ReadonlyUnit<T>.Rename(String)
+  nameWithType.vb: ReadonlyUnit(Of T).Rename(String)
+- uid: Units.Core.Parser.State.ReadonlyUnit`1.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Rename_
+  commentId: Overload:Units.Core.Parser.State.ReadonlyUnit`1.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.ReadonlyUnit<T>.Rename
+  fullName.vb: Units.Core.Parser.State.ReadonlyUnit(Of T).Rename
+  nameWithType: ReadonlyUnit<T>.Rename
+  nameWithType.vb: ReadonlyUnit(Of T).Rename
 - uid: Units.Core.Parser.State.ReadonlyUnit`1.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.ReadonlyUnit-1.html#Units_Core_Parser_State_ReadonlyUnit_1_Simplify
@@ -4250,6 +5395,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.Scalar.Name
   nameWithType: Scalar.Name
+- uid: Units.Core.Parser.State.Scalar.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.Scalar.Rename(System.String)
+  fullName: Units.Core.Parser.State.Scalar.Rename(System.String)
+  nameWithType: Scalar.Rename(String)
+- uid: Units.Core.Parser.State.Scalar.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_Rename_
+  commentId: Overload:Units.Core.Parser.State.Scalar.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.Scalar.Rename
+  nameWithType: Scalar.Rename
 - uid: Units.Core.Parser.State.Scalar.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.Scalar.html#Units_Core_Parser_State_Scalar_Simplify
@@ -4394,6 +5552,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.UnaryCompositUnit.UnaryCompositUnit
   nameWithType: UnaryCompositUnit.UnaryCompositUnit
+- uid: Units.Core.Parser.State.UnaryCompositUnit.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.UnaryCompositUnit.Rename(System.String)
+  fullName: Units.Core.Parser.State.UnaryCompositUnit.Rename(System.String)
+  nameWithType: UnaryCompositUnit.Rename(String)
+- uid: Units.Core.Parser.State.UnaryCompositUnit.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit_Rename_
+  commentId: Overload:Units.Core.Parser.State.UnaryCompositUnit.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.UnaryCompositUnit.Rename
+  nameWithType: UnaryCompositUnit.Rename
 - uid: Units.Core.Parser.State.UnaryCompositUnit.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.UnaryCompositUnit.html#Units_Core_Parser_State_UnaryCompositUnit_Simplify
@@ -4600,6 +5771,19 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.State.Unit.Unit
   nameWithType: Unit.Unit
+- uid: Units.Core.Parser.State.Unit.Rename(System.String)
+  name: Rename(String)
+  href: api/Units.Core.Parser.State.Unit.html#Units_Core_Parser_State_Unit_Rename_System_String_
+  commentId: M:Units.Core.Parser.State.Unit.Rename(System.String)
+  fullName: Units.Core.Parser.State.Unit.Rename(System.String)
+  nameWithType: Unit.Rename(String)
+- uid: Units.Core.Parser.State.Unit.Rename*
+  name: Rename
+  href: api/Units.Core.Parser.State.Unit.html#Units_Core_Parser_State_Unit_Rename_
+  commentId: Overload:Units.Core.Parser.State.Unit.Rename
+  isSpec: "True"
+  fullName: Units.Core.Parser.State.Unit.Rename
+  nameWithType: Unit.Rename
 - uid: Units.Core.Parser.State.Unit.Simplify
   name: Simplify()
   href: api/Units.Core.Parser.State.Unit.html#Units_Core_Parser_State_Unit_Simplify
@@ -4645,6 +5829,70 @@ references:
   commentId: N:Units.Core.Parser.Tests
   fullName: Units.Core.Parser.Tests
   nameWithType: Units.Core.Parser.Tests
+- uid: Units.Core.Parser.Tests.ConvertTests
+  name: ConvertTests
+  href: api/Units.Core.Parser.Tests.ConvertTests.html
+  commentId: T:Units.Core.Parser.Tests.ConvertTests
+  fullName: Units.Core.Parser.Tests.ConvertTests
+  nameWithType: ConvertTests
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All
+  name: ConvertsTest_All()
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_All
+  commentId: M:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All()
+  nameWithType: ConvertTests.ConvertsTest_All()
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All*
+  name: ConvertsTest_All
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_All_
+  commentId: Overload:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_All
+  nameWithType: ConvertTests.ConvertsTest_All
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length
+  name: ConvertsTest_Length()
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_Length
+  commentId: M:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length()
+  nameWithType: ConvertTests.ConvertsTest_Length()
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length*
+  name: ConvertsTest_Length
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_Length_
+  commentId: Overload:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Length
+  nameWithType: ConvertTests.ConvertsTest_Length
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass
+  name: ConvertsTest_Mass()
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_Mass
+  commentId: M:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass()
+  nameWithType: ConvertTests.ConvertsTest_Mass()
+- uid: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass*
+  name: ConvertsTest_Mass
+  href: api/Units.Core.Parser.Tests.ConvertTests.html#Units_Core_Parser_Tests_ConvertTests_ConvertsTest_Mass_
+  commentId: Overload:Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.ConvertTests.ConvertsTest_Mass
+  nameWithType: ConvertTests.ConvertsTest_Mass
+- uid: Units.Core.Parser.Tests.CustomAssert
+  name: CustomAssert
+  href: api/Units.Core.Parser.Tests.CustomAssert.html
+  commentId: T:Units.Core.Parser.Tests.CustomAssert
+  fullName: Units.Core.Parser.Tests.CustomAssert
+  nameWithType: CustomAssert
+- uid: Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual(System.String,System.String)
+  name: ExpressionsAreEqual(String, String)
+  href: api/Units.Core.Parser.Tests.CustomAssert.html#Units_Core_Parser_Tests_CustomAssert_ExpressionsAreEqual_System_String_System_String_
+  commentId: M:Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual(System.String,System.String)
+  fullName: Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual(System.String, System.String)
+  nameWithType: CustomAssert.ExpressionsAreEqual(String, String)
+- uid: Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual*
+  name: ExpressionsAreEqual
+  href: api/Units.Core.Parser.Tests.CustomAssert.html#Units_Core_Parser_Tests_CustomAssert_ExpressionsAreEqual_
+  commentId: Overload:Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.CustomAssert.ExpressionsAreEqual
+  nameWithType: CustomAssert.ExpressionsAreEqual
 - uid: Units.Core.Parser.Tests.FuzzTest
   name: FuzzTest
   href: api/Units.Core.Parser.Tests.FuzzTest.html
@@ -4741,6 +5989,116 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Tests.ParserTestsSemantic.TestUnaryOperator
   nameWithType: ParserTestsSemantic.TestUnaryOperator
+- uid: Units.Core.Parser.Tests.RegexTests
+  name: RegexTests
+  href: api/Units.Core.Parser.Tests.RegexTests.html
+  commentId: T:Units.Core.Parser.Tests.RegexTests
+  fullName: Units.Core.Parser.Tests.RegexTests
+  nameWithType: RegexTests
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1
+  name: AddExplicitConvertToNumbers_Floatv1()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv1
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv1()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1*
+  name: AddExplicitConvertToNumbers_Floatv1
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv1_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv1
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv1
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2
+  name: AddExplicitConvertToNumbers_Floatv2()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv2
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv2()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2*
+  name: AddExplicitConvertToNumbers_Floatv2
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv2_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv2
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv2
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3
+  name: AddExplicitConvertToNumbers_Floatv3()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv3
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv3()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3*
+  name: AddExplicitConvertToNumbers_Floatv3
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv3_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv3
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv3
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4
+  name: AddExplicitConvertToNumbers_Floatv4()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv4
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv4()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4*
+  name: AddExplicitConvertToNumbers_Floatv4
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv4_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv4
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv4
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5
+  name: AddExplicitConvertToNumbers_Floatv5()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv5
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv5()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5*
+  name: AddExplicitConvertToNumbers_Floatv5
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv5_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv5
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv5
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6
+  name: AddExplicitConvertToNumbers_Floatv6()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv6
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv6()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6*
+  name: AddExplicitConvertToNumbers_Floatv6
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Floatv6_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Floatv6
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Floatv6
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int
+  name: AddExplicitConvertToNumbers_Int()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Int
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Int()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int*
+  name: AddExplicitConvertToNumbers_Int
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_Int_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_Int
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_Int
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt
+  name: AddExplicitConvertToNumbers_IntPlusInt()
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_IntPlusInt
+  commentId: M:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt()
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_IntPlusInt()
+- uid: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt*
+  name: AddExplicitConvertToNumbers_IntPlusInt
+  href: api/Units.Core.Parser.Tests.RegexTests.html#Units_Core_Parser_Tests_RegexTests_AddExplicitConvertToNumbers_IntPlusInt_
+  commentId: Overload:Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.RegexTests.AddExplicitConvertToNumbers_IntPlusInt
+  nameWithType: RegexTests.AddExplicitConvertToNumbers_IntPlusInt
 - uid: Units.Core.Parser.Tests.ShortestUnitTests
   name: ShortestUnitTests
   href: api/Units.Core.Parser.Tests.ShortestUnitTests.html
@@ -4786,6 +6144,51 @@ references:
   isSpec: "True"
   fullName: Units.Core.Parser.Tests.ShortestUnitTests.Medium
   nameWithType: ShortestUnitTests.Medium
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration
+  name: UnitsNetIntegration
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html
+  commentId: T:Units.Core.Parser.Tests.UnitsNetIntegration
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration
+  nameWithType: UnitsNetIntegration
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration
+  name: BasicIntegration()
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration
+  commentId: M:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration()
+  nameWithType: UnitsNetIntegration.BasicIntegration()
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration*
+  name: BasicIntegration
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration_
+  commentId: Overload:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration
+  nameWithType: UnitsNetIntegration.BasicIntegration
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All
+  name: BasicIntegration_All()
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration_All
+  commentId: M:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All()
+  nameWithType: UnitsNetIntegration.BasicIntegration_All()
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All*
+  name: BasicIntegration_All
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration_All_
+  commentId: Overload:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_All
+  nameWithType: UnitsNetIntegration.BasicIntegration_All
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer
+  name: BasicIntegration_AllInfer()
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration_AllInfer
+  commentId: M:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer()
+  nameWithType: UnitsNetIntegration.BasicIntegration_AllInfer()
+- uid: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer*
+  name: BasicIntegration_AllInfer
+  href: api/Units.Core.Parser.Tests.UnitsNetIntegration.html#Units_Core_Parser_Tests_UnitsNetIntegration_BasicIntegration_AllInfer_
+  commentId: Overload:Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer
+  isSpec: "True"
+  fullName: Units.Core.Parser.Tests.UnitsNetIntegration.BasicIntegration_AllInfer
+  nameWithType: UnitsNetIntegration.BasicIntegration_AllInfer
 - uid: Units.Core.Parser.UnitComparer
   name: UnitComparer
   href: api/Units.Core.Parser.UnitComparer.html
@@ -5086,3 +6489,16 @@ references:
   isSpec: "True"
   fullName: Units.Core.Tests.UnitTest1.TestOperators
   nameWithType: UnitTest1.TestOperators
+- uid: Units.Core.Tests.UnitTest1.TestUnitsNetAll
+  name: TestUnitsNetAll()
+  href: api/Units.Core.Tests.UnitTest1.html#Units_Core_Tests_UnitTest1_TestUnitsNetAll
+  commentId: M:Units.Core.Tests.UnitTest1.TestUnitsNetAll
+  fullName: Units.Core.Tests.UnitTest1.TestUnitsNetAll()
+  nameWithType: UnitTest1.TestUnitsNetAll()
+- uid: Units.Core.Tests.UnitTest1.TestUnitsNetAll*
+  name: TestUnitsNetAll
+  href: api/Units.Core.Tests.UnitTest1.html#Units_Core_Tests_UnitTest1_TestUnitsNetAll_
+  commentId: Overload:Units.Core.Tests.UnitTest1.TestUnitsNetAll
+  isSpec: "True"
+  fullName: Units.Core.Tests.UnitTest1.TestUnitsNetAll
+  nameWithType: UnitTest1.TestUnitsNetAll

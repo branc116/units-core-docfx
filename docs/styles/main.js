@@ -110,3 +110,4 @@ $(document).on("click", "#countdown", () => {
     hashMap["i.id"] = undefined;
     el.remove();
 });
+$("#toc ul .expand-stub").click();
